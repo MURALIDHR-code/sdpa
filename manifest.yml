@@ -1,0 +1,15 @@
+applications:
+- name: Squadnagi-WA-Prod-Assistant-Agent
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  random-route: true
+  env:
+    WORKSPACE_ID_AGENT: 6d607eb4-946a-429e-a634-3f61d6d3c300
+    WORKSPACE_ID_Resiliency-Skills: f0741ba8-6135-4508-a528-3d5f75d0fa0a
+    WORKSPACE_ID_Squadnagi-WA-Prod-Assistant-Agent-Bot: 6a8bebc1-7985-49e7-b5a4-e2b559e223ff
+    WORKSPACE_ID_Bluepages-Skills: 98e75c4e-0995-43b8-98c2-0c40897c3489
+    ASSISTANT_IAM_API_KEY: txY4WDlArRX5k6tYyGcEuSNrVZoWxA_1Fdgph7RegOZX
+    ASSISTANT_IAM_URL: https://api.us-south.assistant.watson.cloud.ibm.com/instances/46d49a9c-4eeb-492c-b3cc-b383b27e26b1
+    VERSION: draft-2020.27.06
