@@ -1,0 +1,84 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Greetings Team (●'◡'●) I'm your Enterprise Squadnagi Bot. I'm here to assist you create and manage tasks in Slack.\nI show you optimized ways to quickly support on your account konwledge bsae and delivery mechanism:"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*✔ Use the `/slack ` command*. Type `/slack command` followed by a short description of your tasks and I'll ask for few parameters (if applicable). Try it out by using the `/dmh-updates` command in this channel for sdpa event knowledge base and activities.I am here to help you out.  This command is used to record your updates to the tracker. You can use with single or multiple updates  within single command.\n*✔e.g.:Single Updates:/dmh-updates MY_PRJ1:MY project1 status \n*✔e.g.: Multiple Updates:/dmh-updates MY_PRJ1:MY project1 status, MY_PRJ2:MY Project2 updates.\n🤦‍♀️Note: Don't use  (Comma) in your Prj updates text as Comma used as a separator for multiple project updates."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*✔ Use the `/slack ` command*. Type `/slack command` followed by a short description of your tasks and I'll ask for few parameters (if applicable). Try it out by using the `/SDPAKB` command in this channel for sdpa event knowledge base and activities. - Content required"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*✔ Use the `/slack ` command*. Type `/slack command` followed by a short description of your tasks and I'll ask for few parameters (if applicable). Try it out by using the `/IRPKB` command in this channel for sdpa event knowledge base and activities. - Content required"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*✔ Use the `/slack ` command*. Type `/slack command` followed by a short description of your tasks and I'll ask for few parameters (if applicable). Try it out by using the `/account specific ` command in this channel for relevant account customized. - Content required"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "👀 Use the _Create a Task_ action.* If you want to create a task from a message, select `Create a Task` in a message's context menu. Try it out by selecting the _Create a Task_ action for this message (shown below). - Content required"
+			}
+		},
+		{
+			"type": "image",
+			"title": {
+				"type": "plain_text",
+				"text": "image1",
+				"emoji": true
+			},
+			"image_url": "https://api.slack.com/img/blocks/bkb_template_images/onboardingComplex.jpg",
+			"alt_text": "image1"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "👀 To start using our squadnagi enterprise bot *add me to a channel* and I'll introduce myself. I'm usually added to a account channel or project channel. Type `/invite @Squadnagi` from the channel or pick a channel on the right."
+			},
+			"accessory": {
+				"type": "conversations_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select a channel...",
+					"emoji": true
+				}
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "👀 View all slack commands with `/squadnagi list`\n❓Get help at any time with `/squadnagi help` or type *help* in a DM with me"
+				}
+			]
+		}
+	]
+}
