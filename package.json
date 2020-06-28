@@ -32,8 +32,8 @@
     "access": "public"
   },
   "engines": {
-    "node": ">=10"
-  },
+  "node": "^8 || ^10",
+             },
   "engineStrict": true,
   "devDependencies": {
     "babel-eslint": "^8.2.6",
