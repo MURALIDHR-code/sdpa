@@ -1,0 +1,1472 @@
+{
+  "intents": [
+    {
+      "intent": "SRT",
+      "examples": [
+        {
+          "text": "SRT Details"
+        },
+        {
+          "text": "What is an SRT"
+        },
+        {
+          "text": "Please provide me SRT details"
+        },
+        {
+          "text": "What is Service Request Tool"
+        }
+      ],
+      "description": "Service Request Tool"
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "howdy"
+        },
+        {
+          "text": "kia ora"
+        },
+        {
+          "text": "squad"
+        },
+        {
+          "text": "wakeup"
+        },
+        {
+          "text": "wassup"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "good morning!"
+        },
+        {
+          "text": "greetings"
+        },
+        {
+          "text": "Greetings!"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "how can I help you"
+        },
+        {
+          "text": "hello"
+        }
+      ],
+      "description": "Hello!!"
+    },
+    {
+      "intent": "Account-Manual",
+      "examples": [],
+      "description": "Account Operations Manual  Details "
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "good job"
+        },
+        {
+          "text": "appreciate"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "nice"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thx"
+        }
+      ],
+      "description": "Thank you"
+    },
+    {
+      "intent": "Anything_else",
+      "examples": [
+        {
+          "text": "Than you"
+        },
+        {
+          "text": "anything"
+        },
+        {
+          "text": "can I help you with anything else"
+        },
+        {
+          "text": "anything else"
+        },
+        {
+          "text": "Anything Else I can help with"
+        }
+      ],
+      "description": "Anything else"
+    },
+    {
+      "intent": "SDPA_Roles",
+      "examples": [
+        {
+          "text": "Define SDAP roles?"
+        },
+        {
+          "text": "What is SDPA ? Job responsibilites"
+        },
+        {
+          "text": "SDPA roles"
+        }
+      ],
+      "description": "SDPA roles and responsibilities"
+    },
+    {
+      "intent": "ActiveEvents",
+      "examples": [
+        {
+          "text": "Active event"
+        },
+        {
+          "text": "List all the Active Events"
+        },
+        {
+          "text": "Scheduled Events"
+        },
+        {
+          "text": "List of Active Events"
+        },
+        {
+          "text": "I want list of scheduled accounts"
+        },
+        {
+          "text": "I want list of scheduled accounts till Dec 2020"
+        },
+        {
+          "text": "Noor Accounts"
+        }
+      ],
+      "description": "What are the Active Events"
+    },
+    {
+      "intent": "OTC_Focals",
+      "examples": [
+        {
+          "text": "OTC Team leads"
+        },
+        {
+          "text": "Please provide me list of OTC team"
+        },
+        {
+          "text": "who are the OTC team"
+        },
+        {
+          "text": "Please provide me John contact details"
+        },
+        {
+          "text": "John details"
+        },
+        {
+          "text": "List of OTC Team leads"
+        },
+        {
+          "text": "List of OTC Focals"
+        },
+        {
+          "text": "OTC Focals"
+        }
+      ],
+      "description": "OTC Team Leads"
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "talk to you soon"
+        },
+        {
+          "text": "takecare"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "see yah"
+        },
+        {
+          "text": "No thanks"
+        },
+        {
+          "text": "bye"
+        }
+      ],
+      "description": "See you soon"
+    },
+    {
+      "intent": "ROP",
+      "examples": [
+        {
+          "text": "What is the defference between ROP and ROP4"
+        },
+        {
+          "text": "What is ROP"
+        }
+      ],
+      "description": "Rapid Recovery Provisioning"
+    },
+    {
+      "intent": "OTC_Details",
+      "examples": [
+        {
+          "text": "What is OTC ?"
+        },
+        {
+          "text": "Who are Focals for OTC"
+        },
+        {
+          "text": "When OTC applies to the Customer"
+        },
+        {
+          "text": "How many Type of OTC"
+        }
+      ],
+      "description": "One Time Charge Focals "
+    },
+    {
+      "intent": "Pretesters",
+      "examples": [
+        {
+          "text": "I want pretesters information"
+        },
+        {
+          "text": "Carmine"
+        },
+        {
+          "text": "Z> list of pretesters"
+        },
+        {
+          "text": "Z> i want list of pretesters"
+        },
+        {
+          "text": "network pretesters"
+        },
+        {
+          "text": "Z> pretesters"
+        },
+        {
+          "text": "Z> I want list of prestesters"
+        },
+        {
+          "text": "Z> I want list of Scheduled event"
+        },
+        {
+          "text": "Z> list OTC team"
+        },
+        {
+          "text": "all pretesters"
+        },
+        {
+          "text": "list of pretesters"
+        },
+        {
+          "text": "pretesters list"
+        },
+        {
+          "text": "who are all pretesters"
+        },
+        {
+          "text": "I want pre-testers information"
+        },
+        {
+          "text": "Details of Evelyne"
+        }
+      ],
+      "description": "Full list of Presters"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Pretesters_Name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Doug Johnston",
+          "synonyms": [
+            "Doug Johnston Details",
+            "Doug details",
+            "Doug",
+            "Doug Johnston"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Diego Jacome",
+          "synonyms": [
+            "Diego Jacome details",
+            "Diego Jacome",
+            "Diego"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Carmine Mastropolo",
+          "synonyms": [
+            "Carmine info",
+            "Carmine Contact details",
+            "Carmine Mastropolo",
+            "Carmine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Walt Jamros",
+          "synonyms": [
+            "Walt Jamros Details",
+            "Walt Jamros"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tom Hart",
+          "synonyms": [
+            "Tom Hart Details",
+            "Tom Hart "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Terri Bigelow",
+          "synonyms": [
+            "Terri Bigelow Details",
+            "Terri Bigelow"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Paul Gillo",
+          "synonyms": [
+            "Paul Details",
+            "Paul information",
+            "Paul Gillo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mini Gupta",
+          "synonyms": [
+            "Mini Gupta Details",
+            "Mini Gupta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Evelyne",
+          "synonyms": [
+            "Evelyne Details",
+            "Evelyne Info",
+            "Evelyne contact details",
+            "Evelyne"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bill Baker",
+          "synonyms": [
+            "Bill Baker details",
+            "Bill Baker"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ViruPaksheswaraRao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Viru Events",
+          "synonyms": [
+            "Viru Accounts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "MadhusudanaRao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Madhu events",
+          "synonyms": [
+            "Madhu accounts "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "MuraliReddy",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Murali Events",
+          "synonyms": [
+            "Murali Accounts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "AjasAbdulsalam",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ajas events",
+          "synonyms": [
+            "Ajas accounts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "NoorMohammed",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Noor Accounts",
+          "synonyms": [
+            "Noor Events"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "STF",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sterling Forest",
+          "synonyms": [
+            "STF"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "RRC",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Regional Site",
+          "synonyms": [
+            "RRC"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "OTC_Team-Leads",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Diane Clem",
+          "synonyms": [
+            "Diane contact details",
+            "Diane Details",
+            "Please provide me Diane Contact details"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "John Velayas",
+          "synonyms": [
+            "John  Details",
+            "Please provide me John Contact details",
+            "John contact details"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Luann Cipolla",
+          "synonyms": [
+            "Luann  Details",
+            "Please provide me Luann Contact details",
+            "Luann contact Details"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Debbie Tobin",
+          "synonyms": [
+            "Debbie contact details",
+            "Please provide me Debbie Contact details",
+            "Debbie details"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Janet Fukae",
+          "synonyms": [
+            "Janet contact details",
+            "Please provide me Janet Contact details",
+            "Janet details"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "AshokPK1",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ashok Events",
+          "synonyms": [
+            "Ashok Accounts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "BLD",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Boulder Site",
+          "synonyms": [
+            "BLD"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ManikantanVeera",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Mani Accounts",
+          "synonyms": [
+            "Mani Events"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "RTP",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Raleigh Site",
+          "synonyms": [
+            "RTP"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "UdayaRajanna",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Udaya Events",
+          "synonyms": [
+            "Udaya Accounts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Unknown",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Unknow User",
+          "synonyms": [
+            "unvailable",
+            "not in the DB"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "JatinDash",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Jatin Events",
+          "synonyms": [
+            "Jatin Acocunts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://8b8f26ac.eu-gb.apigw.appdomain.cloud/event_status",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Accept",
+          "value": " \thttps://8b8f26ac.eu-gb.apigw.appdomain.cloud/event_status"
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Janet"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1590682214784",
+      "disabled": true,
+      "conditions": "@OTC_Team-Leads:(Janet Carner)",
+      "dialog_node": "response_4_1590683102791",
+      "previous_sibling": "node_6_1590685898818"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Debbie"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1590682214784",
+      "disabled": true,
+      "conditions": "@OTC_Team-Leads:(Debbie Tobin)",
+      "dialog_node": "response_1_1590683753066",
+      "previous_sibling": "response_4_1590683102791"
+    },
+    {
+      "type": "standard",
+      "title": "OTC Team Details",
+      "parent": "node_2_1590682214784",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@OTC_Team-Leads",
+      "dialog_node": "node_6_1590685898818",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1590701501996",
+      "variable": "$Madhu_Events__Madhu",
+      "dialog_node": "slot_1_1590705544299"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "LuAnn Cipolla Delivery Engagement Manager   luannc@us.ibm.com  1-845-759-4970 (Office)  1-845-234-6797 (Mobile) My preferred contact method is Email @luannc (Slack) https://ibm.webex.com/meet/luannc"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590685898818",
+      "conditions": "@OTC_Team-Leads:(Luann Cipolla)",
+      "dialog_node": "response_8_1590686422336",
+      "previous_sibling": "response_2_1590686369517"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Lynn Mullin Delivery Engagement Manager    Contact: lynm@us.ibm.com  1-845-759-3798 (Office)  1-845-234-3986 (Mobile) My preferred contact method is Email @Lynn M. (Slack) https://ibm.webex.com/meet/lynm"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590685898818",
+      "conditions": "@OTC_Team-Leads:(Lynn Mullin)",
+      "dialog_node": "response_9_1590686673115",
+      "previous_sibling": "response_8_1590686620449"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            " Diane Clem IBM Resiliency Services   Contact: dawley@us.ibm.com  1-240-848-2324 (Office)  1-240-848-2324 (Mobile) My preferred contact method is External Phone @dawley (Slack) https://ibm.webex.com/meet/dawley"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590685898818",
+      "conditions": "@OTC_Team-Leads:(Diane Clem)",
+      "dialog_node": "response_7_1590686209639",
+      "previous_sibling": "response_7_1590686043845"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Debbie Tobin Delivery Engagement Manager    Contact: tobin@us.ibm.com  1-845-759-2599 (Office)  1-845-742-4129 (Mobile) My preferred contact method is Email @Tobin (Slack) https://ibm.webex.com/meet/tobin"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590685898818",
+      "conditions": "@OTC_Team-Leads:(Debbie Tobin)",
+      "dialog_node": "response_8_1590686620449",
+      "previous_sibling": "response_8_1590686422336"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "John Velayas IBM Resiliency Services, Project Manager   Contact: velayasj@us.ibm.com  1-303-924-3566 (Office)  1-303-961-3595 (Mobile) My preferred contact method is Email @velayasj (Slack) https://ibm.webex.com/meet/velayasj"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590685898818",
+      "conditions": "@OTC_Team-Leads:(John Velayas)",
+      "dialog_node": "response_2_1590686369517",
+      "previous_sibling": "response_7_1590686209639"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Janet Fukae IBM Resiliency Services - Project Manager   Contact: jcarner@us.ibm.com  1-303-924-1076 (Office)  1-303-961-3203 (Mobile) My preferred contact method is Slack @Janet Fukae (Slack) https://ibm.webex.com/meet/jcarner"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590685898818",
+      "conditions": "@OTC_Team-Leads:(Janet Fukae)",
+      "dialog_node": "response_7_1590686043845"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "AK Steel ",
+            "The event is Scheduled for 48 Hr , Start Date Jan 20, 2020  Platform ( Main Frame) "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1590705544299",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1590705544357",
+      "previous_sibling": "handler_1_1590705544357"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1590705544299",
+      "context": {
+        "Madhu_Events__Madhu": "@Madhu_Events:(Madhu events)"
+      },
+      "conditions": "@Madhu_Events:(Madhu events)",
+      "event_name": "input",
+      "dialog_node": "handler_1_1590705544357"
+    },
+    {
+      "type": "standard",
+      "title": "Jatin's Active Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "WESPATH BENEFITS AND INVESTMENTS\nATLANTA CAPITAL MANAGEMENT INC\nARKANSAS MUNICIPAL LEAGUE\nMVP HEALTH PLAN INC\nDOLE FOOD CO INC\nATLANTA CAPITAL MANAGEMENT INC\nPORT AUTHORITY OF NY AND NJ\nUST GLOBAL\nPORT AUTHORITY OF NY AND NJ\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@JatinDash:(Jatin Events)",
+      "dialog_node": "node_8_1590702161101",
+      "previous_sibling": "node_1_1590701501996"
+    },
+    {
+      "type": "standard",
+      "title": "Udaya Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "MIAMI PARKING AUTHORITY\nDO IT BEST CORP\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@UdayaRajanna:(Udaya Events)",
+      "dialog_node": "node_4_1590769985975",
+      "previous_sibling": "node_3_1590769923307"
+    },
+    {
+      "type": "standard",
+      "title": "Mani Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "UNIV OF ARKANSAS (FAYETTEVILLE)\nAARP\nDELTA DENTAL OF NEW JERSEY INC\nVIRGINIA MASON MEDICAL CENTER\nMILLERS CAPITAL INSURANCE CO\nNATIONAL INDEMNITY CO\nCADENCE DESIGN SYSTEMS INC\nAARP\nJB HUNT TRANSPORT INC\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@ManikantanVeera:(Mani Accounts)",
+      "dialog_node": "node_3_1590769923307",
+      "previous_sibling": "node_7_1590769776824"
+    },
+    {
+      "type": "standard",
+      "title": "Ajas Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OVERSEA-CHINESE BANKING CORP LTD\nFULLBEAUTY BRANDS\nPACIFIC INVESTMENT MANAGEMENT CO\nDIXIELINE LUMBER CO\nPACIFIC INVESTMENT MANAGEMENT CO\nOVERSEA-CHINESE BANKING CORP LTD\nTRANS WORLD ENTERTAINMENT CORP\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@AjasAbdulsalam:(Ajas events)",
+      "dialog_node": "node_8_1590769121873",
+      "previous_sibling": "node_8_1590702161101"
+    },
+    {
+      "type": "standard",
+      "title": "Viru Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "MEDICAL CARD SYSTEM INC\nKOREA DEV BANK NY\nBLUE CROSS & BLUE SHIELD OF KANSAS\nNATIONAL BANK OF KUWAIT\nNATIONAL BANK OF KUWAIT\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@ViruPaksheswaraRao:(Viru Events)",
+      "dialog_node": "node_7_1590770099285",
+      "previous_sibling": "node_1_1590770052060"
+    },
+    {
+      "type": "standard",
+      "title": "Murali Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "STATE OF SOUTH DAKOTA\nMEDSTAR HEALTH INC\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@MuraliReddy:(Murali Events)",
+      "dialog_node": "node_7_1590769776824",
+      "previous_sibling": "node_8_1590769121873"
+    },
+    {
+      "type": "standard",
+      "title": "Noor Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "IGA SSI/STF MVS1\nIGA WWD\nIGA IBM HUMAN RESOURCES\nIGA SOFTWARE GROUP\nIGA WWD\nHYSTER-YALE GROUP\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@NoorMohammed:(Noor Accounts)",
+      "dialog_node": "node_1_1590770052060",
+      "previous_sibling": "node_4_1590769985975"
+    },
+    {
+      "type": "standard",
+      "title": "Madhu Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No Active Events as on Date"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Is there anything I may help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@Madhu_Events",
+      "dialog_node": "node_1_1590701501996"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is there anything else I can help you with?"
+              },
+              {
+                "text": "Thank you.. I am glad , am able to help you  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1590496257210",
+      "disabled": true,
+      "dialog_node": "response_10_1590647870527"
+    },
+    {
+      "type": "standard",
+      "title": "Pretesters Names",
+      "parent": "node_6_1590645888503",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Pretesters_Name",
+      "dialog_node": "node_7_1590649653282",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Terri Bigelow IBM Resiliency Services - Specialist   Contact: bigelow@us.ibm.com  1-469-446-7073 (Office)  1-469-446-7073 (Mobile) My preferred contact method is Email @bigelow (Slack) https://ibm.webex.com/meet/bigelow"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Terri Bigelow)",
+      "dialog_node": "response_2_1590677730599",
+      "previous_sibling": "response_9_1590677678918"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Bill Baker IT Business Continuity Practitioner  Network / Intel Pretest Support   Contact: bakerwwb@us.ibm.com  1-303-961-8735 (Mobile) My preferred contact method is Email @bakerwwb (Slack) https://ibm.webex.com/meet/bakerwwb"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Bill Baker)",
+      "dialog_node": "response_8_1590676472371",
+      "previous_sibling": "response_5_1590651242524"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Mini Gupta - RS , HP , Sun , NAS , PVM Mini Gupta Senior Oracle apps Finance Functional    Contact: guptam23@in.ibm.com  91-9810709351 (Office)  91-9810709351 (Mobile) My preferred contact method is Email @guptam23 (Slack) https://ibm.webex.com/meet/guptam23"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Mini Gupta)",
+      "dialog_node": "response_2_1590677753971",
+      "previous_sibling": "response_2_1590677730599"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Diego Jacome Network Support Specialist   Contact: diegoj@us.ibm.com  1-845-401-5901 (Mobile) My preferred contact method is Email @Diego Jacome (Slack) https://ibm.webex.com/meet/diegoj"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Diego Jacome)",
+      "dialog_node": "response_8_1590676494904",
+      "previous_sibling": "response_8_1590676472371"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Douglas Johnston IBM Services - NA Mainframe Services   Contact: djohnsto@us.ibm.com  1-720-396-4844 (Office)  1-240-848-4216 (Mobile) My preferred contact method is Email @djohnsto (Slack) https://ibm.webex.com/meet/djohnsto"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Doug Johnston)",
+      "dialog_node": "response_9_1590677612197",
+      "previous_sibling": "response_8_1590676494904"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Evelyne Laine Infrastructure & Resiliency Services, Event Preparation   Contact: evelyne@us.ibm.com  1-845-759-4926 (Office)  1-845-234-6805 (Mobile) My preferred contact method is Email @evelyne (Slack) https://ibm.webex.com/meet/evelyne"
+              },
+              {
+                "text": "Any other pretesters information you may be looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:Evelyne",
+      "dialog_node": "response_7_1590649909723",
+      "previous_sibling": "slot_3_1590650339511"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Paul Gallo IBM Resiliency Services, Network Support : Contact:pmgallo@us.ibm.com  1-845-759-4145 (Office)  1-845-234-6738 (Mobile) My preferred contact method is Email @pmgallo (Slack) https://ibm.webex.com/meet/pmgallo"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Paul Gillo)",
+      "dialog_node": "response_5_1590651242524",
+      "previous_sibling": "response_6_1590649989131"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Thomas Hart IBM Services - NA Mainframe Services   Contact: thart@us.ibm.com  1-303-924-5677 (Office)  1-303-961-8769 (Mobile) My preferred contact method is Email @thart792 (Slack) https://ibm.webex.com/meet/thart"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Tom Hart)",
+      "dialog_node": "response_9_1590677678918",
+      "previous_sibling": "response_9_1590677612197"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Carmine Mastropolo IBM Resiliency Services, Network Pretest Support   Contact: carminem@us.ibm.com  1-845-470-5111 (Office) 1-845-234-6798 (Mobile) My preferred contact method is Email @carminem (Slack) https://ibm.webex.com/meet/carminem"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Carmine Mastropolo)",
+      "dialog_node": "response_6_1590649989131",
+      "previous_sibling": "response_7_1590649909723"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1590649653282",
+      "dialog_node": "slot_3_1590650339511"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1590650339511",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1590650339539",
+      "previous_sibling": "handler_5_1590650339539"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1590650339511",
+      "event_name": "input",
+      "dialog_node": "handler_5_1590650339539"
+    },
+    {
+      "type": "standard",
+      "title": "Pre Testers information ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Following are list of Pre-testers :\n===========================\nEvelyne Laine - Intel ( CS)\nBill Baker - Intel (CS) and Network (NW)\nCarmine  - Network (NW)\nPaul Gillo - Network (NW)\nDiego Jacome - Network (NW)\nDoug Johnston - MainFrame (LS)\nTom Hart  - MainFrame(LS)\nTerri Bigelow -AS-400\nMini Gupta - RS , HP , Sun , NAS , PVM\n\n=======================================\nIf you are looking for further detail on the individual .. Please enter Name of the pre-tester"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Pretesters",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1590645888503",
+      "previous_sibling": "node_2_1590682214784"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome team: My name is SquadNagi, I am created to assist you to access and explore the content available in the Service Delivery Program Advisor(SDPA) Account Operational Manual. You may ask anything relevant here. \n\n-  One Time Charges (OTC)\n-  Service Request Tool (SRT)\n-  Rapid Ops Provisioning (ROP)\n-  Emergency Operations Center(EOC)\n-  Event Extension Process / T-10 \n-  Interactive Resiliency Portal (IRP)\n-   Staffing Approval Request Tool (RPE)\n-   PRISM ( Scheduling Tool) \nand More --------------------\n\nPlease ask your question here:"
+              },
+              {
+                "text": "\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1590645502758",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "SDPA Roles",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Service Delivery Program Advisor( SDPA) :\nSDPA is a primary focal between the Customer, Account management, Technical team of Resiliency Service Delivery .\n• SDPA on a day to day support activities including pre-exercise preparation, technical QA's, scheduling, problem resolution, and recovery exercise support.\n•Responsible for providing professional, specialized skills including workforce, workplace and technology Resiliency planning, Project Management, Risk management, and Testing oversight. \n•Assisting Clients/Project Office in facilitating and coordinating Resiliency Services -  Development, implementation, and maintenance of Resiliency Solutions.     \n•\tSupports the execution of Resiliency Exercises\n•\tContributes to the implementation of relevant policies and procedures facilitating an effective Resiliency Service program aligned with the goals and objectives of the company, the business units, and the shareholders. \n•\tCoordinate the activities necessary for an exercise or outage/emergency.\n•\tScheduling a customer's DR exercises\n•\tSetting up the pretest calls -  Coordination,  take notes on the overall call and follow up items.  \n•\tCoordinate with Technical Towers on understanding and building the DR solutions/systems setup/documentation\n•Coordinate setup document exchange with customer/Account Team and work to gain customer agreement on document accuracy.\n•Toward the conclusion of the exercise, understand how the test is going if it will end on time, or require an extension.  If the extension is required, coordinate following IBM RS processes (verify equipment, confirm costs, gain internal approvals, gain external approvals for cost, etc).  \n•After exercise, conduct/coordinate post-test activities, Perform close-out activities - Complete exercise notes.  \n•\tBill exercise hours.\n•\tDaily Reporting to Management on the Status of the Resiliency Projects and Financial implications for approvals and more.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#SDPA_Roles",
+      "dialog_node": "node_8_1591358857670",
+      "previous_sibling": "node_2_1590645502758"
+    },
+    {
+      "type": "standard",
+      "title": "One Time Charges(OTC) Process",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How One Time Charges (OTC) works?\n\nWhen a client requests equipment or services that are not in their contract and there is not enough time to process a contract upgrade. These items must be added to the contract to ensure the client is recovery ready. Refer to the Customer Support Team Room Database. Under Process and Procedures – One Time Charge Process\nSteps are: Fill Out OTC Pricing Request form and forward to assign PA’s at your site to create a work authorization. Copy: IBM RS Upgrades Database\n\nA One Time Charge will be generated for the requested services.\nAfter receiving client approval for the price and scope, a Work Authorization for Additional Services will be generated and sent to you.  \nReview the document for accuracy, send to the client for signature, and countersign the Work Authorization.  Only an IBM employee can countersign the document.\nAfter the client and IBM signatures have been obtained, scan the Work Authorization and store in COMDOC as SALES - Letter of Authorization.  For IGA Accounts, an email approval of the Work Authorization is acceptable.  Please generate a PDF of the email and store it in COMDOC as above.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#OTC_Details",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1590681519397",
+      "previous_sibling": "node_7_1590699425596"
+    },
+    {
+      "type": "standard",
+      "title": "OTC Team",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Following are list of OTC :\n==================\nDiane Clem\nJanet Fukae \nJohn Velayas\nDebbie Tobin\nLuann Cipolla\n===========================================\nIf you are looking for further detail on the individual. Please enter Name of the OTC Lead"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#OTC_Focals",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1590682214784",
+      "previous_sibling": "node_5_1590681519397"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "text": {
+          "values": [
+            "Anything else I can help you with",
+            "Can you reword your statement? I'm not understanding.",
+            "I didn't get your meaning.",
+            "It looks like we are not quite getting each other today. Would you like to talk to a human agent instead? If so, please contact me at +1 703 420 7949 or +91 917 796 8079  or email me at madhusudana.rao@in.ibm.com"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#Anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1590496257210",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Thank You",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is there anything else I can help you with?"
+              },
+              {
+                "text": "Thank you.. I am glad , am able to help you  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#thank_you",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1590496257210",
+      "previous_sibling": "node_6_1590645888503",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "ROP",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1.\tIntroduction to ROP\nThe Rapid Open Provisioning (ROP) portal is a website that allows you to provide IBM with information with which to set up your Intel / Client Server environment.  ROP accepts data regarding UCS Blades (e.g. compute resources), legacy physical servers (e.g. IBM 3850’s and HPDL), VDI workplace and tape library requirements.  \n\nUsing ROP you create a \"project\" and specify your recovery data, submitting it so that IBM has it for disaster recovery exercises and at time of disaster, similar to having information on file with IBM in the form of a worksheet.  The advantage of using ROP is that it allows IBM Resiliency Services to employ automations to deploy the project and build the recovery environment quickly, giving our customers a faster RPO.  \n\nBenefits of ROP:\n\tROP portal provides you the ability to input and manage an Intel event configuration via a web portal.\n\tROP transforms the way we deliver our services to you by automating the provisioning of ESXi, Windows, Linux, vCenter Servers and VMs on CISCO UCS Servers.\n\tROP also allows you to include Non-UCS Servers and equipment, such as Legacy Servers – IBM3850 and HPDL, VDI Workplace and Tape Library into your project.\n\tThe provisioning of services can be performed without manual intervention or the risk of configuration errors leading to performance issues or system failures during event of disaster. \n\tCustomization of basic client server configuration such as hostname, service profile, network configuration and SVC SAN disk are automatically performed via UCS workflow.\n\t System builds can be completely standardised, incorporating best practices. \n\n2.\tAccessing the ROP customer portal:\nEach ROP user has to have an IBM ID.  If you do not already have one, please register for an ID at www.IBM.com.  Typically, you use your regular organization’s email address as your IBM ID.    After obtaining an IBM ID, contact your SDPA and provide the first and last name and the IBM ID of each person you wish to have access to ROP for your organization.  Once this has been completed you can log in to the portal and create a recovery project.  This project is saved in the database for future retrieval or modification.  Once submitted, an IBM admin can login in to the portal and approve or modify the recovery project and submit it for automated provisioning.\n\nThis is the ROP URL:  https://ropus.mybluemix.net\n\nFor existing clients who previously filled out an IBM Intel workbook, we are retiring the workbook altogether in favour of using ROP, which will accept all data that used to be placed on the workbook. The portal is easy to use and the always on nature of the portal encourages you to keep the data inside \"recovery ready\" as well as using it to give IBM testing configuration requirements. It also eliminates the need for IBM to make, and you to review and approve, setup documentation.  The info you put in the portal is \"wysiwyg\" and IBM will build according to it, no setup documents required.  You are encouraged to use ROP in place of filling out an Intel workbook as we will be retiring the Intel workbook at the end of 2020 and no longer accepting it for test preparation in 2021. \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "ROP Form",
+            "source": "https://cloud-object-storage-dsx-cos-standard-x4a.s3.jp-tok.cloud-object-storage.appdomain.cloud/Sa.jpg",
+            "description": "ROP4 Cusotmer Form",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#ROP",
+      "dialog_node": "node_1_1590774496296",
+      "previous_sibling": "node_8_1591358857670"
+    },
+    {
+      "type": "standard",
+      "title": "ActiveEvents",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "List of ActiveEvents as of March 2020\n====================\nINFOCROSSING INC\nWALGREEN CO\nTOTAL SYSTEM SERVICES INC\nWISCONSIN PHYSICIANS SERVICE INS\nSTATE OF CALIFORNIA-CAMMIS\nMCKESSON CORP\nMEDICAL CARD SYSTEM INC\nRETAIL BUSINESS SERVICES LLC\nTEXTRON INC.\nUNIV OF ARKANSAS (FAYETTEVILLE)\nTHE HAIN CELESTIAL GROUP\nAMICA MUTUAL INSURANCE CO\nACE HARDWARE CORPORATION\nNEW YORK TRANSIT AUTHORITY\nVF SERVICES INC\nIGA SSI/STF MVS1\nSTATE OF SOUTH DAKOTA\nMACYS SYSTEMS AND TECHNOLOGY INC\nDIRECT ENERGY MARKETING LTD\nSTATE OF ARIZONA (DEPT OF ADMIN)\nHANES COS INC\nGBM - MIAMI DIRECT\nMIAMI PARKING AUTHORITY\nKOREA DEV BANK NY\nSTATE OF OHIO (BUREAU OF WORKERCOMP\nCITY OF ATLANTA\nORANGE COUNTY TRUST CO\nCOMPUTER SCIENCES CORP.\nVOYA SERVICES COMPANY\nEBSCO INDUSTRIES INC\nHENNEPIN COUNTY\nOVERSEA-CHINESE BANKING CORP LTD\nKENTUCKY TREASURY DEPARTMENT\nTHE NAVIGATORS GROUP INC\nWESPATH BENEFITS AND INVESTMENTS\nIGA WWD\nAMERICAN INTERNATIONAL GROUP INC\nAMERICAN SOUTHERN INSURANCE CO\nIGA IBM HUMAN RESOURCES\nAMERICAN NATIONAL INSURANCE CO\nMITSUBISHI MOTORS NORTH AMERICA INC\nFULLBEAUTY BRANDS\nCOMMONWEALTH OF KENTUCKY\nNCCI HOLDINGS INC\nSELECT MEDICAL CORP\nTHE HERTZ CORP\nELEMENT VEHICLE MANAGEMENT SERVICES\nATLANTA CAPITAL MANAGEMENT INC\nARKANSAS MUNICIPAL LEAGUE\nGENERAL DYNAMICS INFORMATION TECHNO\nOLIN CORP\nSHELTER MUTUAL INSURANCE CO\nHAMILTON BEACH BRANDS INC\nIGA BUSINESS MEASUREMENT SYSTEMS\nIGS PROMONTORY RISK REVIEW LLC\nIGA SOFTWARE GROUP\nXCEL ENERGY INC\nWESTERN NATIONAL MUTUAL INSURANCE\nAARP\nPRIMERICA LIFE INSURANCE CO\nMVP HEALTH PLAN INC\nNATIONAL ACCOUNT SERVICES CO\nCOUNTY OF SANTA CLARA (INFO SERVICE\nLOREAL USA SD INC\nBLUECROSS BLUESHIELD OF TENNESSEE\nDELTA DENTAL OF NEW JERSEY INC\nWYNDHAM WORLDWIDE CORP\nWYNDHAM RCI INDY\nNORTH CAROLINA FARM BUREAU MUTUAL\nSTATE OF OKLAHOMA (DEPT OF HUMANSVC\nHORIZON HEALTHCARE SERVICES INC\nBLUE CROSS BLUE SHIELD MISSISSIPPI\nSTATE OF NORTH CAROLINA (ADMIN OF C\nPACCAR INC\nMCG HEALTH INC\nVIRGINIA MASON MEDICAL CENTER\nBLUE CROSS & BLUE SHIELD OF KANSAS\nSEMICONDUCTOR COMPONENTS INDUSTRIES\nSTATE OF TENNESSEE (DEPT OF FINANCE\nIGS CNH AMERICA LLC CORPORATION\nPEABODY HOLDING CO INC\nFMC\nENTERPRISE HOLDINGS INC (FLEET MGMT\nAXA EQUITABLE LIFE INSURANCE CO\nSAFETY INSURANCE GROUP INC\nPACIFIC INVESTMENT MANAGEMENT CO\nBBVA USA\nNATIONAL BANK OF KUWAIT\nMITSUBISHI UFJ FINANCIAL GROUP INC\nDOLE FOOD CO INC\nCAPITAL BLUE CROSS\nHIGHMARK INC\nIGA TRI-STATE\nAVON PRODUCTS INC\nPENNSYLVANIA HIGHER EDUCATION ASST\nPORT AUTHORITY OF NY AND NJ\nSUNOVION PHARMACEUTICALS INC\nIGS ZSERIES SW SUPPT\nTHE OKONITE CO INC\nBI-LO HOLDING\nTHE BURLINGTON NORTHERN AND SANTAFE\nMILLERS CAPITAL INSURANCE CO\nJOSEPH T RYERSON & SON INC\nMONTEFIORE MEDICAL CENTER\nAVIS BUDGET CAR RENTAL LLC\nENTERPRISE HOLDINGS INC (ETC & PTC)\nMEIJER INC\nDIXIELINE LUMBER CO\nARROW ELECTRONICS\nBLUE CROSS & BLUE SHIELD MICHIGAN\nTORCHMARK CORP\nNATIONAL INDEMNITY CO\nUNIVAR INC\nKNOLL INTERNATIONAL INC\nCOLGATE-PALMOLIVE CO\nNORDSTROM INC\nTTI INC\nFANNIE MAE\nMEDSTAR HEALTH INC\nCADENCE DESIGN SYSTEMS INC\nTRANS WORLD ENTERTAINMENT CORP\nSTATE OF NEW JERSEY\nMIAMI-DADE COUNTY\nTHE PENN MUTUAL LIFE INSURANCE CO\nCOMM OF PENNSYLVANIA(DATAPOWERHOUSE\nDO IT BEST CORP\nHYSTER-YALE GROUP\nLEGISLATIVE DATA PROCESSING\nSTATE OF NEW HAMPSHIRE (NEW HEIGHTS\nJB HUNT TRANSPORT INC\nALLEGHENY LUDLUM CORP\nSHAW INDUSTRIES GROUP INC\nTHE DOW CHEMICAL CO\nTRSF BOSTON COLLEGE\nSCHENKER INC (BAX)\nPARKER HANNIFIN CORP\nACE INSURANCE (CT)\nUST GLOBAL\nGATX CORP\n\n==============================\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#ActiveEvents",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1590699425596",
+      "previous_sibling": "node_1_1590774496296"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "text": {
+          "values": [
+            "Welcome team: This bot is developed to access and explore the content available in the Service Delivery Program Advisor(SDPA) Account Operational Manual. You may ask the bot anything relevant to SDPA roles. \n\nPlease ask your question here:\n",
+            "Hello. My name is SquadNagi and I'm a chatbot here to assist you with your questions about  Resiliency Services,  Locations, as well as Service Offerings "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Diane Clem details"
+    },
+    {
+      "text": "Intel Pretesterd"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "SquadNagi chatbot",
+  "language": "en",
+  "description": "Knowledge repository on Resiliency Services"
+}
