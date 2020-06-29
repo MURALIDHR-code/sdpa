@@ -1,6 +1,6 @@
 {
   "name": "@MURALIDHR-code/sdpa",
-  "description": "A simple Node.js based web app which shows how to use the Watson Assistant API to recognize user intents.",
+  "description": "A Node.js based web app which shows how to use the Watson Assistant API to recognize user intents.",
   "version": "0.1.1",
   "main": "server.js",
   "scripts": {
@@ -20,21 +20,21 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "braces": ">=2.3.1",
     "body-parser": "^1.18.3",
+    "braces": ">=2.3.1",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
-    "watson-developer-cloud": "^3.13.0",
-    "ibm-watson": "^5.4.0"
+    "ibm-watson": "^5.6.0",
+    "watson-developer-cloud": "^3.13.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "engines": {
-  "node": "^8 || ^10",
-  "npm": "^6 || ^8"
-             },
+    "node": "^8 || ^10",
+    "npm": "^6 || ^8"
+  },
   "engineStrict": true,
   "devDependencies": {
     "babel-eslint": "^8.2.6",
