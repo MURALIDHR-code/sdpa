@@ -1442,7 +1442,7 @@
       "text": "Diane Clem details"
     },
     {
-      "text": "Intel Pretesterd"
+      "text": "Intel Pretester"
     }
   ],
   "system_settings": {
@@ -1465,6 +1465,7 @@
     },
     "spelling_auto_correct": true
   },
+  "workspace_id": "06b418d8-d816-48fb-b122-9d50ea42e0d1",
   "learning_opt_out": false,
   "name": "SquadNagi chatbot",
   "language": "en",

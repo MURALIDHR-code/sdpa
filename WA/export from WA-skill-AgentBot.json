@@ -1,0 +1,656 @@
+{
+  "intents": [
+    {
+      "intent": "Ashok",
+      "examples": [
+        {
+          "text": "GR_SDPAs"
+        }
+      ]
+    },
+    {
+      "intent": "bye",
+      "examples": [
+        {
+          "text": "ok bye"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "c u"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "That's it"
+        },
+        {
+          "text": "ok good bye"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "good bye"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "BCRSkb",
+      "examples": [
+        {
+          "text": "I want list of scheduled accounts"
+        },
+        {
+          "text": "Active event"
+        },
+        {
+          "text": "I want list of scheduled accounts till Dec 2020"
+        },
+        {
+          "text": "List all the Active Events"
+        },
+        {
+          "text": "Scheduled Events"
+        }
+      ],
+      "description": "BCRS Knowledge Base - IRP"
+    },
+    {
+      "intent": "travel",
+      "examples": [
+        {
+          "text": "travel"
+        },
+        {
+          "text": "reserve"
+        },
+        {
+          "text": "book"
+        },
+        {
+          "text": "arrange"
+        },
+        {
+          "text": "status"
+        },
+        {
+          "text": "booking"
+        },
+        {
+          "text": "reservation"
+        },
+        {
+          "text": "kindly arrange"
+        }
+      ],
+      "description": "Connect to travel bot"
+    },
+    {
+      "intent": "Noor",
+      "examples": [
+        {
+          "text": "GR_SDPAs"
+        }
+      ]
+    },
+    {
+      "intent": "Madhu",
+      "examples": [
+        {
+          "text": "GR_SDPAs"
+        }
+      ]
+    },
+    {
+      "intent": "Udaya",
+      "examples": [
+        {
+          "text": "GR_SDPAs"
+        }
+      ]
+    },
+    {
+      "intent": "BluepagesSkills",
+      "examples": [
+        {
+          "text": "CIC Leader"
+        },
+        {
+          "text": "Who is SO intel support?"
+        },
+        {
+          "text": "Show my DMH Updates"
+        },
+        {
+          "text": "Second Line Manager or SLM"
+        },
+        {
+          "text": "FirstLineManager"
+        }
+      ],
+      "description": "Connect to BluepagesSkills and DMH Updates"
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Correct"
+        }
+      ]
+    },
+    {
+      "intent": "showConference",
+      "examples": [
+        {
+          "text": "tell me about the event on Monday"
+        },
+        {
+          "text": "what is the information for conference"
+        },
+        {
+          "text": "When is the meeting"
+        },
+        {
+          "text": "do you have information on an upcoming event in San Francisco?"
+        },
+        {
+          "text": "show data for events in New York"
+        },
+        {
+          "text": "give me information on conferences in Australia"
+        },
+        {
+          "text": "query the event data for events in Friedrichshafen"
+        },
+        {
+          "text": "where is the event"
+        },
+        {
+          "text": "what is the meeting information"
+        },
+        {
+          "text": "conference data"
+        },
+        {
+          "text": "show conference"
+        },
+        {
+          "text": "show event information"
+        },
+        {
+          "text": "search for conference"
+        },
+        {
+          "text": "search"
+        }
+      ]
+    },
+    {
+      "intent": "Reportees",
+      "examples": [
+        {
+          "text": "Who are my Reportees?"
+        },
+        {
+          "text": "list of reportees of ghonavar@in.ibm.com"
+        },
+        {
+          "text": "List my reportees"
+        },
+        {
+          "text": "Who are reporting to me?"
+        }
+      ]
+    },
+    {
+      "intent": "Mani",
+      "examples": [
+        {
+          "text": "GR_SDPAs"
+        }
+      ]
+    },
+    {
+      "intent": "thankyou",
+      "examples": [
+        {
+          "text": "Thank you very much"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Thanks a lot"
+        },
+        {
+          "text": "Thank you"
+        }
+      ]
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "weather",
+      "examples": [
+        {
+          "text": "sunny"
+        },
+        {
+          "text": "weather"
+        },
+        {
+          "text": "temperature"
+        },
+        {
+          "text": "pleasant"
+        },
+        {
+          "text": "shiny"
+        },
+        {
+          "text": "heat"
+        },
+        {
+          "text": "cloudy"
+        },
+        {
+          "text": "rain"
+        }
+      ],
+      "description": "Weather bot"
+    },
+    {
+      "intent": "Ajas",
+      "examples": [
+        {
+          "text": "GR_SDPAs"
+        }
+      ]
+    },
+    {
+      "intent": "Viru",
+      "examples": [
+        {
+          "text": "GR_SDPAs"
+        }
+      ]
+    },
+    {
+      "intent": "Jatin",
+      "examples": [
+        {
+          "text": "GR_SDPAs"
+        }
+      ]
+    },
+    {
+      "intent": "Murali",
+      "examples": [
+        {
+          "text": "GR_SDPAs"
+        }
+      ]
+    },
+    {
+      "intent": "ResiliencySkills",
+      "examples": [
+        {
+          "text": "Show the scheduled events order by sdpa?"
+        },
+        {
+          "text": "What is event management?"
+        },
+        {
+          "text": "what is IRP?"
+        },
+        {
+          "text": "Show me the scheduled events?"
+        },
+        {
+          "text": "What are SDPA activities?"
+        }
+      ],
+      "description": "Connect to ResiliencySkills KB and task mgmt"
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "BluepagesSkills",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Redirecting you to Bluepages-Skills bot"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "destination_bot": "BluepagesSkills",
+        "redirect_to_another_bot": true
+      },
+      "metadata": {},
+      "conditions": "#BluepagesSkills",
+      "dialog_node": "node_1_1538024858380",
+      "previous_sibling": "node_1_1537856992108"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1538584495780"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_1_1537856992108",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is there anything else that I can help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#thankyou",
+      "dialog_node": "node_1_1538635503771",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "title": "bye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have a nice time. Bye."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#bye",
+      "dialog_node": "node_2_1538635558838",
+      "previous_sibling": "node_1_1538635503771"
+    },
+    {
+      "type": "standard",
+      "title": "ResiliencySkills",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "redirecting to Resilinecy-Skills bot"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "destination_bot": "ResiliencySkills",
+        "redirect_to_another_bot": true
+      },
+      "metadata": {},
+      "conditions": "#ResiliencySkills",
+      "dialog_node": "node_1_1538584495780",
+      "previous_sibling": "node_1_1538024858380"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "73f2a092-83eb-4701-9c9d-62ea6f5b10f8",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "AgentBot",
+  "language": "en",
+  "description": "Interface Bot"
+}

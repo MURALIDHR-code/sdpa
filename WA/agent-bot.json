@@ -1,5 +1,5 @@
 {
-  "name": "agentBot",
+  "name": "AgentBot",
   "intents": [
     {
       "intent": "General_Greetings",
@@ -87,6 +87,27 @@
         }
       ],
       "description": "Greet the bot."
+    },
+{
+      "intent": "BCRSkb",
+      "examples": [
+        {
+          "text": "I want list of scheduled accounts"
+        },
+        {
+          "text": "Active event"
+        },
+        {
+          "text": "I want list of scheduled accounts till Dec 2020"
+        },
+        {
+          "text": "List all the Active Events"
+        },
+        {
+          "text": "Scheduled Events"
+        }
+      ],
+      "description": "BCRS Knowledge Base - IRP"
     },
     {
       "intent": "BluepagesSkills",
@@ -370,7 +391,7 @@
       "dialog_node": "Welcome"
     }
   ],
-  "workspace_id": "73f2a092-83eb-4701-9c9d-62ea6f5b10f8",
+  "workspace_id": "25f1a852-526c-42b2-872e-8fd50cf7b2d9",
   "counterexamples": [],
   "system_settings": {
     "tooling": {
