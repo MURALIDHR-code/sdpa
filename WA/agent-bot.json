@@ -89,13 +89,13 @@
       "description": "Greet the bot."
     },
     {
-      "intent": "travel",
+      "intent": "BluepagesSkills",
       "examples": [
         {
           "text": "arrange"
         },
         {
-          "text": "travel"
+          "text": "BluepagesSkills"
         },
         {
           "text": "book"
@@ -116,16 +116,16 @@
           "text": "status"
         }
       ],
-      "description": "Connect to travel bot"
+      "description": "Connect to BluepagesSkills bot"
     },
     {
-      "intent": "weather",
+      "intent": "ResiliencySkills",
       "examples": [
         {
           "text": "rain"
         },
         {
-          "text": "weather"
+          "text": "ResiliencySkills"
         },
         {
           "text": "temperature"
@@ -146,7 +146,7 @@
           "text": "pleasant"
         }
       ],
-      "description": "Weather bot"
+      "description": "ResiliencySkills bot"
     },
     {
       "intent": "bye",
@@ -253,13 +253,13 @@
     },
     {
       "type": "standard",
-      "title": "Resiliency-Skills",
+      "title": "ResiliencySkills",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "redirecting to Resilinecy-Skills bot"
+                "text": "redirecting to ResiliencySkills bot"
               }
             ],
             "response_type": "text",
@@ -268,11 +268,11 @@
         ]
       },
       "context": {
-        "destination_bot": "Resiliency-Skills",
+        "destination_bot": "ResiliencySkills",
         "redirect_to_another_bot": true
       },
       "metadata": {},
-      "conditions": "#Resiliency-Skills",
+      "conditions": "#ResiliencySkills",
       "dialog_node": "node_1_1538584495780",
       "previous_sibling": "node_1_1538024858380"
     },
@@ -326,13 +326,13 @@
     },
     {
       "type": "standard",
-      "title": "Bluepages-Skills",
+      "title": "BluepagesSkills",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Redirecting you to Bluepages-Skills bot"
+                "text": "Redirecting you to BluepagesSkills bot"
               }
             ],
             "response_type": "text",
@@ -341,11 +341,11 @@
         ]
       },
       "context": {
-        "destination_bot": "Bluepages-Skills",
+        "destination_bot": "BluepagesSkills",
         "redirect_to_another_bot": true
       },
       "metadata": {},
-      "conditions": "#Bluepages-Skills",
+      "conditions": "#BluepagesSkills",
       "dialog_node": "node_1_1538024858380",
       "previous_sibling": "node_1_1537856992108"
     },
@@ -370,7 +370,7 @@
       "dialog_node": "Welcome"
     }
   ],
-  "workspace_id": "1d1e739c-9a68-4d6f-a1c2-505ecad313c5",
+  "workspace_id": "73f2a092-83eb-4701-9c9d-62ea6f5b10f8",
   "counterexamples": [],
   "system_settings": {
     "tooling": {

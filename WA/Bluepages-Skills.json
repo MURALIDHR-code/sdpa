@@ -9006,8 +9006,12 @@
     },
     "spelling_auto_correct": true
   },
+  "workspace_id": "6903a1e7-734f-4073-9cf9-6f5b660f4b30",
+  "counterexamples": [],
   "learning_opt_out": false,
   "name": "Bluepages-Skills",
   "language": "en",
-  "description": "Its Bluepages, DMH & Workstream skills."
+  "description": "Its Bluepages, DMH & Workstream skills.",
+  "status": "Available"
 }
+

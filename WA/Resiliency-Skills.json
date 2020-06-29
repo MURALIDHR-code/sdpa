@@ -2388,8 +2388,11 @@
     },
     "spelling_auto_correct": true
   },
-  "learning_opt_out": false,
-  "name": "Resiliency-Skills",
-  "language": "en",
-  "description": "It's Resiliency Knowledge base skills."
+   "workspace_id": "02d797e3-f75b-4403-a229-18346e4869de",
+   "counterexamples": [],
+   "learning_opt_out": false,
+   "name": "Resiliency-Skills",
+   "language": "en",
+   "description": "It's Resiliency Knowledge base skills.",
+   "status": "Available"
 }
