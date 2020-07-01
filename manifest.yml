@@ -13,5 +13,5 @@ applications:
     WORKSPACE_ID_weatherBot: f9337f72-7d43-4448-9777-ee10e4b72205
     ASSISTANT_ID: 1d1e739c-9a68-4d6f-a1c2-505ecad313c5
     ASSISTANT_IAM_API_KEY: fvaJAg-br2H6XppjIQTkMWASYhcjUILDer0n8HBlrgPL
-    ASSISTANT_IAM_URL: https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/5d9c5b2b-586d-416c-9c1d-94c688f393e7
+    ASSISTANT_IAM_URL: https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/5d9c5b2b-586d-416c-9c1d-94c688f393e7/v2/assistants/1d1e739c-9a68-4d6f-a1c2-505ecad313c5
     VERSION: 2020-01-28

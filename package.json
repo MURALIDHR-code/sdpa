@@ -1,6 +1,6 @@
 {
   "name": "@muralidhr-code/sdpa",
-  "description": "A Node.js based web app which shows how to use the Watson Assistant API to recognize user intents.",
+  "description": "A Node.js based squadnagi web app Watson Assistant API to recognize user intents.",
   "version": "2.148.0",
   "main": "server.js",
   "scripts": {
@@ -41,7 +41,7 @@
     "casperjs": "^1.1.4",
     "codecov": "^3.0.4",
     "eslint": "^5.1.0",
-    "jest": "^23.4.1",
+    "jest": "^26.1.0",
     "npm-start-command": "^1.0.1",
     "phantomjs-prebuilt": "^2.1.16",
     "supertest": "^3.1.0"

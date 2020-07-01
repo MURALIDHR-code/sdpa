@@ -122,7 +122,7 @@ function getDestinationBot(context) {
   }
 
   if (!destination_bot) {
-    destination_bot = "AGENT";
+    destination_bot = "agentBot";
   }
 
   console.log("Message being sent to: " + destination_bot + " bot");
