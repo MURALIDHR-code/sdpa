@@ -1,10 +1,11 @@
 {
   "name": "@muralidhr-code/sdpa",
   "description": "A Node.js based squadnagi web app Watson Assistant API to recognize user intents.",
-  "version": "2.148.0",
+  "version": "V2",
     "engines": {
     "node": "^8 || ^10",
     "npm": "^6 || ^8"
+	},
   "main": "server.js",
   "scripts": {
     "version": "13.12.0",
@@ -18,8 +19,8 @@
     "codecov": "npm run test && (codecov || true)"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/MURALIDHR-code/sdpa.git"
+    "type": "https",
+    "url": "https://github.com/MURALIDHR-code/sdpa/"
   },
   "license": "Apache-2.0",
   "dependencies": {
@@ -33,8 +34,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
-  },
-  },
+    },
   "engineStrict": true,
   "devDependencies": {
     "babel-eslint": "^8.2.6",
