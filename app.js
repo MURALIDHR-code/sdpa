@@ -27,9 +27,9 @@ var app = express();
 app.use(express.static('./public')); // load UI from public folder
 app.use(bodyParser.json());
 
-var assistantAPIKey = process.env["fvaJAg-br2H6XppjIQTkMWASYhcjUILDer0n8HBlrgPL"];
-var assistantURL = process.env["https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/5d9c5b2b-586d-416c-9c1d-94c688f393e7/v2/assistants/1d1e739c-9a68-4d6f-a1c2-505ecad313c5/sessions"];
-var assistantVersion = process.env["VERSION"];
+var assistantAPIKey = process.env["Bkif-E81g4YyMk7BbTSXc1EYChN8wI84tOMGhAkoDZU1"];
+var assistantURL = process.env["https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/5d9c5b2b-586d-416c-9c1d-94c688f393e7"];
+var assistantVersion = process.env["v2"];
 
 console.log("assistantVersion = " + assistantVersion);
 
@@ -46,9 +46,9 @@ const assistant = new AssistantV1({
 // Endpoint to be call from the client side
 app.post('/api/message', function (req, res) {
   console.log("");
-  var workspace = getDestinationBot(req.body.context) || '<workspace-id>';
+  var workspace = getDestinationBot(req.body.context) || 'cd63209f-5fd3-4e12-99ed-455d1452ffc1';
   console.log("workspace = " + workspace);
-  if (!workspace || workspace === '<workspace-id>') {
+  if (!workspace || workspace === 'cd63209f-5fd3-4e12-99ed-455d1452ffc1') {
     return res.json({
       'output': {
         'text': 'The app has not been configured with a <b>WORKSPACE_ID</b> environment variable. Please refer to the ' + '<a href="https://github.com/watson-developer-cloud/assistant-simple">README</a> documentation on how to set this variable. <br>' + 'Once a workspace has been defined the intents may be imported from ' + '<a href="https://github.com/watson-developer-cloud/assistant-simple/blob/master/training/car_workspace.json">here</a> in order to get a working application.'
