@@ -13,29 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 'use strict';
 
 var express = require('express'); // app server
 var bodyParser = require('body-parser'); // parser for post requests
+var AssistantV1 = require('watson-developer-cloud/assistant/v1'); // watson sdk
 const AssistantV1 = require('ibm-watson/assistant/v1');
 const { IamAuthenticator } = require('ibm-watson/auth');
 
 var app = express();
 
-// Bootstrap application settings
-app.use(express.static('./public')); // load UI from public folder
-app.use(bodyParser.json());
-
-var assistantAPIKey = process.env["ASSISTANT_IAM_API_KEY"];
+@@ -30,20 +31,23 @@ var assistantAPIKey = process.env["ASSISTANT_IAM_API_KEY"];
 var assistantURL = process.env["ASSISTANT_IAM_URL"];
 var assistantVersion = process.env["VERSION"];
 
+// Create the service wrapper
 console.log("assistantVersion = " + assistantVersion);
 
+var assistant = new AssistantV1({
 // Create the service wrapper
 const assistant = new AssistantV1({
   version: assistantVersion,
+  iam_apikey: assistantAPIKey,
+  url: assistantURL
   authenticator: new IamAuthenticator({
     apikey: assistantAPIKey,
   }),
@@ -47,15 +47,16 @@ const assistant = new AssistantV1({
 app.post('/api/message', function (req, res) {
   console.log("");
   var workspace = getDestinationBot(req.body.context) || '1d1e739c-9a68-4d6f-a1c2-505ecad313c5';
+  //workspace = '2601a4af-82bd-4097-b5fb-83477ba0d257';
   console.log("workspace = " + workspace);
   if (!workspace || workspace === '1d1e739c-9a68-4d6f-a1c2-505ecad313c5') {
     return res.json({
       'output': {
-        'text': 'The app has not been configured with a <b>WORKSPACE_ID</b> environment variable. Please refer to the ' + '<a href="https://github.com/watson-developer-cloud/assistant-simple">README</a> documentation on how to set this variable. <br>' + 'Once a workspace has been defined the intents may be imported from ' + '<a href="https://github.com/watson-developer-cloud/assistant-simple/blob/master/training/car_workspace.json">here</a> in order to get a working application.'
-      }
+@@ -52,82 +56,77 @@ app.post('/api/message', function (req, res) {
     });
   }
   var payload = {
+    workspace_id: workspace,
     workspaceId: workspace,
     context: req.body.context || {},
     input: req.body.input || {}
@@ -66,13 +67,16 @@ app.post('/api/message', function (req, res) {
     data = data.result
     console.log("Message: " + JSON.stringify(payload.input));
     if (err) {
+      console.log("Error: " + JSON.stringify(err))
       console.log("Error occurred: " + JSON.stringify(err.message))
       return res.status(err.code || 500).json(err);
     }
 
 
+    if( isRedirect(data.context) ){
     if (isRedirect(data.context)) {
       // When there is a redirect, get the redirect bot workspace id
+      payload.workspace_id = getDestinationBot(data.context);
       payload.workspaceId = getDestinationBot(data.context);
       // When there is a redirect, update destination bot in context so it persists along with the conversation
       payload.context.destination_bot = data.context.destination_bot;
@@ -80,12 +84,15 @@ app.post('/api/message', function (req, res) {
       delete payload.context.conversation_id;
       // For redirect, no user action is needed. Call the redirect bot automatically and send back that response to user
       assistant.message(payload, function (err, data) {
+        console.log("Message: " + JSON.stringify(payload.input));
         data = data.result
         if (err) {
           return res.status(err.code || 500).json(err);
         }
         return res.json(updateMessage(payload, data));
       });
+    }else{ // There is no redirect. So send back the response to user for further action
+    return res.json(updateMessage(payload, data));
     } else { // There is no redirect. So send back the response to user for further action
       return res.json(updateMessage(payload, data));
     }
@@ -94,9 +101,16 @@ app.post('/api/message', function (req, res) {
 });
 
 // The function checks if the bot response says messages to be redirected
+function isRedirect(context){
+  if( context && context.redirect_to_another_bot ){
 function isRedirect(context) {
   if (context && context.redirect_to_another_bot) {
     var isRedirect = context.redirect_to_another_bot;
+      if( isRedirect == true ){
+        return true;
+      }else{
+        return false;
+      }
     if (isRedirect == true) {
       return true;
     } else {
@@ -109,24 +123,37 @@ function isRedirect(context) {
 
 // The agent bot decides which bot the request should be redirected to and updates that in context variable.
 // Get worspace_id for redirected bot details so messages can be sent to that bot
+function getDestinationBot(context){
 function getDestinationBot(context) {
   var destination_bot = null;
+  if( context && context.destination_bot ){
   if (context && context.destination_bot) {
     destination_bot = context.destination_bot.toUpperCase();
   }
 
+  var wsId = process.env[ "WORKSPACE_ID_" + destination_bot];
   var wsId = process.env["WORKSPACE_ID_" + destination_bot];
 
+  if( !wsId ){
   if (!wsId) {
-    wsId = process.env["cd63209f-5fd3-4e12-99ed-455d1452ffc1"];
+    wsId = process.env["WORKSPACE_ID_agentBot"];
   }
 
+  if( !destination_bot ){
   if (!destination_bot) {
     destination_bot = "agentBot";
   }
 
   console.log("Message being sent to: " + destination_bot + " bot");
   return wsId;
+
+  // if( context && context.destination_bot && context.destination_bot.toUpperCase() === "TRAVEL" ){
+  //   return process.env['WORKSPACE_ID_TRAVEL'];
+  // }else if( context && context.destination_bot && context.destination_bot.toUpperCase() === "WEATHER" ){
+  //   return process.env['WORKSPACE_ID_WEATHER'];
+  // }else{
+  //   return process.env["WORKSPACE_ID_AGENT"];
+  // }
 }
 /**
  * Updates the response text using the intent confidence
@@ -160,5 +187,4 @@ function updateMessage(input, response) {
   response.output.text = responseText;
   return response;
 }
-
 module.exports = app;
