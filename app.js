@@ -27,7 +27,7 @@ var app = express();
 app.use(express.static('./public')); // load UI from public folder
 app.use(bodyParser.json());
 
-var assistantAPIKey = process.env["Bkif-E81g4YyMk7BbTSXc1EYChN8wI84tOMGhAkoDZU1"];
+var assistantAPIKey = process.env["fvaJAg-br2H6XppjIQTkMWASYhcjUILDer0n8HBlrgPL"];
 var assistantURL = process.env["https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/5d9c5b2b-586d-416c-9c1d-94c688f393e7/v2/assistants/1d1e739c-9a68-4d6f-a1c2-505ecad313c5/sessions"];
 var assistantVersion = process.env["VERSION"];
 

@@ -13,7 +13,8 @@ applications:
     WORKSPACE_ID_BCRSskillopedia: d514cee9-d3ce-49c1-8319-5316055d7342
     ASSISTANT_ID: 1d1e739c-9a68-4d6f-a1c2-505ecad313c5
     ASSISTANT_IAM_API_KEY: Bkif-E81g4YyMk7BbTSXc1EYChN8wI84tOMGhAkoDZU1
+    ASSISTANT_APIKEY: fvaJAg-br2H6XppjIQTkMWASYhcjUILDer0n8HBlrgPL
     ASSISTANT_IAM_URL: https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/5d9c5b2b-586d-416c-9c1d-94c688f393e7/
-    ASSISTANT_URL: https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/5d9c5b2b-586d-416c-9c1d-94c688f393e7/v2/assistants/1d1e739c-9a68-4d6f-a1c2-505ecad313c5/sessions
+    ASSISTANT_URL: https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/5d9c5b2b-586d-416c-9c1d-94c688f393e7/v2/assistants/1d1e739c-9a68-4d6f-a1c2-505ecad313c5/
     ASSISTANT_AUTH_TYPE: iam
     VERSION: 2020-01-28
