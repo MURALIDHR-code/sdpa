@@ -18,7 +18,7 @@
 var express = require('express'); // app server
 var bodyParser = require('body-parser'); // parser for post requests
 var AssistantV1 = require('watson-developer-cloud/assistant/v1'); // watson sdk
-const AssistantV1 = require('ibm-watson/assistant/v1');
+// const AssistantV1 = require('ibm-watson/assistant/v1');
 const { IamAuthenticator } = require('ibm-watson/auth');
 
 var app = express();
