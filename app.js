@@ -99,16 +99,16 @@ app.post('/api/message', function(req, res){
 
 // The function checks if the bot response says messages to be redirected
 function isRedirect(context) {
-    if (context && context.redirect_to_another_bot) {
-        var isRedirect = context.redirect_to_another_bot;
-        if (isRedirect == true) {
-            return true;
-        } else {
-            return false;
-        }
+  if (context && context.redirect_to_another_bot) {
+    var isRedirect = context.redirect_to_another_bot;
+    if (isRedirect == true) {
+      return true;
     } else {
-        return false;
+      return false;
     }
+  } else {
+    return false;
+  }
 }
 
 // The agent bot decides which bot the request should be redirected to and updates that in context variable.
