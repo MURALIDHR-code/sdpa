@@ -44,10 +44,12 @@ const assistant = new AssistantV1({
 
 
 // Endpoint to be call from the client side
-app.post('/api/message'function(req, res));
+app.post('/api/message', function(req, res){
+// });
     console.log("");
     var workspace = getDestinationBot(req.body.context) || 'cd63209f-5fd3-4e12-99ed-455d1452ffc1';
     console.log("workspace = " + workspace);
+	});
     if (!workspace || workspace === 'cd63209f-5fd3-4e12-99ed-455d1452ffc1') {
         return res.json({
             'output': {
