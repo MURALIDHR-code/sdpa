@@ -58,42 +58,43 @@ app.post('/api/message', function(req, res){
         });
     }
     var payload = {
-        workspaceId: workspace,
-        context: req.body.context || {},
-        input: req.body.input || {}
+    workspaceId: workspace,
+    context: req.body.context || {},
+    input: req.body.input || {}
+  };
+
+  // Send the input to the assistant service
+  assistant.message(payload, function (err, data) {
+    data = data.result
+    console.log("Message: " + JSON.stringify(payload.input));
+    if (err) {
+      console.log("Error occurred: " + JSON.stringify(err.message))
+      return res.status(err.code || 500).json(err);
     }
-    
-    // Send the input to the assistant service
-    assistant.message(payload, function (err, data) {
+
+
+    if (isRedirect(data.context)) {
+      // When there is a redirect, get the redirect bot workspace id
+      payload.workspaceId = getDestinationBot(data.context);
+      // When there is a redirect, update destination bot in context so it persists along with the conversation
+      payload.context.destination_bot = data.context.destination_bot;
+      // Where there is redirect, old conversation_id is not needed. Delete it
+      delete payload.context.conversation_id;
+      // For redirect, no user action is needed. Call the redirect bot automatically and send back that response to user
+      assistant.message(payload, function (err, data) {
         data = data.result
-        console.log("Message: " + JSON.stringify(payload.input));
         if (err) {
-            console.log("Error occurred: " + JSON.stringify(err.message))
-            return res.status(err.code || 500).json(err);
+          return res.status(err.code || 500).json(err);
         }
-        
-        
-        if (isRedirect(data.context)) {
-            // When there is a redirect, get the redirect bot workspace id
-            payload.workspaceId = getDestinationBot(data.context);
-            // When there is a redirect, update destination bot in context so it persists along with the conversation
-            payload.context.destination_bot = data.context.destination_bot;
-            // Where there is redirect, old conversation_id is not needed. Delete it
-            delete payload.context.conversation_id;
-            // For redirect, no user action is needed. Call the redirect bot automatically and send back that response to user
-            assistant.message(payload, function (err, data) {
-                data = data.result
-                if (err) {
-                    return res.status(err.code || 500).json(err);
-                }
-                return res.json(updateMessage(payload, data));
-            });
-        } else { // There is no redirect. So send back the response to user for further action
-            return res.json(updateMessage(payload, data));
-    
-        
-    });
-// });
+        return res.json(updateMessage(payload, data));
+      });
+    } else { // There is no redirect. So send back the response to user for further action
+      return res.json(updateMessage(payload, data));
+    }
+
+  });
+});
+
 
 // The function checks if the bot response says messages to be redirected
 function isRedirect(context) {
