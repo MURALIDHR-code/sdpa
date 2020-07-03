@@ -92,9 +92,9 @@ app.post('/api/message', function(req, res){
             });
         } else { // There is no redirect. So send back the response to user for further action
             return res.json(updateMessage(payload, data));
-        }
+    }
         
-    });
+  });
 });
 
 // The function checks if the bot response says messages to be redirected
