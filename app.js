@@ -58,8 +58,8 @@ app.post('/api/message', function(req, res){
         });
     }
     var payload = {
-        workspaceId: workspace
-        context: req.body.context || {}
+        workspaceId: workspace,
+        context: req.body.context || {},
         input: req.body.input || {}
     }
     
