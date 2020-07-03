@@ -69,8 +69,7 @@ app.post('/api/message', function(req, res){
         console.log("Message: " + JSON.stringify(payload.input));
         if (err) {
             console.log("Error occurred: " + JSON.stringify(err.message))
-            return res.status(err.code || 500)
-                .json(err);
+            return res.status(err.code || 500).json(err);
         }
         
         
@@ -85,8 +84,7 @@ app.post('/api/message', function(req, res){
             assistant.message(payload, function (err, data) {
                 data = data.result
                 if (err) {
-                    return res.status(err.code || 500)
-                        .json(err);
+                    return res.status(err.code || 500).json(err);
                 }
                 return res.json(updateMessage(payload, data));
             });
