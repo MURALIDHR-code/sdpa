@@ -1,16 +1,14 @@
 applications:
 - name: squadnagi-advisor
-  path: .
   command: npm start
-  memory: 512M
+  path: .
+  memory: 256M
   instances: 1
   random-route: true
-  env: 
-    WORKSPACE_ID_agentBot: cd63209f-5fd3-4e12-99ed-455d1452ffc1
-    WORKSPACE_ID_ResiliencySkills: 02d797e3-f75b-4403-a229-18346e4869de
-    WORKSPACE_ID_BluepagesSkills: ca39e110-7537-4f19-841c-bb700c780817
-    WORKSPACE_ID_BCRSkb: 06b418d8-d816-48fb-b122-9d50ea42e0d1
-    WORKSPACE_ID_BCRSskillopedia: d514cee9-d3ce-49c1-8319-5316055d7342
-    ASSISTANT_IAM_API_KEY: Bkif-E81g4YyMk7BbTSXc1EYChN8wI84tOMGhAkoDZU1
-    ASSISTANT_IAM_URL: https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/5d9c5b2b-586d-416c-9c1d-94c688f393e7
-    VERSION: 2020-07-02
+  env:
+    WORKSPACE_ID_AGENT: 6abc5c45-fcdc-42ab-9f39-1d0baf31f09f
+    WORKSPACE_ID_Resiliency_KB: 2e1ab090-5f51-465e-97ad-c831ec32898c
+    WORKSPACE_ID_Bluepages_Skills: 5758ad9a-c37c-4894-abf7-9368cbdba4c0
+    ASSISTANT_IAM_API_KEY: aFkveMnv_OKL4nHMyj0HCb068Hb-LkEG4fyQUPzfwHs8
+    ASSISTANT_IAM_URL: https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/29093a9d-7ca1-425a-9103-b80c7a5bbb8e
+    VERSION: 2020-07-03

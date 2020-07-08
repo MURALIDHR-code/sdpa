@@ -18,14 +18,33 @@
 
 var express = require('express'); // app server
 var bodyParser = require('body-parser'); // parser for post requests
-const AssistantV1 = require('ibm-watson/assistant/v1');
+var AssistantV2 = require('ibm-watson/assistant/v2'); // watson sdk
+const { IamAuthenticator } = require('ibm-watson/auth');
+var app = express();
+// Bootstrap application settings
+app.use(express.static('./public')); // load UI from public folder
+app.use(bodyParser.json());
+// Create the service wrapper
+var assistant = new AssistantV2({
+  version: '2019-02-28',
+  authenticator: new IamAuthenticator({
+	  apikey: process.env.ASSISTANT_IAM_APIKEY,
+  }),
+  url: process.env.ASSISTANT_URL,
+});
+
+
+
+
+
+/* const AssistantV2 = require('ibm-watson/assistant/v2');
 const { IamAuthenticator } = require('ibm-watson/auth');
 
 var app = express();
 
 // Bootstrap application settings
-app.use(express.static('./public')); // load UI from public folder
-app.use(bodyParser.json());
+//app.use(express.static('./public')); // load UI from public folder
+//app.use(bodyParser.json());
 
 var assistantAPIKey = process.env["ASSISTANT_IAM_API_KEY"];
 var assistantURL = process.env["ASSISTANT_IAM_URL"];
@@ -40,34 +59,49 @@ const assistant = new AssistantV1({
     apikey: assistantAPIKey,
   }),
   url: assistantURL,
-});
+}); */
 
 
 // Endpoint to be call from the client side
-app.post('/api/message', function (req, res) {
-  console.log("");
-  var workspace = getDestinationBot(req.body.context) || 'cd63209f-5fd3-4e12-99ed-455d1452ffc1';
-  console.log("workspace = " + workspace);
-  if (!workspace || workspace === 'cd63209f-5fd3-4e12-99ed-455d1452ffc1') {
+ app.post('/api/message', function (req, res) {
+  let assistantId = process.env.ASSISTANT_ID || '<assistant-id>';
+  if (!assistantId || assistantId === '<assistant-id>') {
     return res.json({
-      'output': {
-        'text': 'The app has not been configured with a <b>WORKSPACE_ID</b> environment variable. Please refer to the ' + '<a href="https://github.com/watson-developer-cloud/assistant-simple">README</a> documentation on how to set this variable. <br>' + 'Once a workspace has been defined the intents may be imported from ' + '<a href="https://github.com/watson-developer-cloud/assistant-simple/blob/master/training/car_workspace.json">here</a> in order to get a working application.'
-      }
+		
+		output: {
+        text:
+          'The app has not been configured with a <b>ASSISTANT_ID</b> environment variable. Please refer to the ' +
+          '<a href="https://github.com/watson-developer-cloud/assistant-simple">README</a> documentation on how to set this variable. <br>' +
+          'Once a workspace has been defined the intents may be imported from ' +
+          '<a href="https://github.com/watson-developer-cloud/assistant-simple/blob/master/training/car_workspace.json">here</a> in order to get a working application.',
+      },
     });
   }
+  var textIn = '';
+  
+  if (req.body.input) {
+    textIn = req.body.input.text;
+  }
+
   var payload = {
-    workspaceId: workspace,
-    context: req.body.context || {},
-    input: req.body.input || {}
+    assistantId: assistantId,
+    sessionId: req.body.session_id,
+    input: {
+		message_type: 'text',
+      text: textIn,
+    
   };
+		
+		
+ // });
 
   // Send the input to the assistant service
   assistant.message(payload, function (err, data) {
     data = data.result
     console.log("Message: " + JSON.stringify(payload.input));
     if (err) {
-      console.log("Error occurred: " + JSON.stringify(err.message))
-      return res.status(err.code || 500).json(err);
+	   console.log("Error occurred: " + JSON.stringify(err.message))
+       return res.status(err.code || 500).json(err);
     }
 
 
@@ -91,7 +125,6 @@ app.post('/api/message', function (req, res) {
     }
 
   });
-});
 
 // The function checks if the bot response says messages to be redirected
 function isRedirect(context) {
@@ -118,11 +151,11 @@ function getDestinationBot(context) {
   var wsId = process.env["WORKSPACE_ID_" + destination_bot];
 
   if (!wsId) {
-    wsId = process.env["WORKSPACE_ID_agentBot"];
+    wsId = process.env["WORKSPACE_ID_AGENT"];
   }
 
   if (!destination_bot) {
-    destination_bot = "agentBot";
+    destination_bot = "AGENT";
   }
 
   console.log("Message being sent to: " + destination_bot + " bot");
@@ -159,6 +192,6 @@ function updateMessage(input, response) {
   }
   response.output.text = responseText;
   return response;
-}
+} 
 
 module.exports = app;
