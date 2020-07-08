@@ -4,7 +4,6 @@
   "version": "0.1.1",
   "main": "server.js",
   "scripts": {
-    "version": "13.12.0",
     "start": "node server.js",
     "test-integration": "casperjs test ./test/integration/test.*.js",
     "test-integration-runner": "NODE_ENV=test node casper-runner.js",
@@ -19,39 +18,24 @@
     "url": "git+https://github.com/MURALIDHR-code/sdpa.git"
   },
   "license": "Apache-2.0",
-  "devDependencies": {
-    "body-parser": "^1.19.0",
-    "dotenv": "^6.2.0",
-    "express": "^4.17.1",
-    "ibm-watson": "^5.1.0"
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "watson-developer-cloud": "^3.13.0",
+    "ibm-watson": "^5.4.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "engines": {
-    "node": ">=13",
-    "npm": ">=8"
-  },
-  "engineStrict": true,
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
+    "babel-eslint": "^8.2.6",
     "casperjs": "^1.1.4",
-    "codecov": "^3.6.1",
-    "eslint": "^5.14.0",
-    "jest": "^24.9.0",
+    "codecov": "^3.0.4",
+    "eslint": "^5.1.0",
+    "jest": "^23.4.1",
     "phantomjs-prebuilt": "^2.1.16",
-    "supertest": "^4.0.2"
-  },
-  "bugs": {
-    "url": "https://github.com/MURALIDHR-code/sdpa/issues"
-  },
-  "homepage": "https://github.com/MURALIDHR-code/sdpa#readme",
-  "directories": {
-    "test": "test"
-  },
-  "author": "muralidhr-code"
+    "supertest": "^3.1.0"
+  }
 }
-  
-  
-
