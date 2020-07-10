@@ -127,10 +127,10 @@
 		    destination_bot = context.destination_bot.toUpperCase();
 		  }
 		
-		  var wsId = process.env["destination_bot_" + destination_bot];
+		  var wsId = process.env["WORKSPACE_ID_" + destination_bot];
 		
 		  if (!wsId) {
-		    wsId = process.env["destination_bot_AGENT"];
+		    wsId = process.env["WORKSPACE_ID_AGENT"];
 		  }
 		
 		  if (!destination_bot) {
