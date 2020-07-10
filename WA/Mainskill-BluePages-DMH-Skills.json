@@ -10067,7 +10067,7 @@
       },
       "context": {
         "workspace_id": "6abc5c45-fcdc-42ab-9f39-1d0baf31f09f",
-        "destination_bot": "Agent-Router"
+        "destination_bot": "agent"
       },
       "metadata": {},
       "conditions": "anything_else",
@@ -10171,7 +10171,7 @@
       },
       "context": {
         "workspace_id": "6abc5c45-fcdc-42ab-9f39-1d0baf31f09f",
-        "destination_bot": "Agent-Router"
+        "destination_bot": "WORKSPACE_ID_Agent-Router"
       },
       "conditions": "#thanks",
       "dialog_node": "node_1_1594321791646",
@@ -10295,26 +10295,7 @@
     }
   },
   "learning_opt_out": false,
-  "name": "Bluepages_Skills",
+  "name": "BluePages-DMH Skills",
   "language": "en",
   "description": "Bluepage-Skills and DMH for the BAU services"
-}
- "workspace_id": "5758ad9a-c37c-4894-abf7-9368cbdba4c0",
-  "counterexamples": [],
-  "system_settings": {
-    "tooling": {
-      "store_generic_responses": true
-    },
-    "disambiguation": {
-      "prompt": "Did you mean:",
-      "none_of_the_above_prompt": "None of the above"
-    },
-    "human_agent_assist": {
-      "prompt": "Did you mean:"
-    }
-  },
-  "learning_opt_out": false,
-  "name": "Agent-Router",
-  "language": "en",
-  "description": "Interface Bot"
 }

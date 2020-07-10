@@ -1,90 +1,752 @@
 {
   "intents": [
     {
+      "intent": "Anything_else",
+      "examples": [
+        {
+          "text": "Than you"
+        },
+        {
+          "text": "anything else"
+        },
+        {
+          "text": "can I help you with anything else"
+        },
+        {
+          "text": "anything"
+        },
+        {
+          "text": "Anything Else I can help with"
+        }
+      ]
+    },
+    {
+      "intent": "showConference",
+      "examples": []
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "You around?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Where'd you go?"
+        }
+      ]
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Advisor"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "thankyou",
+      "examples": [
+        {
+          "text": "Thank you very much"
+        },
+        {
+          "text": "Thanks a lot"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Thanks"
+        }
+      ]
+    },
+    {
+      "intent": "Account-Manual",
+      "examples": []
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "It's not what I mean"
+        }
+      ]
+    },
+    {
+      "intent": "ActiveEvents",
+      "examples": []
+    },
+    {
+      "intent": "EmpDetail",
+      "examples": []
+    },
+    {
+      "intent": "OTC_Focals",
+      "examples": []
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "ROP",
+      "examples": []
+    },
+    {
+      "intent": "bye",
+      "examples": [
+        {
+          "text": "That's it"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "ok good bye"
+        },
+        {
+          "text": "c u"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "ok bye"
+        }
+      ],
+      "description": ""
+    },
+    {
       "intent": "Reportees",
+      "examples": []
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "We will need to begin again"
+        }
+      ]
+    },
+    {
+      "intent": "SRT",
+      "examples": []
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "Resiliency-KB",
+      "examples": [
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "John details"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "I want pre-testers information"
+        },
+        {
+          "text": "pretesters list"
+        },
+        {
+          "text": "all pretesters"
+        },
+        {
+          "text": "Z> pretesters"
+        },
+        {
+          "text": "Details of Evelyne"
+        },
+        {
+          "text": "Z> I want list of prestesters"
+        },
+        {
+          "text": "Z> i want list of pretesters"
+        },
+        {
+          "text": "List of OTC Team leads"
+        },
+        {
+          "text": "Please provide me John contact details"
+        },
+        {
+          "text": "OTC Team leads"
+        },
+        {
+          "text": "Please provide me list of OTC team"
+        },
+        {
+          "text": "Who are Focals for OTC"
+        },
+        {
+          "text": "When OTC applies to the Customer"
+        },
+        {
+          "text": "How many Type of OTC"
+        },
+        {
+          "text": "I want list of scheduled accounts till Dec 2020"
+        },
+        {
+          "text": "List all the Active Events"
+        },
+        {
+          "text": "I want list of scheduled accounts"
+        },
+        {
+          "text": "Noor Accounts"
+        },
+        {
+          "text": "Active event"
+        },
+        {
+          "text": "List of Active Events"
+        },
+        {
+          "text": "Scheduled Events"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "What is the defference between ROP and ROP4"
+        },
+        {
+          "text": "What is ROP"
+        },
+        {
+          "text": "SRT Details"
+        },
+        {
+          "text": "Please provide me SRT details"
+        },
+        {
+          "text": "What is Service Request Tool"
+        },
+        {
+          "text": "What is an SRT"
+        },
+        {
+          "text": "What is SDPA ? Job responsibilites"
+        },
+        {
+          "text": "Define SDAP roles?"
+        },
+        {
+          "text": "SDPA roles"
+        },
+        {
+          "text": "Carmine"
+        },
+        {
+          "text": "who are all pretesters"
+        },
+        {
+          "text": "Z> list of pretesters"
+        },
+        {
+          "text": "I want pretesters information"
+        },
+        {
+          "text": "Z> I want list of Scheduled event"
+        },
+        {
+          "text": "list of pretesters"
+        },
+        {
+          "text": "Z> list OTC team"
+        },
+        {
+          "text": "network pretesters"
+        },
+        {
+          "text": "What is OTC ?"
+        },
+        {
+          "text": "Resiliency-KB"
+        },
+        {
+          "text": "SDPA details"
+        },
+        {
+          "text": "Resiliency Sites"
+        },
+        {
+          "text": "OTC"
+        },
+        {
+          "text": "SRT"
+        },
+        {
+          "text": "Events"
+        },
+        {
+          "text": "NAS Manager"
+        },
+        {
+          "text": "IRP"
+        },
+        {
+          "text": "RTP"
+        },
+        {
+          "text": "BLD"
+        },
+        {
+          "text": "STF"
+        },
+        {
+          "text": "who are the OTC team"
+        },
+        {
+          "text": "List of OTC Focals"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "OTC Focals"
+        },
+        {
+          "text": "Can you tell a joke?"
+        }
+      ],
+      "description": "Connect to Resiliency-KB bot"
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I don t know what you need"
+        }
+      ]
+    },
+    {
+      "intent": "empbyrole",
+      "examples": []
+    },
+    {
+      "intent": "OTC_Details",
+      "examples": []
+    },
+    {
+      "intent": "SDPA_Roles",
       "examples": []
     },
     {
       "intent": "Bluepages-Skills",
       "examples": [
-        {
-          "text": "When is the meeting"
-        },
-        {
-          "text": "search"
-        },
-        {
-          "text": "List my reportees"
-        },
-        {
-          "text": "list of reportees of ghonavar@in.ibm.com"
-        },
-        {
-          "text": "Who are reporting to me?"
-        },
-        {
-          "text": "Who are my Reportees?"
-        },
-        {
-          "text": "Get me peers of emp@us.ibm.com"
-        },
-        {
-          "text": "List of Peers please"
-        },
-        {
-          "text": "Kindly show me peers of emp@in.ibm.com"
-        },
-        {
-          "text": "Would you show me list of peers?"
-        },
-        {
-          "text": "who are the peers of email@ibm.com"
-        },
-        {
-          "text": "query the event data for events in Friedrichshafen"
-        },
-        {
-          "text": "Show me contact info of email@domain.com"
-        },
-        {
-          "text": "Share me the detail of email@domain.com"
-        },
-        {
-          "text": "Get me detail of sacbshah@in.ibm.com"
-        },
-        {
-          "text": "Provide employee detail of ghonavar@in.ibm.com"
-        },
-        {
-          "text": "DMH"
-        },
-        {
-          "text": "BAU Intel Support"
-        },
-        {
-          "text": "MainFrame SME"
-        },
-        {
-          "text": "AIX SME"
-        },
-        {
-          "text": "SLM"
-        },
-        {
-          "text": "who are from PMO role ?"
-        },
-        {
-          "text": "Who are from Change Management Team of RFS Group"
-        },
-        {
-          "text": "Employee detail of pal.anindya@in.ibm.com please"
-        },
-        {
-          "text": "share me employee detail of ghonavar@in.ibm.com"
-        },
-        {
-          "text": "Extract DMH Updates"
-        },
         {
           "text": "Fetch this quater dmh updates"
         },
@@ -117,6 +779,24 @@
         },
         {
           "text": "CIC Leader"
+        },
+        {
+          "text": "List my reportees"
+        },
+        {
+          "text": "list of reportees of ghonavar@in.ibm.com"
+        },
+        {
+          "text": "Show me contact info of email@domain.com"
+        },
+        {
+          "text": "Who are reporting to me?"
+        },
+        {
+          "text": "query the event data for events in Friedrichshafen"
+        },
+        {
+          "text": "who are the peers of email@ibm.com"
         },
         {
           "text": "Intel SME"
@@ -185,713 +865,70 @@
           "text": "where is the event"
         },
         {
+          "text": "Who are my Reportees?"
+        },
+        {
+          "text": "Get me peers of emp@us.ibm.com"
+        },
+        {
+          "text": "List of Peers please"
+        },
+        {
+          "text": "Kindly show me peers of emp@in.ibm.com"
+        },
+        {
+          "text": "Would you show me list of peers?"
+        },
+        {
           "text": "show event information"
+        },
+        {
+          "text": "DMH"
+        },
+        {
+          "text": "Provide employee detail of ghonavar@in.ibm.com"
+        },
+        {
+          "text": "Get me detail of sacbshah@in.ibm.com"
+        },
+        {
+          "text": "Share me the detail of email@domain.com"
+        },
+        {
+          "text": "When is the meeting"
+        },
+        {
+          "text": "search"
+        },
+        {
+          "text": "BAU Intel Support"
+        },
+        {
+          "text": "MainFrame SME"
+        },
+        {
+          "text": "AIX SME"
+        },
+        {
+          "text": "SLM"
+        },
+        {
+          "text": "who are from PMO role ?"
+        },
+        {
+          "text": "Employee detail of pal.anindya@in.ibm.com please"
+        },
+        {
+          "text": "Who are from Change Management Team of RFS Group"
+        },
+        {
+          "text": "share me employee detail of ghonavar@in.ibm.com"
+        },
+        {
+          "text": "Extract DMH Updates"
         }
       ],
       "description": "Bluepages-Skills bot"
-    },
-    {
-      "intent": "General_Ending",
-      "examples": [
-        {
-          "text": "Get lost"
-        },
-        {
-          "text": "Time to go"
-        },
-        {
-          "text": "That's everything"
-        },
-        {
-          "text": "That is all"
-        },
-        {
-          "text": "Thanks very much, bye!"
-        },
-        {
-          "text": "Thanks, bye!"
-        },
-        {
-          "text": "Thank you for your time"
-        },
-        {
-          "text": "Stop talking to me"
-        },
-        {
-          "text": "Stop doing this"
-        },
-        {
-          "text": "Shut up"
-        },
-        {
-          "text": "See you"
-        },
-        {
-          "text": "See you later"
-        },
-        {
-          "text": "Ok goodbye"
-        },
-        {
-          "text": "It was nice chatting with you"
-        },
-        {
-          "text": "I'm leaving now"
-        },
-        {
-          "text": "Im good thank you"
-        },
-        {
-          "text": "Im done"
-        },
-        {
-          "text": "I'm done"
-        },
-        {
-          "text": "I want to quit"
-        },
-        {
-          "text": "I have got to go"
-        },
-        {
-          "text": "I d like to stop doing this"
-        },
-        {
-          "text": "I am out of here"
-        },
-        {
-          "text": "I am leaving"
-        },
-        {
-          "text": "Hey bot go away"
-        },
-        {
-          "text": "Have a nice day?"
-        },
-        {
-          "text": "Goodbye"
-        },
-        {
-          "text": "Good. bye."
-        },
-        {
-          "text": "Going now"
-        },
-        {
-          "text": "Finished now, good bye"
-        },
-        {
-          "text": "Ending this session"
-        },
-        {
-          "text": "End trial"
-        },
-        {
-          "text": "Go away"
-        },
-        {
-          "text": "Go off"
-        },
-        {
-          "text": "Bye bye"
-        },
-        {
-          "text": "Bye now"
-        },
-        {
-          "text": "Catch you later"
-        },
-        {
-          "text": "Cya later"
-        }
-      ],
-      "description": "End the conversation."
-    },
-    {
-      "intent": "goodbye",
-      "examples": [
-        {
-          "text": "Thank you"
-        },
-        {
-          "text": "see yah"
-        },
-        {
-          "text": "see you"
-        },
-        {
-          "text": "No thanks"
-        },
-        {
-          "text": "bye"
-        },
-        {
-          "text": "takecare"
-        },
-        {
-          "text": "talk to you soon"
-        },
-        {
-          "text": "good bye"
-        }
-      ]
-    },
-    {
-      "intent": "General_About_You",
-      "examples": [
-        {
-          "text": "Tell me about your life"
-        },
-        {
-          "text": "Why are you here?"
-        },
-        {
-          "text": "Who are you?"
-        },
-        {
-          "text": "Where were you born?"
-        },
-        {
-          "text": "Where are you from?"
-        },
-        {
-          "text": "What's your name?"
-        },
-        {
-          "text": "What should I know about you?"
-        },
-        {
-          "text": "What languages do you speak?"
-        },
-        {
-          "text": "Tell me something about yourself"
-        },
-        {
-          "text": "How can I configure you?"
-        },
-        {
-          "text": "About you"
-        },
-        {
-          "text": "Can I use another language?"
-        },
-        {
-          "text": "Describe your self"
-        },
-        {
-          "text": "Do you have a name?"
-        },
-        {
-          "text": "Do you know who you are?"
-        },
-        {
-          "text": "How do you function?"
-        },
-        {
-          "text": "How old are you?"
-        },
-        {
-          "text": "I want to set up the chat bot for my shop"
-        },
-        {
-          "text": "Introduce your self"
-        },
-        {
-          "text": "Let us talk about you"
-        }
-      ],
-      "description": "Request generic personal attributes."
-    },
-    {
-      "intent": "EmpDetail",
-      "examples": []
-    },
-    {
-      "intent": "ROP",
-      "examples": []
-    },
-    {
-      "intent": "showConference",
-      "examples": []
-    },
-    {
-      "intent": "Peers",
-      "examples": []
-    },
-    {
-      "intent": "OTC_Details",
-      "examples": []
-    },
-    {
-      "intent": "Bot_Control_Confirm_Presence",
-      "examples": [
-        {
-          "text": "You around?"
-        },
-        {
-          "text": "Are you leaving me?"
-        },
-        {
-          "text": "Anyone there?"
-        },
-        {
-          "text": "Am I talking to someone?"
-        },
-        {
-          "text": "Are you on?"
-        },
-        {
-          "text": "Where'd you go?"
-        },
-        {
-          "text": "Speak to me if you are there."
-        },
-        {
-          "text": "Is anybody home?"
-        },
-        {
-          "text": "Is anybody here?"
-        },
-        {
-          "text": "Have I lost you?"
-        },
-        {
-          "text": "Did you hear what I said?"
-        },
-        {
-          "text": "Are you there?"
-        },
-        {
-          "text": "Are you still here with me?"
-        },
-        {
-          "text": "Are you still around?"
-        },
-        {
-          "text": "Did you go somewhere?"
-        },
-        {
-          "text": "I am still holding"
-        }
-      ]
-    },
-    {
-      "intent": "General_Security_Assurance",
-      "examples": [
-        {
-          "text": "Secure conversation?"
-        },
-        {
-          "text": "Is my payment information secure?"
-        },
-        {
-          "text": "Is there a reason to distrust this chat?"
-        },
-        {
-          "text": "Is this a trusted chat site?"
-        },
-        {
-          "text": "Is this an official chat?"
-        },
-        {
-          "text": "Is this conversation secure?"
-        },
-        {
-          "text": "Precautions hackers?"
-        },
-        {
-          "text": "Protection hacks?"
-        },
-        {
-          "text": "How safe is my data?"
-        },
-        {
-          "text": "What guards do you have in place to protect your customer's data?"
-        },
-        {
-          "text": "What makes this chat trustworthy?"
-        },
-        {
-          "text": "What safety measures are used to ensure that chat is secure?"
-        },
-        {
-          "text": "Why would I trust this chat?"
-        },
-        {
-          "text": "Will my conversation remain secured?"
-        },
-        {
-          "text": "How do I know this chat is not a scam?"
-        },
-        {
-          "text": "How do I know if my card info is kept safe?"
-        },
-        {
-          "text": "Are you safe?"
-        },
-        {
-          "text": "Are you safe on hackers?"
-        },
-        {
-          "text": "Do you have protection against hacks?"
-        },
-        {
-          "text": "Can I be sure that my stored card details are held securely?"
-        },
-        {
-          "text": "Customer info secured?"
-        },
-        {
-          "text": "Conversation secure?"
-        },
-        {
-          "text": "How is my credit card info secured?"
-        },
-        {
-          "text": "I'd like proof of a secure chat"
-        },
-        {
-          "text": "In what way can I tell if my plastic is safe?"
-        },
-        {
-          "text": "Is my card info secure?"
-        }
-      ],
-      "description": "Express concerns about the security of the bot."
-    },
-    {
-      "intent": "fetch_dmh_updates",
-      "examples": []
-    },
-    {
-      "intent": "thanks",
-      "examples": [
-        {
-          "text": "Ta"
-        },
-        {
-          "text": "Thank you"
-        },
-        {
-          "text": "Thanks watson"
-        },
-        {
-          "text": "Cheers watson"
-        },
-        {
-          "text": "Thanks"
-        },
-        {
-          "text": "Cheers"
-        },
-        {
-          "text": "Nice one"
-        }
-      ]
-    },
-    {
-      "intent": "SDPA_Roles",
-      "examples": []
-    },
-    {
-      "intent": "OTC_Focals",
-      "examples": []
-    },
-    {
-      "intent": "Bot_Control_Change_Subject",
-      "examples": [
-        {
-          "text": "Chat about something else"
-        },
-        {
-          "text": "Another thing"
-        },
-        {
-          "text": "Talk about something else"
-        },
-        {
-          "text": "Let us talk about something else"
-        },
-        {
-          "text": "Let us change the topic"
-        },
-        {
-          "text": "Here is another issue"
-        },
-        {
-          "text": "I have one more question"
-        },
-        {
-          "text": "Help me with this other question"
-        },
-        {
-          "text": "A different matter"
-        },
-        {
-          "text": "Can we talk about something else?"
-        },
-        {
-          "text": "Change topic"
-        },
-        {
-          "text": "Discuss something else"
-        }
-      ]
-    },
-    {
-      "intent": "Resiliency-KB",
-      "examples": [
-        {
-          "text": "What is OTC ?"
-        },
-        {
-          "text": "Resiliency-KB"
-        },
-        {
-          "text": "SDPA details"
-        },
-        {
-          "text": "Resiliency Sites"
-        },
-        {
-          "text": "OTC"
-        },
-        {
-          "text": "SRT"
-        },
-        {
-          "text": "Events"
-        },
-        {
-          "text": "NAS Manager"
-        },
-        {
-          "text": "IRP"
-        },
-        {
-          "text": "RTP"
-        },
-        {
-          "text": "BLD"
-        },
-        {
-          "text": "STF"
-        },
-        {
-          "text": "who are the OTC team"
-        },
-        {
-          "text": "List of OTC Focals"
-        },
-        {
-          "text": "OTC Focals"
-        },
-        {
-          "text": "John details"
-        },
-        {
-          "text": "network pretesters"
-        },
-        {
-          "text": "Z> list OTC team"
-        },
-        {
-          "text": "list of pretesters"
-        },
-        {
-          "text": "Z> I want list of Scheduled event"
-        },
-        {
-          "text": "I want pretesters information"
-        },
-        {
-          "text": "Z> list of pretesters"
-        },
-        {
-          "text": "who are all pretesters"
-        },
-        {
-          "text": "Carmine"
-        },
-        {
-          "text": "SDPA roles"
-        },
-        {
-          "text": "Define SDAP roles?"
-        },
-        {
-          "text": "What is SDPA ? Job responsibilites"
-        },
-        {
-          "text": "What is an SRT"
-        },
-        {
-          "text": "What is Service Request Tool"
-        },
-        {
-          "text": "Please provide me SRT details"
-        },
-        {
-          "text": "SRT Details"
-        },
-        {
-          "text": "What is ROP"
-        },
-        {
-          "text": "What is the defference between ROP and ROP4"
-        },
-        {
-          "text": "Are you even real?"
-        },
-        {
-          "text": "Tell me, are you a human or no?"
-        },
-        {
-          "text": "Are you human?"
-        },
-        {
-          "text": "Is this a computer?"
-        },
-        {
-          "text": "Are you real?"
-        },
-        {
-          "text": "Are you a human or a bot?"
-        },
-        {
-          "text": "Are you a robot?"
-        },
-        {
-          "text": "How can you prove you are a human?"
-        },
-        {
-          "text": "Scheduled Events"
-        },
-        {
-          "text": "List of Active Events"
-        },
-        {
-          "text": "Active event"
-        },
-        {
-          "text": "Noor Accounts"
-        },
-        {
-          "text": "I want list of scheduled accounts"
-        },
-        {
-          "text": "List all the Active Events"
-        },
-        {
-          "text": "I want list of scheduled accounts till Dec 2020"
-        },
-        {
-          "text": "How many Type of OTC"
-        },
-        {
-          "text": "When OTC applies to the Customer"
-        },
-        {
-          "text": "Who are Focals for OTC"
-        },
-        {
-          "text": "Please provide me list of OTC team"
-        },
-        {
-          "text": "OTC Team leads"
-        },
-        {
-          "text": "Please provide me John contact details"
-        },
-        {
-          "text": "List of OTC Team leads"
-        },
-        {
-          "text": "Z> i want list of pretesters"
-        },
-        {
-          "text": "Z> I want list of prestesters"
-        },
-        {
-          "text": "Details of Evelyne"
-        },
-        {
-          "text": "Z> pretesters"
-        },
-        {
-          "text": "all pretesters"
-        },
-        {
-          "text": "pretesters list"
-        },
-        {
-          "text": "I want pre-testers information"
-        },
-        {
-          "text": "Surprise me with something hilarious"
-        },
-        {
-          "text": "Are there jokes?"
-        },
-        {
-          "text": "Tell me a joke"
-        },
-        {
-          "text": "Do you like fun?"
-        },
-        {
-          "text": "Can you tell a joke?"
-        },
-        {
-          "text": "I am getting bored"
-        },
-        {
-          "text": "Do you have humor?"
-        },
-        {
-          "text": "What do you do for fun?"
-        },
-        {
-          "text": "One more joke"
-        },
-        {
-          "text": "Another joke"
-        },
-        {
-          "text": "I'm bored"
-        },
-        {
-          "text": "What is your favorite joke?"
-        },
-        {
-          "text": "Do you have a joke?"
-        },
-        {
-          "text": "Can you tell me a joke?"
-        },
-        {
-          "text": "I want a joke"
-        },
-        {
-          "text": "Tell me something funny"
-        },
-        {
-          "text": "Do you like humor?"
-        },
-        {
-          "text": "Am I talking to a Bot?"
-        },
-        {
-          "text": "Am I chatting with a human?"
-        },
-        {
-          "text": "Am I talking to a person or am I talking to an AI?"
-        },
-        {
-          "text": "Am I talking to Watson?"
-        }
-      ],
-      "description": "Connect to Resiliency-KB bot"
     },
     {
       "intent": "Bot_Control_Reject_Response",
@@ -962,96 +999,257 @@
       ]
     },
     {
-      "intent": "Bot_Control_Clarification",
+      "intent": "newEvent",
       "examples": [
         {
-          "text": "I didn't understand that properly"
+          "text": "I have some meeting information. The event will take place in Sweden"
         },
         {
-          "text": "I don't understand"
+          "text": "how is the forecast"
         },
         {
-          "text": "What are you talking about?"
+          "text": "I have a new event in London"
         },
         {
-          "text": "What are you referring to?"
+          "text": "create a new event"
         },
         {
-          "text": "Let's try to say that again more clearly, shall we?"
+          "text": "I want to create an event scheduled in Paris"
         },
         {
-          "text": "I need more information"
+          "text": "Here is some event data"
         },
         {
-          "text": "I don't understand what you're saying"
+          "text": "new event"
         },
         {
-          "text": "I don't get it"
-        },
-        {
-          "text": "I didn't quite understand what you said"
-        },
-        {
-          "text": "I did not quite understand what you gave me"
-        },
-        {
-          "text": "Explains"
-        },
-        {
-          "text": "Come again?"
-        },
-        {
-          "text": "I didn't catch that"
-        },
-        {
-          "text": "Can you say that again please?"
-        },
-        {
-          "text": "What do you mean?"
-        },
-        {
-          "text": "What do you mean by that?"
-        },
-        {
-          "text": "What are you saying?"
+          "text": "news about a conference in Stockholm"
         }
       ]
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "nice"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "good job"
+        },
+        {
+          "text": "appreciate"
+        }
+      ]
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
     },
     {
       "intent": "Bot_Control_Approve_Response",
       "examples": [
         {
-          "text": "Correct"
+          "text": "Great"
         },
         {
-          "text": "All right"
-        },
-        {
-          "text": "Affirmative. That's what I'm looking for."
-        },
-        {
-          "text": "Sure thing!"
-        },
-        {
-          "text": "Sweet"
-        },
-        {
-          "text": "That is precisely what I was looking for"
-        },
-        {
-          "text": "That is right"
-        },
-        {
-          "text": "That is the proper response."
-        },
-        {
-          "text": "That's exactly what I want"
+          "text": "Yes"
         },
         {
           "text": "You read my mind"
         },
         {
-          "text": "Yes"
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Correct"
         },
         {
           "text": "Very well. Let's do it."
@@ -1072,9 +1270,6 @@
           "text": "I agree"
         },
         {
-          "text": "Great"
-        },
-        {
           "text": "For sure!"
         },
         {
@@ -1086,436 +1281,451 @@
       ]
     },
     {
-      "intent": "Bot_Control_Start_Over",
+      "intent": "General_Negative_Feedback",
       "examples": [
         {
-          "text": "We will need to begin again"
+          "text": "Everyone hates you"
         },
         {
-          "text": "Begin over!"
+          "text": "Hate you"
         },
         {
-          "text": "exit"
+          "text": "Quit annoying me"
         },
         {
-          "text": "Can we please start over?"
+          "text": "Robots are boring"
         },
         {
-          "text": "I want start from the beginning"
+          "text": "Robots are stupid"
         },
         {
-          "text": "I would like to start all over"
+          "text": "Stupid"
         },
         {
-          "text": "Let us reopen this again."
+          "text": "You are very frustrating"
         },
         {
-          "text": "Let's go back to square one"
+          "text": "You do not seem smart"
         },
         {
-          "text": "Restart"
+          "text": "You're really frustrating"
         },
         {
-          "text": "Please start a new chat"
+          "text": "You're really irritating"
         },
         {
-          "text": "Please reset"
+          "text": "You're too stupid"
         },
         {
-          "text": "Please initiate from the beginning"
+          "text": "I do not like you"
         },
         {
-          "text": "One more time from the beginning"
+          "text": "I hate this!"
         },
         {
-          "text": "Let's pick this up from the top again."
+          "text": "I hate you"
         },
         {
-          "text": "I need to reset."
+          "text": "It is annoying"
         },
         {
-          "text": "How can I start over?"
+          "text": "You are on my nerves"
         },
         {
-          "text": "Back to the beginning"
+          "text": "Why are you so annoying?"
         },
         {
-          "text": "Start over"
+          "text": "Why are you stupid?"
         },
         {
-          "text": "We need a do-over"
+          "text": "You are having delusions"
         },
         {
-          "text": "Actually, let's start over"
-        },
-        {
-          "text": "Back to the top"
-        }
-      ]
-    },
-    {
-      "intent": "General_Jokes",
-      "examples": [],
-      "description": "Request a joke."
-    },
-    {
-      "intent": "thank_you",
-      "examples": [
-        {
-          "text": "good job"
-        },
-        {
-          "text": "thx"
-        },
-        {
-          "text": "thanks"
-        },
-        {
-          "text": "nice"
-        },
-        {
-          "text": "cheers"
-        },
-        {
-          "text": "appreciate"
-        },
-        {
-          "text": "c ya"
-        }
-      ]
-    },
-    {
-      "intent": "Bot_Control_Unsure",
-      "examples": [
-        {
-          "text": "I m not certain I get what you re saying"
-        },
-        {
-          "text": "I don t know what you want"
-        },
-        {
-          "text": "I have no idea, actually"
-        },
-        {
-          "text": "To be honest, I m really not sure"
-        },
-        {
-          "text": "You got me"
-        },
-        {
-          "text": "No clue"
-        },
-        {
-          "text": "I m not sure what will make you happy"
-        },
-        {
-          "text": "No idea"
-        },
-        {
-          "text": "I m not yet convinced"
-        },
-        {
-          "text": "I have no idea what you are looking for"
-        },
-        {
-          "text": "I haven't got a clue"
-        },
-        {
-          "text": "I don t know what you need"
-        }
-      ]
-    },
-    {
-      "intent": "bye",
-      "examples": [
-        {
-          "text": "good bye"
-        },
-        {
-          "text": "c ya"
-        },
-        {
-          "text": "see you"
-        },
-        {
-          "text": "ok good bye"
-        },
-        {
-          "text": "c u"
-        },
-        {
-          "text": "bye bye"
-        },
-        {
-          "text": "bye"
-        },
-        {
-          "text": "ok bye"
-        },
-        {
-          "text": "That's it"
+          "text": "Do not like you?"
         }
       ],
-      "description": ""
+      "description": "Express unfavorable feedback."
     },
     {
-      "intent": "newEvent",
+      "intent": "greetings",
       "examples": [
         {
-          "text": "Here is some event data"
+          "text": "squad"
         },
         {
-          "text": "new event"
+          "text": "wakeup"
         },
         {
-          "text": "I want to create an event scheduled in Paris"
-        },
-        {
-          "text": "create a new event"
-        },
-        {
-          "text": "I have a new event in London"
-        },
-        {
-          "text": "news about a conference in Stockholm"
-        },
-        {
-          "text": "I have some meeting information. The event will take place in Sweden"
-        },
-        {
-          "text": "how is the forecast"
-        }
-      ]
-    },
-    {
-      "intent": "ActiveEvents",
-      "examples": []
-    },
-    {
-      "intent": "General_Greetings",
-      "examples": [
-        {
-          "text": "Good day"
-        },
-        {
-          "text": "Good morning"
-        },
-        {
-          "text": "What's up?"
-        },
-        {
-          "text": "What's new?"
-        },
-        {
-          "text": "Ok take me back"
-        },
-        {
-          "text": "Looking good eve"
-        },
-        {
-          "text": "How r u?"
-        },
-        {
-          "text": "How is it going?"
-        },
-        {
-          "text": "How have you been?"
-        },
-        {
-          "text": "How are you today?"
-        },
-        {
-          "text": "How are things going?"
+          "text": "wassup"
         },
         {
           "text": "Good evening"
         },
         {
-          "text": "Hi there"
+          "text": "good morning!"
         },
         {
-          "text": "Hi advisor"
+          "text": "greetings"
         },
         {
-          "text": "Hey you"
+          "text": "Greetings!"
         },
         {
-          "text": "Hey twin"
+          "text": "Hi"
         },
         {
-          "text": "Hey there"
+          "text": "good afternoon"
         },
         {
-          "text": "Hey there all"
+          "text": "hello"
         },
         {
-          "text": "Hey how are you doing"
+          "text": "how can I help you"
         },
         {
-          "text": "Hello"
+          "text": "kia ora"
         },
         {
-          "text": "Hello I am looking for some help here"
-        },
-        {
-          "text": "Hello Advisor"
-        },
-        {
-          "text": "Have you been well?"
-        },
-        {
-          "text": "Greetings"
-        },
-        {
-          "text": "Good to see you"
-        },
-        {
-          "text": "Hello Agent"
-        },
-        {
-          "text": "You there"
-        },
-        {
-          "text": "Who is this?"
+          "text": "howdy"
         }
-      ],
-      "description": "Greet the bot."
+      ]
     },
     {
-      "intent": "General_Positive_Feedback",
+      "intent": "General_Security_Assurance",
       "examples": [
         {
-          "text": "I'm looking forward to working with you again! :)"
+          "text": "Is this conversation secure?"
         },
         {
-          "text": "Love your work"
+          "text": "Is this an official chat?"
         },
         {
-          "text": "Ok thank you"
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "Pretesters",
+      "examples": []
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        },
+        {
+          "text": "Chat about something else"
+        }
+      ]
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Customer service representative please."
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "help"
+        },
+        {
+          "text": "What service do you offer?"
+        },
+        {
+          "text": "What can you do?"
+        },
+        {
+          "text": "Are you able to help me?"
+        },
+        {
+          "text": "I'm not sure what to ask"
+        },
+        {
+          "text": "I need some help"
+        }
+      ]
+    },
+    {
+      "intent": "Peers",
+      "examples": []
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "talk to you soon"
+        },
+        {
+          "text": "takecare"
+        },
+        {
+          "text": "No thanks"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "see yah"
+        },
+        {
+          "text": "Thank you"
+        }
+      ]
+    },
+    {
+      "intent": "thanks",
+      "examples": [
+        {
+          "text": "Cheers"
+        },
+        {
+          "text": "Ta"
         },
         {
           "text": "Thank you"
         },
         {
-          "text": "This is good"
+          "text": "Nice one"
         },
         {
-          "text": "Brilliant!"
+          "text": "Thanks watson"
         },
         {
-          "text": "This is great"
+          "text": "Cheers watson"
         },
         {
-          "text": "This is so cool"
-        },
-        {
-          "text": "You are awesome"
-        },
-        {
-          "text": "You are great"
-        },
-        {
-          "text": "You are the best"
-        },
-        {
-          "text": "You are wonderful"
-        },
-        {
-          "text": "You gave me exactly what I need!"
-        },
-        {
-          "text": "You the man"
-        },
-        {
-          "text": "You're a genius!"
-        },
-        {
-          "text": "You've been so helpful :)"
-        },
-        {
-          "text": "Can't believe you are that good"
-        },
-        {
-          "text": "How cool is this?"
-        },
-        {
-          "text": "I like what you did there! :)"
-        }
-      ],
-      "description": "Express positive sentiment or gratitude."
-    },
-    {
-      "intent": "Bot_Control_Ignore_Undo",
-      "examples": [
-        {
-          "text": "Never"
-        },
-        {
-          "text": "It's not what I mean"
-        },
-        {
-          "text": "Nothing"
-        },
-        {
-          "text": "Actually, I take that back"
-        },
-        {
-          "text": "Cancel"
-        },
-        {
-          "text": "Not yet"
-        },
-        {
-          "text": "Ignore this"
-        },
-        {
-          "text": "I did not mean that?"
-        },
-        {
-          "text": "I change my mind."
-        },
-        {
-          "text": "Hold on! I think I want to do it differently."
-        },
-        {
-          "text": "I didn't mean to do that actually, let's go back"
-        },
-        {
-          "text": "Wait! Let's back up few steps and do that again"
-        },
-        {
-          "text": "Let us redo that again!"
-        },
-        {
-          "text": "Never mind"
+          "text": "Thanks"
         }
       ]
-    },
-    {
-      "intent": "General_Human_or_Bot",
-      "examples": [],
-      "description": "Ask if speaking to a human or a bot."
     },
     {
       "intent": "Bot_Control_Standby",
       "examples": [
         {
-          "text": "Back again soon"
-        },
-        {
-          "text": "Be back later"
-        },
-        {
-          "text": "Hold on"
-        },
-        {
-          "text": "I want stop a moment"
-        },
-        {
           "text": "Be patient with me"
-        },
-        {
-          "text": "Need a minute here"
         },
         {
           "text": "In a moment"
@@ -1558,410 +1768,200 @@
         },
         {
           "text": "I will be back"
+        },
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "Need a minute here"
         }
       ]
     },
     {
-      "intent": "General_Agent_Capabilities",
+      "intent": "fetch_dmh_updates",
+      "examples": []
+    },
+    {
+      "intent": "Bot_Control_Clarification",
       "examples": [
         {
-          "text": "What are my options?"
+          "text": "I don't understand"
         },
         {
-          "text": "What are you able to deal with?"
+          "text": "I didn't understand that properly"
         },
         {
-          "text": "What are you able to understand?"
+          "text": "I didn't catch that"
         },
         {
-          "text": "What are you capable of?"
+          "text": "Can you say that again please?"
         },
         {
-          "text": "Tell me about what kind of things you do?"
+          "text": "What do you mean?"
         },
         {
-          "text": "Is there anything you can help me with?"
+          "text": "What do you mean by that?"
         },
         {
-          "text": "I'd like to know what type of questions you can answer for me."
+          "text": "What are you saying?"
         },
         {
-          "text": "How can you solve my problems?"
+          "text": "I need more information"
         },
         {
-          "text": "How can you help me?"
+          "text": "Let's try to say that again more clearly, shall we?"
         },
         {
-          "text": "How can I use you?"
+          "text": "What are you referring to?"
         },
         {
-          "text": "Hi, what do you do?"
+          "text": "Come again?"
         },
         {
-          "text": "Help now"
+          "text": "I don't understand what you're saying"
         },
         {
-          "text": "Do you have a list of things I can talk to you about?"
+          "text": "I don't get it"
         },
         {
-          "text": "Can you tell me what services you are able to help me with?"
+          "text": "I didn't quite understand what you said"
         },
         {
-          "text": "What do you handle?"
+          "text": "I did not quite understand what you gave me"
         },
         {
-          "text": "What else can you help me with?"
+          "text": "What are you talking about?"
         },
         {
-          "text": "What features are in here?"
+          "text": "Explains"
+        }
+      ]
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "I have got to go"
         },
         {
-          "text": "What is this 4?"
+          "text": "I want to quit"
         },
         {
-          "text": "What kinds of things can you do?"
+          "text": "I'm done"
         },
         {
-          "text": "Where can I find the frequently asked questions?"
+          "text": "Im done"
         },
         {
-          "text": "Tell me something"
+          "text": "Im good thank you"
         },
         {
-          "text": "What are my options that you can help with?"
+          "text": "I'm leaving now"
         },
         {
-          "text": "Can you please give me a list of the types of things you can help me with?"
+          "text": "It was nice chatting with you"
         },
         {
-          "text": "I do not know what to ask"
+          "text": "Ok goodbye"
         },
         {
-          "text": "How do I use you?"
+          "text": "See you later"
         },
         {
-          "text": "What are you good at?"
+          "text": "See you"
         },
         {
-          "text": "What are you used for?"
+          "text": "Shut up"
         },
         {
-          "text": "What are your skills?"
+          "text": "Stop doing this"
         },
         {
-          "text": "What can I ask you to do?"
+          "text": "Stop talking to me"
         },
         {
-          "text": "What do you do?"
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
         }
       ],
-      "description": "Request capabilities of the bot."
-    },
-    {
-      "intent": "help",
-      "examples": [
-        {
-          "text": "I'm not sure what to ask"
-        },
-        {
-          "text": "help"
-        },
-        {
-          "text": "What can you do?"
-        },
-        {
-          "text": "What service do you offer?"
-        },
-        {
-          "text": "Are you able to help me?"
-        },
-        {
-          "text": "I need some help"
-        }
-      ]
-    },
-    {
-      "intent": "empbyrole",
-      "examples": []
-    },
-    {
-      "intent": "Account-Manual",
-      "examples": []
-    },
-    {
-      "intent": "General_Connect_to_Agent",
-      "examples": [
-        {
-          "text": "Could you please transfer me to your master?"
-        },
-        {
-          "text": "Do not want a robot?"
-        },
-        {
-          "text": "Hi can you transfer me"
-        },
-        {
-          "text": "How can I skip the recorded menu and go straight to a live person?"
-        },
-        {
-          "text": "I would like to speak to a human"
-        },
-        {
-          "text": "I would like to speak to someone"
-        },
-        {
-          "text": "Is there anyone there I can actually talk to for real?"
-        },
-        {
-          "text": "Need help from human"
-        },
-        {
-          "text": "Operator please"
-        },
-        {
-          "text": "Please assist me to get to an agent"
-        },
-        {
-          "text": "Please connect me to a live agent"
-        },
-        {
-          "text": "Please let me talk to a human being."
-        },
-        {
-          "text": "Pls connect"
-        },
-        {
-          "text": "Put me through to someone"
-        },
-        {
-          "text": "Yes, take me to a real person"
-        },
-        {
-          "text": "Send me to an agent"
-        },
-        {
-          "text": "Where is the closest agent?"
-        },
-        {
-          "text": "A real agent, please."
-        },
-        {
-          "text": "Agent help"
-        },
-        {
-          "text": "Call agent"
-        },
-        {
-          "text": "Can I connect to an agent?"
-        },
-        {
-          "text": "Can I speak to a human please?"
-        },
-        {
-          "text": "Can I speak to a live person?"
-        },
-        {
-          "text": "Can I speak to an advisor?"
-        },
-        {
-          "text": "I want to talk to a person"
-        },
-        {
-          "text": "I want an agent to help me"
-        },
-        {
-          "text": "I want agent"
-        },
-        {
-          "text": "I want a manager"
-        },
-        {
-          "text": "I need to speak to a representative. How would I go about doing so?"
-        },
-        {
-          "text": "I don't want to talk to you"
-        },
-        {
-          "text": "I don't want to talk to a bot."
-        },
-        {
-          "text": "Can I speak with somebody?"
-        },
-        {
-          "text": "Can I talk to someone?"
-        },
-        {
-          "text": "Can you assist me to connect to an agent?"
-        },
-        {
-          "text": "Can you connect me with a real person?"
-        },
-        {
-          "text": "Connect me to a live operator please."
-        },
-        {
-          "text": "Contact person"
-        },
-        {
-          "text": "Customer service representative please."
-        }
-      ],
-      "description": "Request a human agent."
-    },
-    {
-      "intent": "greetings",
-      "examples": [
-        {
-          "text": "kia ora"
-        },
-        {
-          "text": "howdy"
-        },
-        {
-          "text": "how can I help you"
-        },
-        {
-          "text": "hello"
-        },
-        {
-          "text": "good afternoon"
-        },
-        {
-          "text": "Hi"
-        },
-        {
-          "text": "Greetings!"
-        },
-        {
-          "text": "greetings"
-        },
-        {
-          "text": "good morning!"
-        },
-        {
-          "text": "Good evening"
-        },
-        {
-          "text": "wassup"
-        },
-        {
-          "text": "wakeup"
-        },
-        {
-          "text": "squad"
-        }
-      ]
-    },
-    {
-      "intent": "Anything_else",
-      "examples": [
-        {
-          "text": "anything"
-        },
-        {
-          "text": "Than you"
-        },
-        {
-          "text": "Anything Else I can help with"
-        },
-        {
-          "text": "anything else"
-        },
-        {
-          "text": "can I help you with anything else"
-        }
-      ]
-    },
-    {
-      "intent": "General_Negative_Feedback",
-      "examples": [
-        {
-          "text": "You are very frustrating"
-        },
-        {
-          "text": "You do not seem smart"
-        },
-        {
-          "text": "You're really frustrating"
-        },
-        {
-          "text": "You're really irritating"
-        },
-        {
-          "text": "You're too stupid"
-        },
-        {
-          "text": "I do not like you"
-        },
-        {
-          "text": "I hate this!"
-        },
-        {
-          "text": "I hate you"
-        },
-        {
-          "text": "It is annoying"
-        },
-        {
-          "text": "You are on my nerves"
-        },
-        {
-          "text": "Why are you so annoying?"
-        },
-        {
-          "text": "Why are you stupid?"
-        },
-        {
-          "text": "You are having delusions"
-        },
-        {
-          "text": "Do not like you?"
-        },
-        {
-          "text": "Everyone hates you"
-        },
-        {
-          "text": "Hate you"
-        },
-        {
-          "text": "Quit annoying me"
-        },
-        {
-          "text": "Robots are boring"
-        },
-        {
-          "text": "Robots are stupid"
-        },
-        {
-          "text": "Stupid"
-        }
-      ],
-      "description": "Express unfavorable feedback."
-    },
-    {
-      "intent": "Pretesters",
-      "examples": []
-    },
-    {
-      "intent": "thankyou",
-      "examples": [
-        {
-          "text": "Thanks"
-        },
-        {
-          "text": "Thank you very much"
-        },
-        {
-          "text": "Thanks a lot"
-        },
-        {
-          "text": "Thank you"
-        }
-      ]
-    },
-    {
-      "intent": "SRT",
-      "examples": []
+      "description": "End the conversation."
     }
   ],
   "entities": [],
@@ -1987,38 +1987,19 @@
     },
     {
       "type": "standard",
-      "title": "BluePages-DMH Skills",
+      "title": "Anything else",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Modern IT Operations Analytics that enables Agile Delivery using Chat Ops Platform !.Connecting to BluePages and DMH Skills Domain."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "multiline"
-          }
-        ]
-      },
-      "context": {
-        "destination_bot": "WORKSPACE_ID_Bluepages_Skills",
-        "redirect_to_another_bot": "true"
-      },
-      "metadata": {},
-      "conditions": "#Bluepages-Skills",
-      "dialog_node": "node_1_1538584495780",
-      "previous_sibling": "node_1_1538024858380"
-    },
-    {
-      "type": "standard",
-      "title": "Greetings",
-      "output": {
-        "generic": [
-          {
-            "values": [
+                "text": "I didn't understand. You can try rephrasing."
+              },
               {
-                "text": "Modern IT Operations Analytics that enables Agile Delivery using Chat Ops Platform Welcomes You?.\nMyself Squadnagi Enterprise Advisor! Bot. These are the cross domain services, i am capable of , as we move on further towards the road map!.\n1) Resilience Services !.\n2)Blue-Pages or DMH Update Services !.\n3) BCRS Event Management Services !.\nHow may i help you today!."
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
               }
             ],
             "response_type": "text",
@@ -2027,9 +2008,30 @@
         ]
       },
       "metadata": {},
-      "conditions": "#General_Greetings",
-      "dialog_node": "node_1_1537856992108",
-      "previous_sibling": "Welcome"
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1538635558838"
+    },
+    {
+      "type": "standard",
+      "title": "bye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have a nice time. Bye."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#bye",
+      "dialog_node": "node_2_1538635558838",
+      "previous_sibling": "node_1_1538635503771"
     },
     {
       "type": "standard",
@@ -2079,40 +2081,38 @@
     },
     {
       "type": "standard",
-      "title": "bye",
+      "title": "BluePages-DMH Skills",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Have a nice time. Bye."
+                "text": "Modern IT Operations Analytics that enables Agile Delivery using Chat Ops Platform !.Connecting to BluePages and DMH Skills Domain."
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "multiline"
           }
         ]
       },
+      "context": {
+        "destination_bot": "WORKSPACE_ID_Bluepages_Skills",
+        "redirect_to_another_bot": "true"
+      },
       "metadata": {},
-      "conditions": "#bye",
-      "dialog_node": "node_2_1538635558838",
-      "previous_sibling": "node_1_1538635503771"
+      "conditions": "#Bluepages-Skills",
+      "dialog_node": "node_1_1538584495780",
+      "previous_sibling": "node_1_1538024858380"
     },
     {
       "type": "standard",
-      "title": "Anything else",
+      "title": "Greetings",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "I didn't understand. You can try rephrasing."
-              },
-              {
-                "text": "Can you reword your statement? I'm not understanding."
-              },
-              {
-                "text": "I didn't get your meaning."
+                "text": "Modern IT Operations Analytics that enables Agile Delivery using Chat Ops Platform Welcomes You?.\nMyself Squadnagi Enterprise Advisor! Bot. These are the cross domain services, i am capable of , as we move on further towards the road map!.\n1) Resilience Services !.\n2)Blue-Pages or DMH Update Services !.\n3) BCRS Event Management Services !.\nHow may i help you today!."
               }
             ],
             "response_type": "text",
@@ -2121,9 +2121,9 @@
         ]
       },
       "metadata": {},
-      "conditions": "anything_else",
-      "dialog_node": "Anything else",
-      "previous_sibling": "node_2_1538635558838"
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_1_1537856992108",
+      "previous_sibling": "Welcome"
     },
     {
       "type": "standard",
@@ -2146,7 +2146,6 @@
       "dialog_node": "Welcome"
     }
   ],
-  "workspace_id": "6abc5c45-fcdc-42ab-9f39-1d0baf31f09f",
   "counterexamples": [],
   "system_settings": {
     "tooling": {
