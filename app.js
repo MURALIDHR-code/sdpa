@@ -59,7 +59,6 @@
 		    });
 		  }
 		  var payload = {
-		    
 		    workspaceId: workspace,
 		    context: req.body.context || {},
 		    input: req.body.input || {}
@@ -77,7 +76,6 @@
 
 		    if (isRedirect(data.context)) {
 		      // When there is a redirect, get the redirect bot workspace id
-		      
 		      payload.workspaceId = getDestinationBot(data.context);
 		      // When there is a redirect, update destination bot in context so it persists along with the conversation
 		      payload.context.destination_bot = data.context.destination_bot;
@@ -85,15 +83,12 @@
 		      delete payload.context.conversation_id;
 		      // For redirect, no user action is needed. Call the redirect bot automatically and send back that response to user
 		      assistant.message(payload, function (err, data) {
-		        
 		        data = data.result
 		        if (err) {
 		          return res.status(err.code || 500).json(err);
 		        }
 		        return res.json(updateMessage(payload, data));
 		      });
-		
-		
 		    } else { // There is no redirect. So send back the response to user for further action
 		      return res.json(updateMessage(payload, data));
 		    }
@@ -118,7 +113,7 @@
 		}
 		
 		// The agent bot decides which bot the request should be redirected to and updates that in context variable.
-		// Get worspace_id for redirected bot details so messages can be sent to that bot
+		// Get workspace_id for redirected bot details so messages can be sent to that bot
 		
 		function getDestinationBot(context) {
 		  var destination_bot = null;
@@ -126,7 +121,7 @@
 		  if (context && context.destination_bot) {
 		    destination_bot = context.destination_bot.toUpperCase();
 		  }
-		
+		 
 		  var wsId = process.env["WORKSPACE_ID_" + destination_bot];
 		
 		  if (!wsId) {
@@ -139,7 +134,6 @@
 		
 		  console.log("Message being sent to: " + destination_bot + " bot");
 		  return wsId;
-		
 		}
 		/**
 		 * Updates the response text using the intent confidence
