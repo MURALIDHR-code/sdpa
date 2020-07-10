@@ -47,14 +47,14 @@
 		// Endpoint to be call from the client side
 		app.post('/api/message', function (req, res) {
 		  console.log("");
-		  // var destination_bot = '5758ad9a-c37c-4894-abf7-9368cbdba4c0';
+		  // var workspace_id = '6abc5c45-fcdc-42ab-9f39-1d0baf31f09f';
 		  var workspace = getDestinationBot(req.body.context) || '6abc5c45-fcdc-42ab-9f39-1d0baf31f09f';
 		  
 		  console.log("workspace = " + workspace);
-		  if (!workspace || workspace === 'destination_bot') {
+		  if (!workspace || workspace === '6abc5c45-fcdc-42ab-9f39-1d0baf31f09f') {
 		    return res.json({
 		      'output': {
-		       'text': 'We are on the right path' 
+		        'text': 'We are on the right path' 
 		      }
 		    });
 		  }
@@ -127,10 +127,10 @@
 		    destination_bot = context.destination_bot.toUpperCase();
 		  }
 		
-		  var wsId = process.env["destination_bot_" + destination_bot];
+		  var wsId = process.env["WORKSPACE_ID_" + destination_bot];
 		
 		  if (!wsId) {
-		    wsId = process.env["destination_bot_AGENT"];
+		    wsId = process.env["WORKSPACE_ID_AGENT"];
 		  }
 		
 		  if (!destination_bot) {
