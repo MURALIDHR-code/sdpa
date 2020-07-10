@@ -48,13 +48,12 @@
 		app.post('/api/message', function (req, res) {
 		  console.log("");
 		  // var destination_bot = '5758ad9a-c37c-4894-abf7-9368cbdba4c0 - 6abc5c45-fcdc-42ab-9f39-1d0baf31f09f';
-		  var workspace = getDestinationBot(req.body.context); // || '<workspace-id>';
-		  
+		  var workspace = getDestinationBot(req.body.context) || '5758ad9a-c37c-4894-abf7-9368cbdba4c0';
 		  console.log("workspace = " + workspace);
-		  if (!workspace) { // || workspace === '<workspace-id>') {
+		  if (!workspace) || workspace === '2e1ab090-5f51-465e-97ad-c831ec32898c') {
 		    return res.json({
-		      'output': {
-		       text: 'We are on the right path' 
+				'output': {
+     		       'text' = text 
 		      }
 		    });
 		  }
@@ -120,9 +119,9 @@
 		  
 		  if (context && context.destination_bot) {
 		    destination_bot = context.destination_bot.toUpperCase();
-		  }
+					  }
 		 
-		  var wsId = process.env["WORKSPACE_ID_" + destination_bot];
+		    var wsId = process.env["WORKSPACE_ID_" + destination_bot];
 		
 		  if (!wsId) {
 		    wsId = process.env["WORKSPACE_ID_AGENT"];
