@@ -23,7 +23,7 @@
           "text": "Have you been well?"
         },
         {
-          "text": "Hello Advisor"
+          "text": "Hello Agent"
         },
         {
           "text": "Hello I am looking for some help here"
@@ -89,13 +89,13 @@
       "description": "Greet the bot."
     },
     {
-      "intent": "Resiliency-KB",
+      "intent": "travel",
       "examples": [
         {
           "text": "arrange"
         },
         {
-          "text": "Resiliency-KB"
+          "text": "travel"
         },
         {
           "text": "book"
@@ -116,16 +116,16 @@
           "text": "status"
         }
       ],
-      "description": "Connect to Resiliency-KB bot"
+      "description": "Connect to travel bot"
     },
     {
-      "intent": "Bluepages-Skills",
+      "intent": "weather",
       "examples": [
         {
           "text": "rain"
         },
         {
-          "text": "Bluepages-Skills"
+          "text": "weather"
         },
         {
           "text": "temperature"
@@ -146,7 +146,7 @@
           "text": "pleasant"
         }
       ],
-      "description": "Bluepages-Skills bot"
+      "description": "Weather bot"
     },
     {
       "intent": "bye",
@@ -204,7 +204,7 @@
   "metadata": {
     "api_version": {
       "major_version": "v1",
-      "minor_version": "2020-04-01"
+      "minor_version": "2018-07-10"
     }
   },
   "description": "Interface Bot",
@@ -238,7 +238,7 @@
           {
             "values": [
               {
-                "text": "Modern IT Operations Analytics that enables Agile Delivery using Chat Ops Platform Welcomes You?. Myself Squdanagi-Advisor Enterprise Bot!. How can i help you"
+                "text": "Hi. How can I help you?"
               }
             ],
             "response_type": "text",
@@ -253,13 +253,13 @@
     },
     {
       "type": "standard",
-      "title": "Bluepages-Skills",
+      "title": "Weather",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "redirecting to Bluepages-Skills and DMH bot"
+                "text": "redirecting to weather bot"
               }
             ],
             "response_type": "text",
@@ -268,12 +268,12 @@
         ]
       },
       "context": {
-        "destination_bot": "Bluepages_Skills",
+        "destination_bot": "weather",
         "redirect_to_another_bot": true
       },
       "metadata": {},
-      "conditions": "#Bluepages_Skills",
-      "dialog_node": "node_3_1588076544038",
+      "conditions": "#weather",
+      "dialog_node": "node_1_1538584495780",
       "previous_sibling": "node_1_1538024858380"
     },
     {
@@ -326,13 +326,13 @@
     },
     {
       "type": "standard",
-      "title": "Resiliency_KB",
+      "title": "Travel",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Redirecting you to Resiliency-KB bot"
+                "text": "Redirecting you to travel bot"
               }
             ],
             "response_type": "text",
@@ -341,12 +341,12 @@
         ]
       },
       "context": {
-        "destination_bot": "Resiliency_KB",
+        "destination_bot": "travel",
         "redirect_to_another_bot": true
       },
       "metadata": {},
-      "conditions": "#Resiliency-KB",
-      "dialog_node": "node_2_1590645502758",
+      "conditions": "#travel",
+      "dialog_node": "node_1_1538024858380",
       "previous_sibling": "node_1_1537856992108"
     },
     {
@@ -357,7 +357,7 @@
           {
             "values": [
               {
-                "text": "Modern IT Operations Analytics that enables Agile Delivery using Chat Ops Platform Welcomes You?. Myself Resiliency-KB Bot!. How can I help you?"
+                "text": "Hello. How can I help you?"
               }
             ],
             "response_type": "text",
@@ -370,7 +370,7 @@
       "dialog_node": "Welcome"
     }
   ],
-  "workspace_id": "6abc5c45-fcdc-42ab-9f39-1d0baf31f09f",
+  "workspace_id": "73f2a092-83eb-4701-9c9d-62ea6f5b10f8",
   "counterexamples": [],
   "system_settings": {
     "tooling": {

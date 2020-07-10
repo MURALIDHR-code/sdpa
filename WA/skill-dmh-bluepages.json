@@ -1,25 +1,130 @@
 {
   "intents": [
     {
-      "intent": "fetch_dmh_updates",
+      "intent": "Bot_Control_Start_Over",
       "examples": [
         {
-          "text": "this month"
+          "text": "Back to the beginning"
         },
         {
-          "text": "Fetch this year dmh updates"
+          "text": "Back to the top"
         },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "We will need to begin again"
+        },
+        {
+          "text": "Actually, let's start over"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "Ignore this"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "fetch_dmh_updates",
+      "examples": [
         {
           "text": "Fetch this half-year dmh updates"
         },
         {
           "text": "Fetch this quater dmh updates"
-        },
-        {
-          "text": "Show me DMH Updates of sacbshah"
-        },
-        {
-          "text": "Fetch DMH Updates"
         },
         {
           "text": "Fetch this month dmh updates"
@@ -28,127 +133,111 @@
           "text": "Fetch this week dmh updates"
         },
         {
+          "text": "Show me DMH Updates of sacbshah"
+        },
+        {
+          "text": "Fetch DMH Updates"
+        },
+        {
+          "text": "Fetch this year dmh updates"
+        },
+        {
           "text": "Extract DMH Updates"
+        },
+        {
+          "text": "this month"
         }
       ],
       "description": "Fetch DMH Updates by Dates/Duration and/or by Users"
     },
     {
-      "intent": "Peers",
+      "intent": "Bot_Control_Clarification",
       "examples": [
         {
-          "text": "Would you show me list of peers?"
+          "text": "What are you talking about?"
         },
         {
-          "text": "List of Peers please"
+          "text": "What are you referring to?"
         },
         {
-          "text": "who are the peers of email@ibm.com"
+          "text": "Let's try to say that again more clearly, shall we?"
         },
         {
-          "text": "Kindly show me peers of emp@in.ibm.com"
+          "text": "I need more information"
         },
         {
-          "text": "Get me peers of emp@us.ibm.com"
+          "text": "I don't understand"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "What do you mean by that?"
+        },
+        {
+          "text": "What are you saying?"
         }
       ],
-      "description": "Fetch Peers related data"
+      "description": "Repeat or clarify last statement."
     },
     {
-      "intent": "newEvent",
+      "intent": "help",
       "examples": [
         {
-          "text": "Here is some event data"
+          "text": "help"
         },
         {
-          "text": "I have a new event in London",
-          "mentions": [
-            {
-              "entity": "eventLocation",
-              "location": [
-                22,
-                28
-              ]
-            }
-          ]
+          "text": "What can you do?"
         },
         {
-          "text": "news about a conference in Stockholm",
-          "mentions": [
-            {
-              "entity": "eventLocation",
-              "location": [
-                27,
-                36
-              ]
-            }
-          ]
+          "text": "What service do you offer?"
         },
         {
-          "text": "I want to create an event scheduled in Paris",
-          "mentions": [
-            {
-              "entity": "eventLocation",
-              "location": [
-                39,
-                44
-              ]
-            }
-          ]
+          "text": "Are you able to help me?"
         },
         {
-          "text": "I have some meeting information. The event will take place in Sweden",
-          "mentions": [
-            {
-              "entity": "eventLocation",
-              "location": [
-                62,
-                68
-              ]
-            }
-          ]
+          "text": "I need some help"
         },
         {
-          "text": "new event"
-        },
-        {
-          "text": "create a new event"
-        },
-        {
-          "text": "how is the forecast"
+          "text": "I'm not sure what to ask"
         }
-      ],
-      "description": "ask for event data"
+      ]
     },
     {
       "intent": "Bot_Control_Change_Subject",
       "examples": [
         {
-          "text": "Talk about something else"
-        },
-        {
-          "text": "Discuss something else"
-        },
-        {
-          "text": "Can we talk about something else?"
-        },
-        {
           "text": "Change topic"
         },
         {
-          "text": "Chat about something else"
-        },
-        {
-          "text": "Help me with this other question"
-        },
-        {
-          "text": "Here is another issue"
-        },
-        {
-          "text": "I have one more question"
-        },
-        {
-          "text": "Let us change the topic"
+          "text": "Can we talk about something else?"
         },
         {
           "text": "Another thing"
@@ -157,16 +246,262 @@
           "text": "A different matter"
         },
         {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
           "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Discuss something else"
         }
       ],
       "description": "Change to a different topic."
     },
     {
+      "intent": "empbyrole",
+      "examples": [
+        {
+          "text": "Get list of Employees by Project Manager",
+          "mentions": [
+            {
+              "entity": "empRole",
+              "location": [
+                25,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Who are in System Administrator for BAU",
+          "mentions": [
+            {
+              "entity": "empRole",
+              "location": [
+                11,
+                31
+              ]
+            },
+            {
+              "entity": "prjType",
+              "location": [
+                36,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "show me Incident manager of Transformation group",
+          "mentions": [
+            {
+              "entity": "empRole",
+              "location": [
+                8,
+                24
+              ]
+            },
+            {
+              "entity": "prjType",
+              "location": [
+                28,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Who are from Change Management Team of RFS Group",
+          "mentions": [
+            {
+              "entity": "empRole",
+              "location": [
+                13,
+                30
+              ]
+            },
+            {
+              "entity": "prjType",
+              "location": [
+                39,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Fetch the members of Security Delivery Specialist under BAU",
+          "mentions": [
+            {
+              "entity": "empRole",
+              "location": [
+                21,
+                49
+              ]
+            },
+            {
+              "entity": "prjType",
+              "location": [
+                56,
+                59
+              ]
+            }
+          ]
+        },
+        {
+          "text": "who is PMO of RFS Group?",
+          "mentions": [
+            {
+              "entity": "empRole",
+              "location": [
+                7,
+                10
+              ]
+            },
+            {
+              "entity": "prjType",
+              "location": [
+                14,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "who are the RFS PM ?",
+          "mentions": [
+            {
+              "entity": "empRole",
+              "location": [
+                16,
+                18
+              ]
+            },
+            {
+              "entity": "prjType",
+              "location": [
+                12,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Who are the BAU Project Manager",
+          "mentions": [
+            {
+              "entity": "empRole",
+              "location": [
+                16,
+                31
+              ]
+            },
+            {
+              "entity": "prjType",
+              "location": [
+                12,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me Technical Solution Manager of RFS Group",
+          "mentions": [
+            {
+              "entity": "empRole",
+              "location": [
+                8,
+                34
+              ]
+            },
+            {
+              "entity": "prjType",
+              "location": [
+                38,
+                41
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Give me Wintel Administrator resources of BAU group",
+          "mentions": [
+            {
+              "entity": "empRole",
+              "location": [
+                8,
+                28
+              ]
+            },
+            {
+              "entity": "prjType",
+              "location": [
+                42,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "text": "who are from PMO role ?"
+        }
+      ],
+      "description": "List of Employees by Role"
+    },
+    {
+      "intent": "Peers",
+      "examples": [
+        {
+          "text": "Kindly show me peers of emp@in.ibm.com"
+        },
+        {
+          "text": "Get me peers of emp@us.ibm.com"
+        },
+        {
+          "text": "Would you show me list of peers?"
+        },
+        {
+          "text": "List of Peers please"
+        },
+        {
+          "text": "who are the peers of email@ibm.com"
+        }
+      ],
+      "description": "Fetch Peers related data"
+    },
+    {
       "intent": "Bot_Control_Standby",
       "examples": [
         {
-          "text": "Be back later"
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Keep holding"
         },
         {
           "text": "Let me see"
@@ -187,237 +522,349 @@
           "text": "Give me a moment"
         },
         {
-          "text": "I want stop a moment"
-        },
-        {
-          "text": "Hold on"
-        },
-        {
-          "text": "Back again soon"
-        },
-        {
-          "text": "I will be back"
-        },
-        {
-          "text": "Wait"
-        },
-        {
-          "text": "Out for a break"
+          "text": "Can you wait for me?"
         },
         {
           "text": "Give me a few minutes to get together"
         },
         {
-          "text": "Can you wait for me?"
+          "text": "Out for a break"
         },
         {
-          "text": "I would like to put you on hold"
+          "text": "Wait"
         },
         {
-          "text": "In a moment"
+          "text": "I will be back"
         },
         {
-          "text": "Just a sec"
+          "text": "Be back later"
         },
         {
-          "text": "Just hold on"
+          "text": "Back again soon"
         },
         {
-          "text": "Keep holding"
+          "text": "Hold on"
+        },
+        {
+          "text": "I want stop a moment"
         }
       ],
       "description": "Indicate a delay in providing input to the bot."
     },
     {
-      "intent": "Bot_Control_Ignore_Undo",
+      "intent": "Bot_Control_Confirm_Presence",
       "examples": [
         {
-          "text": "Cancel"
+          "text": "Did you go somewhere?"
         },
         {
-          "text": "Wait! Let's back up few steps and do that again"
+          "text": "You around?"
         },
         {
-          "text": "Nothing"
+          "text": "Are you leaving me?"
         },
         {
-          "text": "Not yet"
+          "text": "Anyone there?"
         },
         {
-          "text": "Never"
+          "text": "Am I talking to someone?"
         },
         {
-          "text": "Never mind"
+          "text": "Are you on?"
         },
         {
-          "text": "I change my mind."
+          "text": "Where'd you go?"
         },
         {
-          "text": "I did not mean that?"
+          "text": "Speak to me if you are there."
         },
         {
-          "text": "It's not what I mean"
+          "text": "Is anybody home?"
         },
         {
-          "text": "Hold on! I think I want to do it differently."
+          "text": "Is anybody here?"
         },
         {
-          "text": "Ignore this"
+          "text": "I am still holding"
         },
         {
-          "text": "I didn't mean to do that actually, let's go back"
+          "text": "Have I lost you?"
         },
         {
-          "text": "Actually, I take that back"
+          "text": "Did you hear what I said?"
         },
         {
-          "text": "Let us redo that again!"
+          "text": "Are you there?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you still around?"
         }
       ],
-      "description": "Ask the bot to take one step back."
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "EmpDetail",
+      "examples": [
+        {
+          "text": "Get me detail of sacbshah@in.ibm.com"
+        },
+        {
+          "text": "Share me the detail of email@domain.com"
+        },
+        {
+          "text": "Show me contact info of email@domain.com"
+        },
+        {
+          "text": "Provide employee detail of ghonavar@in.ibm.com"
+        },
+        {
+          "text": "Employee detail of pal.anindya@in.ibm.com please"
+        },
+        {
+          "text": "share me employee detail of ghonavar@in.ibm.com"
+        }
+      ],
+      "description": "Provide basic information of requested employee."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "You got me"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "Reportees",
+      "examples": [
+        {
+          "text": "Who are my Reportees?"
+        },
+        {
+          "text": "list of reportees of ghonavar@in.ibm.com"
+        },
+        {
+          "text": "List my reportees"
+        },
+        {
+          "text": "Who are reporting to me?"
+        }
+      ],
+      "description": "Provide list of reportees of requestor or by specific Manager's ID"
     },
     {
       "intent": "Bot_Control_Approve_Response",
       "examples": [
         {
-          "text": "For sure!"
-        },
-        {
-          "text": "Sweet"
-        },
-        {
-          "text": "You read my mind"
-        },
-        {
-          "text": "Yes"
-        },
-        {
-          "text": "Yeah, that's it!"
-        },
-        {
-          "text": "Very well. Let's do it."
-        },
-        {
-          "text": "This is alright"
-        },
-        {
-          "text": "Indeed!"
-        },
-        {
-          "text": "I like that"
-        },
-        {
-          "text": "I agree"
-        },
-        {
-          "text": "Great"
-        },
-        {
-          "text": "That is what I need"
-        },
-        {
-          "text": "Got it"
-        },
-        {
-          "text": "Correct"
-        },
-        {
-          "text": "All right"
-        },
-        {
-          "text": "Affirmative. That's what I'm looking for."
-        },
-        {
-          "text": "Sure thing!"
-        },
-        {
-          "text": "That is precisely what I was looking for"
-        },
-        {
-          "text": "That is right"
+          "text": "That's exactly what I want"
         },
         {
           "text": "That is the proper response."
         },
         {
-          "text": "That's exactly what I want"
+          "text": "That is right"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "You read my mind"
         }
       ],
       "description": "Acknowledge that the response satisfies a question."
     },
     {
-      "intent": "thanks",
+      "intent": "newEvent",
       "examples": [
         {
-          "text": "Cheers watson"
+          "text": "I have some meeting information. The event will take place in Sweden",
+          "mentions": [
+            {
+              "entity": "eventLocation",
+              "location": [
+                62,
+                68
+              ]
+            }
+          ]
         },
         {
-          "text": "Cheers"
+          "text": "news about a conference in Stockholm",
+          "mentions": [
+            {
+              "entity": "eventLocation",
+              "location": [
+                27,
+                36
+              ]
+            }
+          ]
         },
         {
-          "text": "Nice one"
+          "text": "new event"
         },
         {
-          "text": "Thanks watson"
+          "text": "create a new event"
         },
         {
-          "text": "Thank you"
+          "text": "I want to create an event scheduled in Paris",
+          "mentions": [
+            {
+              "entity": "eventLocation",
+              "location": [
+                39,
+                44
+              ]
+            }
+          ]
         },
         {
-          "text": "Ta"
+          "text": "I have a new event in London",
+          "mentions": [
+            {
+              "entity": "eventLocation",
+              "location": [
+                22,
+                28
+              ]
+            }
+          ]
         },
         {
-          "text": "Thanks"
+          "text": "Here is some event data"
+        },
+        {
+          "text": "how is the forecast"
         }
-      ]
+      ],
+      "description": "ask for event data"
     },
     {
       "intent": "Bot_Control_Reject_Response",
       "examples": [
         {
-          "text": "I wasn't looking for that"
-        },
-        {
-          "text": "I don't want that"
-        },
-        {
-          "text": "It is not what I was looking for"
-        },
-        {
-          "text": "I disagree"
-        },
-        {
-          "text": "I don't need that"
+          "text": "You did not understand what I asked"
         },
         {
           "text": "Wrong response"
         },
         {
-          "text": "You did not understand what I asked"
+          "text": "I don't need that"
         },
         {
-          "text": "Not the right response"
+          "text": "I disagree"
         },
         {
-          "text": "You didn't understand me"
+          "text": "It is not what I was looking for"
         },
         {
-          "text": "Bad response"
+          "text": "I don't want that"
         },
         {
-          "text": "I do not think it is the answer?"
-        },
-        {
-          "text": "You're misunderstanding me"
-        },
-        {
-          "text": "It is not what I want"
+          "text": "I wasn't looking for that"
         },
         {
           "text": "No I'm fine thanks"
         },
         {
-          "text": "You did not understand what I said"
+          "text": "It is not what I want"
+        },
+        {
+          "text": "You're misunderstanding me"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "Not the right response"
         },
         {
           "text": "No"
@@ -436,6 +883,12 @@
         },
         {
           "text": "That was wrong, try again"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You did not understand what I said"
         }
       ],
       "description": "Indicate the bot's response does not address a question."
@@ -444,52 +897,16 @@
       "intent": "showConference",
       "examples": [
         {
-          "text": "query the event data for events in Friedrichshafen",
-          "mentions": [
-            {
-              "entity": "eventLocation",
-              "location": [
-                35,
-                50
-              ]
-            }
-          ]
-        },
-        {
-          "text": "search"
-        },
-        {
-          "text": "search for conference"
-        },
-        {
-          "text": "show event information"
-        },
-        {
-          "text": "show conference"
-        },
-        {
           "text": "conference data"
         },
         {
-          "text": "what is the meeting information"
-        },
-        {
-          "text": "where is the event"
-        },
-        {
-          "text": "what is the information for conference"
-        },
-        {
-          "text": "When is the meeting"
-        },
-        {
-          "text": "do you have information on an upcoming event in San Francisco?",
+          "text": "give me information on conferences in Australia",
           "mentions": [
             {
               "entity": "eventLocation",
               "location": [
-                48,
-                61
+                38,
+                47
               ]
             }
           ]
@@ -507,594 +924,156 @@
           ]
         },
         {
-          "text": "give me information on conferences in Australia",
+          "text": "do you have information on an upcoming event in San Francisco?",
           "mentions": [
             {
               "entity": "eventLocation",
               "location": [
-                38,
-                47
+                48,
+                61
               ]
             }
           ]
         },
         {
+          "text": "query the event data for events in Friedrichshafen",
+          "mentions": [
+            {
+              "entity": "eventLocation",
+              "location": [
+                35,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "text": "show conference"
+        },
+        {
+          "text": "show event information"
+        },
+        {
+          "text": "search for conference"
+        },
+        {
+          "text": "search"
+        },
+        {
           "text": "tell me about the event on Monday"
+        },
+        {
+          "text": "where is the event"
+        },
+        {
+          "text": "When is the meeting"
+        },
+        {
+          "text": "what is the meeting information"
+        },
+        {
+          "text": "what is the information for conference"
         }
       ],
       "description": "show event information"
     },
     {
-      "intent": "Bot_Control_Start_Over",
+      "intent": "thanks",
       "examples": [
         {
-          "text": "I would like to start all over"
+          "text": "Nice one"
         },
         {
-          "text": "Let's pick this up from the top again."
+          "text": "Thanks watson"
         },
         {
-          "text": "One more time from the beginning"
+          "text": "Thank you"
         },
         {
-          "text": "Please initiate from the beginning"
+          "text": "Ta"
         },
         {
-          "text": "Please reset"
+          "text": "Thanks"
         },
         {
-          "text": "Please start a new chat"
+          "text": "Cheers"
         },
         {
-          "text": "I need to reset."
-        },
-        {
-          "text": "Back to the top"
-        },
-        {
-          "text": "Restart"
-        },
-        {
-          "text": "Start over"
-        },
-        {
-          "text": "We need a do-over"
-        },
-        {
-          "text": "We will need to begin again"
-        },
-        {
-          "text": "Actually, let's start over"
-        },
-        {
-          "text": "Back to the beginning"
-        },
-        {
-          "text": "Begin over!"
-        },
-        {
-          "text": "exit"
-        },
-        {
-          "text": "Can we please start over?"
-        },
-        {
-          "text": "I want start from the beginning"
-        },
-        {
-          "text": "How can I start over?"
-        },
-        {
-          "text": "Let's go back to square one"
-        },
-        {
-          "text": "Let us reopen this again."
-        }
-      ],
-      "description": "Restart bot or current flow."
-    },
-    {
-      "intent": "Bot_Control_Confirm_Presence",
-      "examples": [
-        {
-          "text": "Have I lost you?"
-        },
-        {
-          "text": "Did you hear what I said?"
-        },
-        {
-          "text": "Are you there?"
-        },
-        {
-          "text": "Are you still here with me?"
-        },
-        {
-          "text": "Are you still around?"
-        },
-        {
-          "text": "Anyone there?"
-        },
-        {
-          "text": "Are you leaving me?"
-        },
-        {
-          "text": "You around?"
-        },
-        {
-          "text": "Where'd you go?"
-        },
-        {
-          "text": "Did you go somewhere?"
-        },
-        {
-          "text": "Are you on?"
-        },
-        {
-          "text": "Am I talking to someone?"
-        },
-        {
-          "text": "Speak to me if you are there."
-        },
-        {
-          "text": "Is anybody home?"
-        },
-        {
-          "text": "Is anybody here?"
-        },
-        {
-          "text": "I am still holding"
-        }
-      ],
-      "description": "Ask the bot to indicate that it is available."
-    },
-    {
-      "intent": "Bot_Control_Unsure",
-      "examples": [
-        {
-          "text": "I m not yet convinced"
-        },
-        {
-          "text": "I have no idea, actually"
-        },
-        {
-          "text": "No clue"
-        },
-        {
-          "text": "To be honest, I m really not sure"
-        },
-        {
-          "text": "I m not sure what will make you happy"
-        },
-        {
-          "text": "No idea"
-        },
-        {
-          "text": "I don t know what you want"
-        },
-        {
-          "text": "You got me"
-        },
-        {
-          "text": "I don t know what you need"
-        },
-        {
-          "text": "I m not certain I get what you re saying"
-        },
-        {
-          "text": "I haven't got a clue"
-        },
-        {
-          "text": "I have no idea what you are looking for"
-        }
-      ],
-      "description": "Indicate no definite answer to a question."
-    },
-    {
-      "intent": "Bot_Control_Clarification",
-      "examples": [
-        {
-          "text": "I didn't understand that properly"
-        },
-        {
-          "text": "Let's try to say that again more clearly, shall we?"
-        },
-        {
-          "text": "What are you saying?"
-        },
-        {
-          "text": "What do you mean by that?"
-        },
-        {
-          "text": "What do you mean?"
-        },
-        {
-          "text": "Can you say that again please?"
-        },
-        {
-          "text": "I didn't catch that"
-        },
-        {
-          "text": "What are you referring to?"
-        },
-        {
-          "text": "Come again?"
-        },
-        {
-          "text": "I didn't quite understand what you said"
-        },
-        {
-          "text": "I did not quite understand what you gave me"
-        },
-        {
-          "text": "Explains"
-        },
-        {
-          "text": "I don't get it"
-        },
-        {
-          "text": "I don't understand what you're saying"
-        },
-        {
-          "text": "I don't understand"
-        },
-        {
-          "text": "What are you talking about?"
-        },
-        {
-          "text": "I need more information"
-        }
-      ],
-      "description": "Repeat or clarify last statement."
-    },
-    {
-      "intent": "empbyrole",
-      "examples": [
-        {
-          "text": "show me incident manager for transition"
-        },
-        {
-          "text": "show me #empRole of #prjType"
-        },
-        {
-          "text": "Who are in System Administrator for BAU"
-        },
-        {
-          "text": "Get list of Employees by Project Manager"
-        }
-      ],
-      "description": "List of Employees by Role"
-    },
-    {
-      "intent": "Reportees",
-      "examples": [
-        {
-          "text": "list of reportees of ghonavar@in.ibm.com"
-        },
-        {
-          "text": "Who are my Reportees?"
-        },
-        {
-          "text": "Who are reporting to me?"
-        },
-        {
-          "text": "List my reportees"
-        }
-      ],
-      "description": "Provide list of reportees of requestor or by specific Manager's ID"
-    },
-    {
-      "intent": "help",
-      "examples": [
-        {
-          "text": "Are you able to help me?"
-        },
-        {
-          "text": "What service do you offer?"
-        },
-        {
-          "text": "What can you do?"
-        },
-        {
-          "text": "help"
-        },
-        {
-          "text": "I'm not sure what to ask"
-        },
-        {
-          "text": "I need some help"
+          "text": "Cheers watson"
         }
       ]
-    },
-    {
-      "intent": "EmpDetail",
-      "examples": [
-        {
-          "text": "Share me the detail of email@domain.com"
-        },
-        {
-          "text": "Employee detail of pal.anindya@in.ibm.com please"
-        },
-        {
-          "text": "Provide employee detail of ghonavar@in.ibm.com"
-        },
-        {
-          "text": "Show me contact info of email@domain.com"
-        },
-        {
-          "text": "share me employee detail of ghonavar@in.ibm.com"
-        },
-        {
-          "text": "Get me detail of sacbshah@in.ibm.com"
-        }
-      ],
-      "description": "Provide basic information of requested employee."
     }
   ],
   "entities": [
     {
-      "entity": "sys-time",
-      "values": []
+      "entity": "eventContact",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "websiteURI",
+          "patterns": [
+            "(https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6})([\\/\\w \\.-]*)*\\/?$"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "slackProvidedURI",
+          "patterns": [
+            "<[A-Za-z0-9._|:%@\\/]+>"
+          ]
+        }
+      ]
     },
     {
-      "entity": "shortname",
+      "entity": "prjType",
       "values": [
         {
           "type": "synonyms",
-          "value": "VENKATPE",
+          "value": "BAU",
           "synonyms": [
-            "venkatpe@in.ibm.com"
+            "BAU"
           ]
         },
         {
           "type": "synonyms",
-          "value": "SACBSHAH",
+          "value": "RFS",
           "synonyms": [
-            "sacbshah@in.ibm.com"
+            "RFS"
           ]
         },
         {
           "type": "synonyms",
-          "value": "KASTGHOS",
+          "value": "Transformation",
           "synonyms": [
-            "kastghos@in.ibm.com"
+            "Transformation",
+            "T&T"
           ]
-        },
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reporteesByLocation",
+      "values": [
         {
           "type": "synonyms",
-          "value": "URAJANNA",
+          "value": "location",
           "synonyms": [
-            "urajanna@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "VRAMAPRA",
-          "synonyms": [
-            "vramapra@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "JATIDASH",
-          "synonyms": [
-            "jatidash@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "SANGPATT",
-          "synonyms": [
-            "sangpatt@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "MANVEERA",
-          "synonyms": [
-            "manveera@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "umapatra",
-          "synonyms": [
-            "umapatra@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "VIJATKUM",
-          "synonyms": [
-            "vijatkum@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "tussarka",
-          "synonyms": [
-            "tussarka@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "madhusudana.rao",
-          "synonyms": [
-            "madhusudana.rao@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "ASHOKPK1",
-          "synonyms": [
-            "ashokpk1@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "rd.murali",
-          "synonyms": [
-            "rd.murali@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "ghonavar",
-          "synonyms": [
-            "ghonavar@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "DASINGH0",
-          "synonyms": [
-            "dasingh0@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "SEEVASUD",
-          "synonyms": [
-            "seevasud@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "NMOHAMM4",
-          "synonyms": [
-            "nmohamm4@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "SACHINK3",
-          "synonyms": [
-            "sachink3@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "SHIVARAI",
-          "synonyms": [
-            "shivarai@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "HARMENON",
-          "synonyms": [
-            "harmenon@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "JAHEBBAR",
-          "synonyms": [
-            "jahebbar@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "DEBOBRDU",
-          "synonyms": [
-            "debobrdu@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "ANUPDEY1",
-          "synonyms": [
-            "anupdey1@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "MEERALI1",
-          "synonyms": [
-            "meerali1@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "KUNDPAND",
-          "synonyms": [
-            "kundpand@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "DARULAPP",
-          "synonyms": [
-            "darulapp@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "BONDARAO",
-          "synonyms": [
-            "bondarao@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "MUREDDY2",
-          "synonyms": [
-            "mureddy2@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "AJABDULS",
-          "synonyms": [
-            "ajabduls@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "RAVBHONS",
-          "synonyms": [
-            "ravbhons@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "MMUBASHI",
-          "synonyms": [
-            "mmubashi@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "SUDDEVAR",
-          "synonyms": [
-            "suddevar@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "GOPSHETE",
-          "synonyms": [
-            "gopshete@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "SHRNAIDU",
-          "synonyms": [
-            "shrnaidu@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "SNATARA3",
-          "synonyms": [
-            "snatara3@in.ibm.com"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "SRIKBAND",
-          "synonyms": [
-            "srikband@in.ibm.com"
+            "Bangalore",
+            "Hyderabad",
+            "Pune",
+            "Delhi",
+            "Noida",
+            "Chennai",
+            "Greater Noida",
+            "Kolkata"
           ]
         }
       ],
@@ -1105,84 +1084,31 @@
       "values": []
     },
     {
-      "entity": "eventName",
-      "values": [
-        {
-          "type": "patterns",
-          "value": "shortname",
-          "patterns": [
-            "[\"„“][A-Za-z0-9.:| @\\']+[\"”“]"
-          ]
-        }
-      ]
-    },
-    {
-      "entity": "eventLocation",
+      "entity": "Region",
       "values": [
         {
           "type": "synonyms",
-          "value": "Sweden",
+          "value": "Peru",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Australia",
+          "value": "North America",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "San Diego",
+          "value": "NA/ LATAM",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Friedrichshafen",
+          "value": "NA, EMEA",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Frankfurt",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "New York",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "San Francisco",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Paris",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "London",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Beijing",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Stockholm",
-          "synonyms": []
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "empRole",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "NA Distributed Systems SME",
+          "value": "NA and LA",
           "synonyms": []
         },
         {
@@ -1197,149 +1123,262 @@
         },
         {
           "type": "synonyms",
-          "value": "MY WPP Delivery Lead",
+          "value": "Malaysia",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MWS TeamLead @WPP Hungary",
+          "value": "Latin America",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MWS -Mobility & Workplace Device Support -(MWDS)- Team Leader",
+          "value": "LATAM,NA",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MWS Metrics",
+          "value": "LATAM, NA",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MWPM Manager",
+          "value": "LATAM",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MWPM Image SME",
+          "value": "Korea",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MSSQL DBA -SME-WPP",
+          "value": "India",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MSSQL DBA -SME- WPP",
+          "value": "Hong Kong/China Offshore",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MSSQL DBA SME - WPP",
+          "value": "Hindu",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MSS Security Integration Engineer",
+          "value": "Global",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MSS Contract Manager - Security Services",
+          "value": "EMEA, Global",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MS SQL Server DBA SME @ WPP",
+          "value": "EMEA",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MS SQL Database Administrator",
+          "value": "China Onshore",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Mobility & Workplace Services Lead @WPP",
+          "value": "Chile",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Mobile Device Management SME",
+          "value": "CEE & Nordics",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Mobile device management (WPP - Kantar)",
+          "value": "Brazil",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MMS-PM Specialist",
+          "value": "Bangalore",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MMS-PM Packaging Specialist",
+          "value": "Australia",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "MMS Management",
+          "value": "Asia Pacific",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Migration-SME",
+          "value": "Argentina",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Migration Specialist",
+          "value": "APAC",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Migration SME - Windows",
+          "value": "AP",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Migration SME - VMWare",
+          "value": "New York",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Migration SME - Linux",
+          "value": "Vietnam",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Migration SME",
+          "value": "Thailand",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Migration PM",
+          "value": "Thai",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Migration Manager",
+          "value": "Taiwan",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Migration Engineers",
+          "value": "Singapore",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Migration Engineer",
+          "value": "Regular",
           "synonyms": []
         },
+        {
+          "type": "synonyms",
+          "value": "Philippines",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "eventName",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "shortname",
+          "patterns": [
+            "[\"„“][A-Za-z0-9.:| @\\']+[\"”“]"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "eventLocation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "London",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stockholm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sweden",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Australia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Frankfurt",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San Diego",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Friedrichshafen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Beijing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paris",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San Francisco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "New York",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "queryPredicate",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "identifier",
+          "synonyms": [
+            "name",
+            "id",
+            "title"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "date",
+          "synonyms": [
+            "duration",
+            "time",
+            "month",
+            "day"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "empRole",
+      "values": [
         {
           "type": "synonyms",
           "value": "Migration Architect",
@@ -5562,6 +5601,11 @@
         },
         {
           "type": "synonyms",
+          "value": "Service Integration Leader-MWS (India)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
           "value": "Service Integration Leader, Mobility and Workplace Services",
           "synonyms": []
         },
@@ -5737,6 +5781,11 @@
         },
         {
           "type": "synonyms",
+          "value": "Service Availability Manager",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
           "value": "Server Support Specialist",
           "synonyms": []
         },
@@ -5748,6 +5797,11 @@
         {
           "type": "synonyms",
           "value": "Server Build",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Senior Voice Engineer/Architect",
           "synonyms": []
         },
         {
@@ -5863,11 +5917,6 @@
         {
           "type": "synonyms",
           "value": "Senior Operation Professional - Messaging",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Senior Operation Professional",
           "synonyms": []
         },
         {
@@ -6912,16 +6961,6 @@
         },
         {
           "type": "synonyms",
-          "value": "Service Integration Leader-MWS (India)",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Senior Voice Engineer/Architect",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
           "value": "Onboarded to be offboarded - not found in WFML",
           "synonyms": []
         },
@@ -7027,7 +7066,12 @@
         },
         {
           "type": "synonyms",
-          "value": "Service Availability Manager",
+          "value": "Change Management",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Senior Operation Professional",
           "synonyms": []
         },
         {
@@ -7164,105 +7208,166 @@
           "type": "synonyms",
           "value": "NA Distributed Tower Lead for WPP",
           "synonyms": []
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "queryPredicate",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "identifier",
-          "synonyms": [
-            "name",
-            "id",
-            "title"
-          ]
         },
         {
           "type": "synonyms",
-          "value": "date",
-          "synonyms": [
-            "duration",
-            "time",
-            "month",
-            "day"
-          ]
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "prjType",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "BAU",
-          "synonyms": [
-            "BAU"
-          ]
+          "value": "NA Distributed Systems SME",
+          "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Transformation",
-          "synonyms": [
-            "Transformation",
-            "T&T"
-          ]
+          "value": "NA",
+          "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "RFS",
-          "synonyms": [
-            "RFS"
-          ]
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "eventContact",
-      "values": [
-        {
-          "type": "patterns",
-          "value": "email",
-          "patterns": [
-            "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b"
-          ]
+          "value": "N/A",
+          "synonyms": []
         },
-        {
-          "type": "patterns",
-          "value": "slackProvidedURI",
-          "patterns": [
-            "<[A-Za-z0-9._|:%@\\/]+>"
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "websiteURI",
-          "patterns": [
-            "(https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6})([\\/\\w \\.-]*)*\\/?$"
-          ]
-        }
-      ]
-    },
-    {
-      "entity": "reporteesByLocation",
-      "values": [
         {
           "type": "synonyms",
-          "value": "location",
-          "synonyms": [
-            "Bangalore",
-            "Hyderabad",
-            "Pune",
-            "Delhi",
-            "Noida",
-            "Chennai",
-            "Greater Noida",
-            "Kolkata"
-          ]
+          "value": "MY WPP Delivery Lead",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MWS TeamLead @WPP Hungary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MWS -Mobility & Workplace Device Support -(MWDS)- Team Leader",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MWS Metrics",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MWPM Manager",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MWPM Image SME",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MSSQL DBA -SME-WPP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MSSQL DBA -SME- WPP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MSSQL DBA SME - WPP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MSS Security Integration Engineer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MSS Contract Manager - Security Services",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MS SQL Server DBA SME @ WPP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MS SQL Database Administrator",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mobility & Workplace Services Lead @WPP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mobile Device Management SME",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mobile device management (WPP - Kantar)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MMS-PM Specialist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MMS-PM Packaging Specialist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MMS Management",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Migration-SME",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Migration Specialist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Migration SME - Windows",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Migration SME - VMWare",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Migration SME - Linux",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Migration SME",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Migration PM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Migration Manager",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Migration Engineers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Migration Engineer",
+          "synonyms": []
         }
       ],
       "fuzzy_match": true
@@ -7275,6 +7380,271 @@
           "value": "email",
           "patterns": [
             "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "shortname",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "DASINGH0",
+          "synonyms": [
+            "dasingh0@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NMOHAMM4",
+          "synonyms": [
+            "nmohamm4@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SEEVASUD",
+          "synonyms": [
+            "seevasud@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "JAHEBBAR",
+          "synonyms": [
+            "jahebbar@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HARMENON",
+          "synonyms": [
+            "harmenon@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SHIVARAI",
+          "synonyms": [
+            "shivarai@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SACHINK3",
+          "synonyms": [
+            "sachink3@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VENKATPE",
+          "synonyms": [
+            "venkatpe@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DEBOBRDU",
+          "synonyms": [
+            "debobrdu@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ANUPDEY1",
+          "synonyms": [
+            "anupdey1@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MEERALI1",
+          "synonyms": [
+            "meerali1@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "KUNDPAND",
+          "synonyms": [
+            "kundpand@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DARULAPP",
+          "synonyms": [
+            "darulapp@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BONDARAO",
+          "synonyms": [
+            "bondarao@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MUREDDY2",
+          "synonyms": [
+            "mureddy2@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AJABDULS",
+          "synonyms": [
+            "ajabduls@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RAVBHONS",
+          "synonyms": [
+            "ravbhons@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MMUBASHI",
+          "synonyms": [
+            "mmubashi@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SUDDEVAR",
+          "synonyms": [
+            "suddevar@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GOPSHETE",
+          "synonyms": [
+            "gopshete@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SHRNAIDU",
+          "synonyms": [
+            "shrnaidu@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SNATARA3",
+          "synonyms": [
+            "snatara3@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SRIKBAND",
+          "synonyms": [
+            "srikband@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "KASTGHOS",
+          "synonyms": [
+            "kastghos@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "URAJANNA",
+          "synonyms": [
+            "urajanna@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VRAMAPRA",
+          "synonyms": [
+            "vramapra@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "JATIDASH",
+          "synonyms": [
+            "jatidash@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SANGPATT",
+          "synonyms": [
+            "sangpatt@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MANVEERA",
+          "synonyms": [
+            "manveera@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "umapatra",
+          "synonyms": [
+            "umapatra@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VIJATKUM",
+          "synonyms": [
+            "vijatkum@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tussarka",
+          "synonyms": [
+            "tussarka@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "madhusudana.rao",
+          "synonyms": [
+            "madhusudana.rao@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ASHOKPK1",
+          "synonyms": [
+            "ashokpk1@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rd.murali",
+          "synonyms": [
+            "rd.murali@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ghonavar",
+          "synonyms": [
+            "ghonavar@in.ibm.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SACBSHAH",
+          "synonyms": [
+            "sacbshah@in.ibm.com"
           ]
         }
       ],
@@ -7302,134 +7672,235 @@
   "dialog_nodes": [
     {
       "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Tell me about the start date and in which city it is. Do you have a URI for that event?",
-            "For which city? And on what date does it start?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1517301749575",
-      "disabled": true,
-      "metadata": {},
-      "event_name": "focus",
-      "dialog_node": "handler_2_1517301789512",
-      "previous_sibling": "response_4_1575996016324"
-    },
-    {
-      "type": "slot",
       "output": {},
-      "parent": "node_1_1517301749575",
-      "metadata": {},
-      "variable": "$startTime",
-      "dialog_node": "slot_42_1517317182143",
-      "previous_sibling": "slot_6_1517301823167"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "<? $webhook_insert ?>",
-            "Ok, I created the new event with the data <? $webhook_insert.input ?>"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1517301749575",
+      "parent": "slot_3_1517301789523",
       "context": {
-        "endTime": null,
-        "location": null,
-        "eventDate": null,
-        "eventName": null,
-        "startTime": null,
-        "eventContact": null,
-        "eventEndDate": null
+        "location": "@eventLocation"
       },
-      "conditions": "$webhook_insert",
-      "dialog_node": "response_3_1575996015221",
-      "previous_sibling": "handler_2_1517582351537"
-    },
-    {
-      "type": "response_condition",
-      "parent": "node_1_1517301749575",
-      "conditions": "anything_else",
-      "dialog_node": "response_4_1575996016324",
-      "previous_sibling": "response_3_1575996015221"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_1_1517301749575",
       "metadata": {},
-      "variable": "$location",
-      "dialog_node": "slot_3_1517301789523",
-      "previous_sibling": "slot_2_1517392218999"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_1_1517301749575",
-      "metadata": {},
-      "variable": "$eventContact",
-      "dialog_node": "slot_9_1517304032949",
-      "previous_sibling": "slot_3_1517301789523"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_1_1517301749575",
-      "metadata": {},
-      "variable": "$eventName",
-      "dialog_node": "slot_2_1517392218999",
-      "previous_sibling": "handler_2_1517301789512"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_1_1517301749575",
-      "metadata": {},
-      "variable": "$eventDate",
-      "dialog_node": "slot_6_1517301823167",
-      "previous_sibling": "slot_9_1517304032949"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_1_1517301749575",
-      "metadata": {},
-      "variable": "$endTime",
-      "dialog_node": "slot_7_1517489967615",
-      "previous_sibling": "slot_4_1517489958701"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_1_1517301749575",
-      "metadata": {},
-      "variable": "$eventEndDate",
-      "dialog_node": "slot_4_1517489958701",
-      "previous_sibling": "slot_42_1517317182143"
+      "conditions": "@eventLocation",
+      "event_name": "input",
+      "dialog_node": "handler_4_1517301789523",
+      "previous_sibling": "handler_5_1517301789523"
     },
     {
       "type": "event_handler",
       "output": {
         "text": {
           "values": [
-            "ok, exiting"
+            "At which location (city)?"
           ],
           "selection_policy": "sequential"
         }
       },
-      "parent": "node_1_1517301749575",
-      "next_step": {
-        "behavior": "skip_all_slots"
+      "parent": "slot_3_1517301789523",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1517301789523"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592493586243",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1592493586249",
+      "previous_sibling": "handler_8_1592493586248"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592493586243",
+      "context": {
+        "prjType": "@prjType"
       },
-      "conditions": "#Bot_Control_Start_Over",
-      "event_name": "generic",
-      "dialog_node": "handler_2_1517582351537"
+      "conditions": "@prjType",
+      "event_name": "input",
+      "dialog_node": "handler_8_1592493586248"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Do you want to search by identifier or date?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_20_1517405919423",
+      "event_name": "focus",
+      "dialog_node": "handler_22_1517405919423",
+      "previous_sibling": "handler_21_1517405919423"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_20_1517405919423",
+      "context": {
+        "queryPredicate": "@queryPredicate"
+      },
+      "conditions": "@queryPredicate",
+      "event_name": "input",
+      "dialog_node": "handler_21_1517405919423"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "When is the end?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1589228414376",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1589228414376",
+      "previous_sibling": "handler_6_1589228414376"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1589228414376",
+      "context": {
+        "date": "@sys-date",
+        "dmhDateEnd": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_6_1589228414376"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "When is the start date of the event you are searching?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_23_1517406154633",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_25_1517406154633",
+      "previous_sibling": "handler_24_1517406154633"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_23_1517406154633",
+      "context": {
+        "eventDateBegin": "@sys-date"
+      },
+      "metadata": {},
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_24_1517406154633"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "When is the start date of the DMH you are searching?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1589228414376",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1589228414376",
+      "previous_sibling": "handler_3_1589228414376"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1589228414376",
+      "context": {
+        "dmhDateBegin": "@sys-date"
+      },
+      "metadata": {},
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_3_1589228414376"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter employee Email ID."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1588325319308",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1588325319309",
+      "previous_sibling": "handler_3_1588325319308"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1588325319308",
+      "context": {
+        "empEmailId": "@ManagerEmail.literal"
+      },
+      "conditions": "@ManagerEmail.literal",
+      "event_name": "input",
+      "dialog_node": "handler_3_1588325319308"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "And at what time does it end?"
+      },
+      "parent": "slot_7_1517489967615",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1517489967615",
+      "previous_sibling": "handler_8_1517489967615"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1517489967615",
+      "context": {
+        "endTime": "@sys-time"
+      },
+      "metadata": {},
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_8_1517489967615"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_46_1517321324912",
+      "context": {
+        "eventName": "@eventName.literal"
+      },
+      "metadata": {},
+      "conditions": "@eventName.literal",
+      "event_name": "input",
+      "dialog_node": "handler_47_1517321324912",
+      "previous_sibling": "handler_48_1517321324912"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the shortname? (use quotes)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_46_1517321324912",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_48_1517321324912"
     },
     {
       "type": "response_condition",
@@ -7438,7 +7909,7 @@
           {
             "values": [
               {
-                "text": "Reportees of @ManagerEmail.literal\n====================================\n<? $webhook_Reportees.result ?>"
+                "text": "I will be glad to assist if you have any more question."
               }
             ],
             "response_type": "text",
@@ -7446,10 +7917,50 @@
           }
         ]
       },
-      "parent": "node_10_1588015344588",
+      "parent": "node_2_1588785548815",
+      "conditions": "anything_else",
+      "dialog_node": "response_11_1588785548823",
+      "previous_sibling": "response_10_1588785548823"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reportees of @ManagerEmail.literal"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1588785548815",
+      "conditions": "@ManagerEmail.literal",
+      "dialog_node": "response_10_1588785548823",
+      "previous_sibling": "response_9_1588785548823"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Peers of @ManagerEmail.literal==============================<? $webhook_Peers.result ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1588785548815",
       "context": {
         "actionname": null,
-        "ManagerEmail": null,
+        "empEmailId": null,
         "reporteesByLocation": null
       },
       "next_step": {
@@ -7457,16 +7968,38 @@
         "selector": "body",
         "dialog_node": "node_1_1588782767284"
       },
-      "conditions": "$webhook_Reportees",
-      "dialog_node": "response_1_1588015553503",
-      "previous_sibling": "slot_6_1588085508024"
+      "conditions": "$webhook_Peers",
+      "dialog_node": "response_9_1588785548823",
+      "previous_sibling": "slot_6_1588785548823"
     },
     {
       "type": "slot",
-      "parent": "node_10_1588015344588",
+      "output": {},
+      "parent": "node_2_1588785548815",
       "variable": "$reporteesByLocation",
-      "dialog_node": "slot_6_1588085508024",
-      "previous_sibling": "slot_10_1588016814568"
+      "dialog_node": "slot_6_1588785548823",
+      "previous_sibling": "slot_3_1588785548823"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1588785548815",
+      "variable": "$empEmailId",
+      "dialog_node": "slot_3_1588785548823"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1589396363690",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1589396363747",
+      "previous_sibling": "handler_9_1589396363747"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1589396363690",
+      "event_name": "input",
+      "dialog_node": "handler_9_1589396363747"
     },
     {
       "type": "response_condition",
@@ -7510,10 +8043,77 @@
     },
     {
       "type": "slot",
+      "parent": "node_10_1588015344588",
+      "variable": "$reporteesByLocation",
+      "dialog_node": "slot_6_1588085508024",
+      "previous_sibling": "slot_10_1588016814568"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reportees of @ManagerEmail.literal\n====================================\n<? $webhook_Reportees.result ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1588015344588",
+      "context": {
+        "actionname": null,
+        "ManagerEmail": null,
+        "reporteesByLocation": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1588782767284"
+      },
+      "conditions": "$webhook_Reportees",
+      "dialog_node": "response_1_1588015553503",
+      "previous_sibling": "slot_6_1588085508024"
+    },
+    {
+      "type": "slot",
       "output": {},
       "parent": "node_10_1588015344588",
       "variable": "$ManagerEmail",
       "dialog_node": "slot_10_1588016814568"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "When does it start? (time)"
+      },
+      "parent": "slot_42_1517317182143",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_44_1517317182143",
+      "previous_sibling": "handler_43_1517317182143"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_42_1517317182143",
+      "context": {
+        "startTime": "@sys-time"
+      },
+      "metadata": {},
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_43_1517317182143"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1592427696530",
+      "variable": "$empRole",
+      "dialog_node": "slot_9_1592493437207",
+      "previous_sibling": "response_7_1592493439438"
     },
     {
       "type": "response_condition",
@@ -7524,17 +8124,18 @@
     },
     {
       "type": "slot",
+      "output": {},
       "parent": "node_3_1592427696530",
-      "variable": "$empRole",
-      "dialog_node": "slot_9_1592493437207",
-      "previous_sibling": "response_7_1592493439438"
+      "variable": "$Region",
+      "dialog_node": "slot_5_1592576933268",
+      "previous_sibling": "slot_9_1592493437207"
     },
     {
       "type": "slot",
       "parent": "node_3_1592427696530",
       "variable": "$prjType",
       "dialog_node": "slot_4_1592493586243",
-      "previous_sibling": "slot_9_1592493437207"
+      "previous_sibling": "slot_5_1592576933268"
     },
     {
       "type": "response_condition",
@@ -7553,6 +8154,7 @@
       },
       "parent": "node_3_1592427696530",
       "context": {
+        "Region": null,
         "empRole": null,
         "prjType": null,
         "actionname": null
@@ -7592,26 +8194,6 @@
           {
             "values": [
               {
-                "text": "I will be glad to assist if you have any more question."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1588325319282",
-      "conditions": "anything_else",
-      "dialog_node": "response_10_1588325319309",
-      "previous_sibling": "response_9_1588325319309"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
                 "text": "<? $webhook_empDetail.result ?>"
               }
             ],
@@ -7635,6 +8217,26 @@
       "previous_sibling": "slot_2_1588325319308"
     },
     {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I will be glad to assist if you have any more question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1588325319282",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1588325319309",
+      "previous_sibling": "response_9_1588325319309"
+    },
+    {
       "type": "slot",
       "output": {},
       "parent": "node_1_1588325319282",
@@ -7643,54 +8245,61 @@
     },
     {
       "type": "event_handler",
-      "output": {},
-      "parent": "slot_6_1517301823167",
-      "context": {
-        "eventDate": "@sys-date"
+      "output": {
+        "text": "At what date does it end?"
       },
-      "metadata": {},
+      "parent": "slot_4_1517489958701",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1517489958701",
+      "previous_sibling": "handler_5_1517489958701"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1517489958701",
+      "context": {
+        "eventEndDate": "@sys-date"
+      },
       "conditions": "@sys-date",
       "event_name": "input",
-      "dialog_node": "handler_7_1517301823167",
-      "previous_sibling": "handler_8_1517301823167"
+      "dialog_node": "handler_5_1517489958701"
     },
     {
       "type": "event_handler",
       "output": {
-        "text": "At which date is it or does it start?"
+        "text": {
+          "values": [
+            "When is the end?"
+          ],
+          "selection_policy": "sequential"
+        }
       },
-      "parent": "slot_6_1517301823167",
-      "metadata": {},
+      "parent": "slot_27_1517408909920",
       "event_name": "focus",
-      "dialog_node": "handler_8_1517301823167"
+      "dialog_node": "handler_29_1517408909920",
+      "previous_sibling": "handler_28_1517408909920"
     },
     {
-      "type": "frame",
-      "title": "query events by shortname",
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_27_1517408909920",
+      "context": {
+        "date": "@sys-date",
+        "eventDateEnd": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_28_1517408909920"
+    },
+    {
+      "type": "event_handler",
       "output": {},
       "parent": "node_16_1517405116504",
-      "actions": [
-        {
-          "name": "main_webhook",
-          "type": "webhook",
-          "parameters": {
-            "eventname": "<? $eventName.substring(1,$eventName.length()-1) ?>",
-            "actionname": "searchByName"
-          },
-          "result_variable": "webhook_byName"
-        }
-      ],
-      "metadata": {
-        "fallback": "leave",
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "$queryPredicate:identifier",
-      "dialog_node": "node_1_1516878960414",
-      "digress_out": "allow_all",
-      "previous_sibling": "response_1_1575995972103",
-      "digress_out_slots": "allow_all"
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_19_1517405919417",
+      "previous_sibling": "slot_20_1517405919423"
     },
     {
       "type": "frame",
@@ -7721,16 +8330,6 @@
       "digress_out_slots": "allow_all"
     },
     {
-      "type": "event_handler",
-      "output": {},
-      "parent": "node_16_1517405116504",
-      "disabled": true,
-      "metadata": {},
-      "event_name": "focus",
-      "dialog_node": "handler_19_1517405919417",
-      "previous_sibling": "slot_20_1517405919423"
-    },
-    {
       "type": "slot",
       "output": {},
       "parent": "node_16_1517405116504",
@@ -7738,6 +8337,34 @@
       "variable": "$queryPredicate",
       "dialog_node": "slot_20_1517405919423",
       "previous_sibling": "node_9_1517403528441"
+    },
+    {
+      "type": "frame",
+      "title": "query events by shortname",
+      "output": {},
+      "parent": "node_16_1517405116504",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "eventname": "<? $eventName.substring(1,$eventName.length()-1) ?>",
+            "actionname": "searchByName"
+          },
+          "result_variable": "webhook_byName"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$queryPredicate:identifier",
+      "dialog_node": "node_1_1516878960414",
+      "digress_out": "allow_all",
+      "previous_sibling": "response_1_1575995972103",
+      "digress_out_slots": "allow_all"
     },
     {
       "type": "response_condition",
@@ -7757,94 +8384,6 @@
       "parent": "node_16_1517405116504",
       "conditions": "anything_else",
       "dialog_node": "response_1_1575995972103"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "When is the start date of the DMH you are searching?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_2_1589228414376",
-      "metadata": {},
-      "event_name": "focus",
-      "dialog_node": "handler_4_1589228414376",
-      "previous_sibling": "handler_3_1589228414376"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_2_1589228414376",
-      "context": {
-        "dmhDateBegin": "@sys-date"
-      },
-      "metadata": {},
-      "conditions": "@sys-date",
-      "event_name": "input",
-      "dialog_node": "handler_3_1589228414376"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_6_1588085508024",
-      "event_name": "focus",
-      "dialog_node": "handler_10_1588085508036",
-      "previous_sibling": "handler_9_1588085508036"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_6_1588085508024",
-      "context": {
-        "reporteesByLocation": "@reporteesByLocation.literal"
-      },
-      "conditions": "@reporteesByLocation.literal",
-      "event_name": "input",
-      "dialog_node": "handler_9_1588085508036"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Following DMH updates found: \n<? $wh_dmhByDates.result ?>"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1589228414361",
-      "context": {
-        "date": null,
-        "dmhDates": null,
-        "shortname": "$shortname",
-        "actionname": null,
-        "dmhDateEnd": null,
-        "dmhDateBegin": null
-      },
-      "metadata": {},
-      "conditions": "$wh_dmhByDates",
-      "dialog_node": "response_9_1589228414376",
-      "previous_sibling": "slot_2_1589228414376"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "What is the short name of that conference or event?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1589228414361",
-      "disabled": true,
-      "metadata": {},
-      "event_name": "focus",
-      "dialog_node": "handler_8_1589228414376",
-      "previous_sibling": "slot_6_1589228449138"
     },
     {
       "type": "response_condition",
@@ -7871,6 +8410,30 @@
       "previous_sibling": "slot_5_1589228414376"
     },
     {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Following DMH updates found: \n<? $wh_dmhByDates.result ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1589228414361",
+      "context": {
+        "date": null,
+        "dmhDates": null,
+        "shortname": "$shortname",
+        "actionname": null,
+        "dmhDateEnd": null,
+        "dmhDateBegin": null
+      },
+      "metadata": {},
+      "conditions": "$wh_dmhByDates",
+      "dialog_node": "response_9_1589228414376",
+      "previous_sibling": "slot_2_1589228414376"
+    },
+    {
       "type": "slot",
       "output": {},
       "parent": "node_1_1589228414361",
@@ -7878,6 +8441,23 @@
       "variable": "$dmhDateEnd",
       "dialog_node": "slot_5_1589228414376",
       "previous_sibling": "response_10_1589228414376"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the short name of that conference or event?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1589228414361",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1589228414376",
+      "previous_sibling": "slot_6_1589228449138"
     },
     {
       "type": "slot",
@@ -7889,50 +8469,29 @@
     },
     {
       "type": "event_handler",
-      "output": {},
-      "parent": "slot_4_1592493586243",
-      "event_name": "focus",
-      "dialog_node": "handler_2_1592493586249",
-      "previous_sibling": "handler_8_1592493586248"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_4_1592493586243",
-      "context": {
-        "prjType": "@prjType"
-      },
-      "conditions": "@prjType",
-      "event_name": "input",
-      "dialog_node": "handler_8_1592493586248"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_46_1517321324912",
-      "context": {
-        "eventName": "@eventName.literal"
-      },
-      "metadata": {},
-      "conditions": "@eventName.literal",
-      "event_name": "input",
-      "dialog_node": "handler_47_1517321324912",
-      "previous_sibling": "handler_48_1517321324912"
-    },
-    {
-      "type": "event_handler",
       "output": {
         "text": {
           "values": [
-            "What is the shortname? (use quotes)"
+            "Which role of resources are you looking for ?"
           ],
           "selection_policy": "sequential"
         }
       },
-      "parent": "slot_46_1517321324912",
-      "metadata": {},
+      "parent": "slot_9_1592493437207",
       "event_name": "focus",
-      "dialog_node": "handler_48_1517321324912"
+      "dialog_node": "handler_1_1592493437241",
+      "previous_sibling": "handler_5_1592493437241"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1592493437207",
+      "context": {
+        "empRole": "@empRole"
+      },
+      "conditions": "@empRole",
+      "event_name": "input",
+      "dialog_node": "handler_5_1592493437241"
     },
     {
       "type": "event_handler",
@@ -7952,57 +8511,6 @@
       "conditions": "@reporteesByLocation.literal",
       "event_name": "input",
       "dialog_node": "handler_7_1588785548823"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Your Username has not passed.  \"<? $metadata.user_name ?>\""
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "slot_6_1589228449138",
-      "context": {
-        "shortname": "<? $metadata.user_id ?>"
-      },
-      "event_name": "focus",
-      "dialog_node": "handler_9_1589228449154",
-      "previous_sibling": "handler_7_1589228449154"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_6_1589228449138",
-      "context": {
-        "shortname": "@shortname"
-      },
-      "conditions": "@shortname",
-      "event_name": "input",
-      "dialog_node": "handler_7_1589228449154"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "What is the short name of that conference or event?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1516878960414",
-      "disabled": true,
-      "metadata": {},
-      "event_name": "focus",
-      "dialog_node": "handler_45_1517321324900",
-      "previous_sibling": "response_7_1575995991156"
     },
     {
       "type": "response_condition",
@@ -8034,6 +8542,23 @@
       "previous_sibling": "handler_45_1517321324900"
     },
     {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the short name of that conference or event?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1516878960414",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_45_1517321324900",
+      "previous_sibling": "response_7_1575995991156"
+    },
+    {
       "type": "response_condition",
       "output": {
         "text": {
@@ -8054,68 +8579,29 @@
     },
     {
       "type": "event_handler",
-      "output": {},
-      "parent": "slot_9_1589396363690",
-      "event_name": "focus",
-      "dialog_node": "handler_8_1589396363747",
-      "previous_sibling": "handler_9_1589396363747"
-    },
-    {
-      "type": "event_handler",
-      "parent": "slot_9_1589396363690",
-      "event_name": "input",
-      "dialog_node": "handler_9_1589396363747"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": "How should I name it? (use quotes)"
-      },
-      "parent": "slot_2_1517392218999",
-      "metadata": {},
-      "event_name": "focus",
-      "dialog_node": "handler_4_1517392218999",
-      "previous_sibling": "handler_3_1517392218999"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_2_1517392218999",
-      "context": {
-        "eventName": "@eventName.literal"
-      },
-      "metadata": {},
-      "conditions": "@eventName.literal",
-      "event_name": "input",
-      "dialog_node": "handler_3_1517392218999"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_3_1517301789523",
-      "context": {
-        "location": "@eventLocation"
-      },
-      "metadata": {},
-      "conditions": "@eventLocation",
-      "event_name": "input",
-      "dialog_node": "handler_4_1517301789523",
-      "previous_sibling": "handler_5_1517301789523"
-    },
-    {
-      "type": "event_handler",
       "output": {
         "text": {
           "values": [
-            "At which location (city)?"
+            "Enter Manager Email ID."
           ],
           "selection_policy": "sequential"
         }
       },
-      "parent": "slot_3_1517301789523",
-      "metadata": {},
+      "parent": "slot_10_1588016814568",
       "event_name": "focus",
-      "dialog_node": "handler_5_1517301789523"
+      "dialog_node": "handler_9_1588016814590",
+      "previous_sibling": "handler_4_1588016814590"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1588016814568",
+      "context": {
+        "ManagerEmail": "@ManagerEmail.literal"
+      },
+      "conditions": "@ManagerEmail.literal",
+      "event_name": "input",
+      "dialog_node": "handler_4_1588016814590"
     },
     {
       "type": "event_handler",
@@ -8147,55 +8633,397 @@
     },
     {
       "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Enter Manager Email ID."
-          ],
-          "selection_policy": "sequential"
-        }
+      "output": {},
+      "parent": "slot_6_1589228449138",
+      "context": {
+        "shortname": "<? $metadata.user_id ?>"
       },
-      "parent": "slot_10_1588016814568",
       "event_name": "focus",
-      "dialog_node": "handler_9_1588016814590",
-      "previous_sibling": "handler_4_1588016814590"
+      "dialog_node": "handler_9_1589228449154",
+      "previous_sibling": "handler_7_1589228449154"
     },
     {
       "type": "event_handler",
       "output": {},
-      "parent": "slot_10_1588016814568",
+      "parent": "slot_6_1589228449138",
       "context": {
-        "ManagerEmail": "@ManagerEmail.literal"
+        "shortname": "@shortname"
       },
-      "conditions": "@ManagerEmail.literal",
+      "conditions": "@shortname",
       "event_name": "input",
-      "dialog_node": "handler_4_1588016814590"
+      "dialog_node": "handler_7_1589228449154"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1517301823167",
+      "context": {
+        "eventDate": "@sys-date"
+      },
+      "metadata": {},
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_7_1517301823167",
+      "previous_sibling": "handler_8_1517301823167"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "At which date is it or does it start?"
+      },
+      "parent": "slot_6_1517301823167",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1517301823167"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$eventContact",
+      "dialog_node": "slot_9_1517304032949",
+      "previous_sibling": "slot_3_1517301789523"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<? $webhook_insert ?>",
+            "Ok, I created the new event with the data <? $webhook_insert.input ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1517301749575",
+      "context": {
+        "endTime": null,
+        "location": null,
+        "eventDate": null,
+        "eventName": null,
+        "startTime": null,
+        "eventContact": null,
+        "eventEndDate": null
+      },
+      "conditions": "$webhook_insert",
+      "dialog_node": "response_3_1575996015221",
+      "previous_sibling": "handler_2_1517582351537"
     },
     {
       "type": "event_handler",
       "output": {
         "text": {
           "values": [
-            "Do you want to search by identifier or date?"
+            "Tell me about the start date and in which city it is. Do you have a URI for that event?",
+            "For which city? And on what date does it start?"
           ],
           "selection_policy": "sequential"
         }
       },
-      "parent": "slot_20_1517405919423",
+      "parent": "node_1_1517301749575",
+      "disabled": true,
+      "metadata": {},
       "event_name": "focus",
-      "dialog_node": "handler_22_1517405919423",
-      "previous_sibling": "handler_21_1517405919423"
+      "dialog_node": "handler_2_1517301789512",
+      "previous_sibling": "response_4_1575996016324"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_1_1517301749575",
+      "conditions": "anything_else",
+      "dialog_node": "response_4_1575996016324",
+      "previous_sibling": "response_3_1575996015221"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$eventEndDate",
+      "dialog_node": "slot_4_1517489958701",
+      "previous_sibling": "slot_42_1517317182143"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$endTime",
+      "dialog_node": "slot_7_1517489967615",
+      "previous_sibling": "slot_4_1517489958701"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$eventName",
+      "dialog_node": "slot_2_1517392218999",
+      "previous_sibling": "handler_2_1517301789512"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$eventDate",
+      "dialog_node": "slot_6_1517301823167",
+      "previous_sibling": "slot_9_1517304032949"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$startTime",
+      "dialog_node": "slot_42_1517317182143",
+      "previous_sibling": "slot_6_1517301823167"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$location",
+      "dialog_node": "slot_3_1517301789523",
+      "previous_sibling": "slot_2_1517392218999"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "ok, exiting"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1517301749575",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#Bot_Control_Start_Over",
+      "event_name": "generic",
+      "dialog_node": "handler_2_1517582351537"
     },
     {
       "type": "event_handler",
       "output": {},
-      "parent": "slot_20_1517405919423",
+      "parent": "slot_6_1588085508024",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1588085508036",
+      "previous_sibling": "handler_9_1588085508036"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1588085508024",
       "context": {
-        "queryPredicate": "@queryPredicate"
+        "reporteesByLocation": "@reporteesByLocation.literal"
       },
-      "conditions": "@queryPredicate",
+      "conditions": "@reporteesByLocation.literal",
       "event_name": "input",
-      "dialog_node": "handler_21_1517405919423"
+      "dialog_node": "handler_9_1588085508036"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I have the following: <? $webhook_byDates.result ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1517403528441",
+      "context": {
+        "eventdates": null,
+        "eventDateEnd": null,
+        "eventDateBegin": null,
+        "queryPredicate": null
+      },
+      "metadata": {},
+      "conditions": "$webhook_byDates",
+      "dialog_node": "node_15_1517403528453",
+      "previous_sibling": "slot_23_1517406154633"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1517403528441",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1575995997660",
+      "previous_sibling": "node_15_1517403528453"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the short name of that conference or event?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1517403528441",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_14_1517403528453",
+      "previous_sibling": "slot_27_1517408909920"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1517403528441",
+      "metadata": {},
+      "variable": "$eventDateEnd",
+      "dialog_node": "slot_27_1517408909920",
+      "previous_sibling": "response_2_1575995997660"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1517403528441",
+      "metadata": {},
+      "variable": "$eventDateBegin",
+      "dialog_node": "slot_23_1517406154633"
+    },
+    {
+      "type": "response_condition",
+      "parent": "Help",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1589396364793",
+      "previous_sibling": "response_1_1589396362918"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I can show you event information or gather new event or meeting data.",
+            "Hey, say something like \"show event information\" to find data about a meeting or conference. Or use \"new event\" or \"new conference\" to gather data for a new database entry."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Help",
+      "context": {},
+      "conditions": "",
+      "dialog_node": "response_1_1589396362918",
+      "previous_sibling": "slot_9_1589396363690"
+    },
+    {
+      "type": "slot",
+      "parent": "Help",
+      "dialog_node": "slot_9_1589396363690"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "How should I name it? (use quotes)"
+      },
+      "parent": "slot_2_1517392218999",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1517392218999",
+      "previous_sibling": "handler_3_1517392218999"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1517392218999",
+      "context": {
+        "eventName": "@eventName.literal"
+      },
+      "metadata": {},
+      "conditions": "@eventName.literal",
+      "event_name": "input",
+      "dialog_node": "handler_3_1517392218999"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1592576933268",
+      "context": {
+        "Region": "%"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_7_1592579477719",
+      "previous_sibling": "handler_3_1592576933293"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Filter your result with Region supported.",
+            "options": [
+              {
+                "label": "APAC",
+                "value": {
+                  "input": {
+                    "text": "APAC"
+                  }
+                }
+              },
+              {
+                "label": "NA",
+                "value": {
+                  "input": {
+                    "text": "NA"
+                  }
+                }
+              },
+              {
+                "label": "LATAM",
+                "value": {
+                  "input": {
+                    "text": "LATAM"
+                  }
+                }
+              },
+              {
+                "label": "Any",
+                "value": {
+                  "input": {
+                    "text": "%"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1592576933268",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1592576933293",
+      "previous_sibling": "handler_1_1592576933293"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1592576933268",
+      "context": {
+        "Region": "@Region"
+      },
+      "conditions": "@Region",
+      "event_name": "input",
+      "dialog_node": "handler_1_1592576933293"
     },
     {
       "type": "event_handler",
@@ -8225,315 +9053,6 @@
     },
     {
       "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": ""
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_9_1517403528441",
-      "conditions": "anything_else",
-      "dialog_node": "response_2_1575995997660",
-      "previous_sibling": "node_15_1517403528453"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_9_1517403528441",
-      "metadata": {},
-      "variable": "$eventDateEnd",
-      "dialog_node": "slot_27_1517408909920",
-      "previous_sibling": "response_2_1575995997660"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "I have the following: <? $webhook_byDates.result ?>"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1517403528441",
-      "context": {
-        "eventdates": null,
-        "eventDateEnd": null,
-        "eventDateBegin": null,
-        "queryPredicate": null
-      },
-      "metadata": {},
-      "conditions": "$webhook_byDates",
-      "dialog_node": "node_15_1517403528453",
-      "previous_sibling": "slot_23_1517406154633"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "What is the short name of that conference or event?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1517403528441",
-      "disabled": true,
-      "metadata": {},
-      "event_name": "focus",
-      "dialog_node": "handler_14_1517403528453",
-      "previous_sibling": "slot_27_1517408909920"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_9_1517403528441",
-      "metadata": {},
-      "variable": "$eventDateBegin",
-      "dialog_node": "slot_23_1517406154633"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": "And at what time does it end?"
-      },
-      "parent": "slot_7_1517489967615",
-      "event_name": "focus",
-      "dialog_node": "handler_9_1517489967615",
-      "previous_sibling": "handler_8_1517489967615"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_7_1517489967615",
-      "context": {
-        "endTime": "@sys-time"
-      },
-      "metadata": {},
-      "conditions": "@sys-time",
-      "event_name": "input",
-      "dialog_node": "handler_8_1517489967615"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Peers of @ManagerEmail.literal==============================<? $webhook_Peers.result ?>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_2_1588785548815",
-      "context": {
-        "actionname": null,
-        "empEmailId": null,
-        "reporteesByLocation": null
-      },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1588782767284"
-      },
-      "conditions": "$webhook_Peers",
-      "dialog_node": "response_9_1588785548823",
-      "previous_sibling": "slot_6_1588785548823"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I will be glad to assist if you have any more question."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_2_1588785548815",
-      "conditions": "anything_else",
-      "dialog_node": "response_11_1588785548823",
-      "previous_sibling": "response_10_1588785548823"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_2_1588785548815",
-      "variable": "$reporteesByLocation",
-      "dialog_node": "slot_6_1588785548823",
-      "previous_sibling": "slot_3_1588785548823"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Reportees of @ManagerEmail.literal"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_2_1588785548815",
-      "conditions": "@ManagerEmail.literal",
-      "dialog_node": "response_10_1588785548823",
-      "previous_sibling": "response_9_1588785548823"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_2_1588785548815",
-      "variable": "$empEmailId",
-      "dialog_node": "slot_3_1588785548823"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "When is the start date of the event you are searching?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_23_1517406154633",
-      "metadata": {},
-      "event_name": "focus",
-      "dialog_node": "handler_25_1517406154633",
-      "previous_sibling": "handler_24_1517406154633"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_23_1517406154633",
-      "context": {
-        "eventDateBegin": "@sys-date"
-      },
-      "metadata": {},
-      "conditions": "@sys-date",
-      "event_name": "input",
-      "dialog_node": "handler_24_1517406154633"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "When is the end?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_5_1589228414376",
-      "event_name": "focus",
-      "dialog_node": "handler_7_1589228414376",
-      "previous_sibling": "handler_6_1589228414376"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_5_1589228414376",
-      "context": {
-        "date": "@sys-date",
-        "dmhDateEnd": "@sys-date"
-      },
-      "conditions": "@sys-date",
-      "event_name": "input",
-      "dialog_node": "handler_6_1589228414376"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": "At what date does it end?"
-      },
-      "parent": "slot_4_1517489958701",
-      "event_name": "focus",
-      "dialog_node": "handler_6_1517489958701",
-      "previous_sibling": "handler_5_1517489958701"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_4_1517489958701",
-      "context": {
-        "eventEndDate": "@sys-date"
-      },
-      "conditions": "@sys-date",
-      "event_name": "input",
-      "dialog_node": "handler_5_1517489958701"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": "When does it start? (time)"
-      },
-      "parent": "slot_42_1517317182143",
-      "metadata": {},
-      "event_name": "focus",
-      "dialog_node": "handler_44_1517317182143",
-      "previous_sibling": "handler_43_1517317182143"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_42_1517317182143",
-      "context": {
-        "startTime": "@sys-time"
-      },
-      "metadata": {},
-      "conditions": "@sys-time",
-      "event_name": "input",
-      "dialog_node": "handler_43_1517317182143"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "When is the end?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_27_1517408909920",
-      "event_name": "focus",
-      "dialog_node": "handler_29_1517408909920",
-      "previous_sibling": "handler_28_1517408909920"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_27_1517408909920",
-      "context": {
-        "date": "@sys-date",
-        "eventDateEnd": "@sys-date"
-      },
-      "conditions": "@sys-date",
-      "event_name": "input",
-      "dialog_node": "handler_28_1517408909920"
-    },
-    {
-      "type": "response_condition",
       "parent": "node_1_1589397080863",
       "conditions": "anything_else",
       "dialog_node": "response_5_1589397105309",
@@ -8554,98 +9073,98 @@
       "dialog_node": "response_2_1589397102819"
     },
     {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Which role of resources are you looking for ?"
-          ],
-          "selection_policy": "sequential"
+      "type": "standard",
+      "title": "Help",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "help"
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": true
         }
       },
-      "parent": "slot_9_1592493437207",
-      "event_name": "focus",
-      "dialog_node": "handler_1_1592493437241",
-      "previous_sibling": "handler_5_1592493437241"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_9_1592493437207",
-      "context": {
-        "empRole": "@empRole"
-      },
-      "conditions": "@empRole",
-      "event_name": "input",
-      "dialog_node": "handler_5_1592493437241"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "I can show you event information or gather new event or meeting data.",
-            "Hey, say something like \"show event information\" to find data about a meeting or conference. Or use \"new event\" or \"new conference\" to gather data for a new database entry."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "Help",
-      "context": {},
-      "conditions": "",
-      "dialog_node": "response_1_1589396362918",
-      "previous_sibling": "slot_9_1589396363690"
-    },
-    {
-      "type": "response_condition",
-      "parent": "Help",
-      "conditions": "anything_else",
-      "dialog_node": "response_1_1589396364793",
-      "previous_sibling": "response_1_1589396362918"
-    },
-    {
-      "type": "slot",
-      "parent": "Help",
-      "dialog_node": "slot_9_1589396363690"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Please enter employee Email ID."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_2_1588325319308",
-      "event_name": "focus",
-      "dialog_node": "handler_4_1588325319309",
-      "previous_sibling": "handler_3_1588325319308"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_2_1588325319308",
-      "context": {
-        "empEmailId": "@ManagerEmail.literal"
-      },
-      "conditions": "@ManagerEmail.literal",
-      "event_name": "input",
-      "dialog_node": "handler_3_1588325319308"
+      "conditions": "#help",
+      "dialog_node": "Help",
+      "previous_sibling": "node_1_1588782767284"
     },
     {
       "type": "frame",
-      "title": "query events",
-      "metadata": {},
-      "next_step": {
-        "behavior": "skip_user_input"
+      "title": "List of Reportees",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "Location": "<? $reporteesByLocation ?>",
+            "actionname": "ReporteesbyManager",
+            "ManagerEmail": "<? $ManagerEmail ?>"
+          },
+          "result_variable": "webhook_Reportees"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
       },
-      "conditions": "#showConference",
+      "conditions": "#Reportees",
       "digress_in": "does_not_return",
-      "dialog_node": "node_16_1517405116504",
-      "digress_out": "allow_all",
-      "previous_sibling": "node_1_1517301749575"
+      "dialog_node": "node_10_1588015344588",
+      "previous_sibling": "Thanks"
+    },
+    {
+      "type": "frame",
+      "title": "Employee Details",
+      "output": {},
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "EmpDetail",
+            "empEmailId": "<? $empEmailId ?>"
+          },
+          "result_variable": "webhook_empDetail"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#EmpDetail",
+      "dialog_node": "node_1_1588325319282",
+      "previous_sibling": "node_2_1588785548815"
+    },
+    {
+      "type": "frame",
+      "title": "EmpByRole",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "Region": "$Region",
+            "empRole": "$empRole",
+            "prjType": "$prjType",
+            "actionname": "getEmpbyRole"
+          },
+          "result_variable": "empRole_result"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#empbyrole && @empRole",
+      "dialog_node": "node_3_1592427696530",
+      "previous_sibling": "node_3_1588076544038"
     },
     {
       "type": "frame",
@@ -8801,116 +9320,16 @@
     },
     {
       "type": "frame",
-      "title": "Employee Details",
-      "output": {},
-      "actions": [
-        {
-          "name": "main_webhook",
-          "type": "webhook",
-          "parameters": {
-            "actionname": "EmpDetail",
-            "empEmailId": "<? $empEmailId ?>"
-          },
-          "result_variable": "webhook_empDetail"
-        }
-      ],
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "#EmpDetail",
-      "dialog_node": "node_1_1588325319282",
-      "previous_sibling": "node_2_1588785548815"
-    },
-    {
-      "type": "standard",
-      "title": "Help",
-      "metadata": {
-        "callout": {
-          "name": "main_webhook",
-          "type": "webhook",
-          "parameters": {
-            "actionname": "help"
-          },
-          "result_variable": "webhook_result_1"
-        },
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "#help",
-      "dialog_node": "Help",
-      "previous_sibling": "node_1_1588782767284"
-    },
-    {
-      "type": "standard",
-      "title": "Thanks",
-      "output": {
-        "text": {
-          "values": [
-            "No problem!",
-            "No worries!",
-            "You're welcome!",
-            "That's perfectly alright!",
-            "Any time"
-          ],
-          "selection_policy": "random"
-        }
-      },
+      "title": "query events",
       "metadata": {},
-      "conditions": "#thanks",
-      "dialog_node": "Thanks",
-      "previous_sibling": "node_1_1589397080863"
-    },
-    {
-      "type": "frame",
-      "title": "List of Reportees",
-      "actions": [
-        {
-          "name": "main_webhook",
-          "type": "webhook",
-          "parameters": {
-            "Location": "<? $reporteesByLocation ?>",
-            "actionname": "ReporteesbyManager",
-            "ManagerEmail": "<? $ManagerEmail ?>"
-          },
-          "result_variable": "webhook_Reportees"
-        }
-      ],
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
+      "next_step": {
+        "behavior": "skip_user_input"
       },
-      "conditions": "#Reportees",
+      "conditions": "#showConference",
       "digress_in": "does_not_return",
-      "dialog_node": "node_10_1588015344588",
-      "previous_sibling": "Thanks"
-    },
-    {
-      "type": "frame",
-      "title": "EmpByRole",
-      "actions": [
-        {
-          "name": "main_webhook",
-          "type": "webhook",
-          "parameters": {
-            "empRole": "$empRole",
-            "prjType": "$prjType",
-            "actionname": "getEmpbyRole"
-          },
-          "result_variable": "empRole_result"
-        }
-      ],
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "#empbyrole && @empRole",
-      "dialog_node": "node_3_1592427696530",
-      "previous_sibling": "node_3_1588076544038"
+      "dialog_node": "node_16_1517405116504",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1517301749575"
     },
     {
       "type": "frame",
@@ -8934,6 +9353,26 @@
       "digress_in": "does_not_return",
       "dialog_node": "node_1_1589397080863",
       "previous_sibling": "Help"
+    },
+    {
+      "type": "standard",
+      "title": "Thanks",
+      "output": {
+        "text": {
+          "values": [
+            "No problem!",
+            "No worries!",
+            "You're welcome!",
+            "That's perfectly alright!",
+            "Any time"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#thanks",
+      "dialog_node": "Thanks",
+      "previous_sibling": "node_1_1589397080863"
     },
     {
       "type": "standard",
@@ -9003,21 +9442,10 @@
     },
     "system_entities": {
       "enabled": true
-    },
-    "spelling_auto_correct": true
-  },
-"conditions": "conversation_start",
-      "digress_in": "does_not_return",
-      "dialog_node": "Start and Initialize Context",
-      "digress_out": "allow_all"
     }
-  ],
-  "workspace_id": "ca39e110-7537-4f19-841c-bb700c780817",
-  "counterexamples": [],
+  },
   "learning_opt_out": false,
-  "name": "Bluepages-Skills",
+  "name": "TutorialSlackbot",
   "language": "en",
-  "description": "Its Bluepages, DMH & Workstream skills.",
-  "status": "Available"
+  "description": "A slackbot"
 }
-

@@ -1442,7 +1442,7 @@
       "text": "Diane Clem details"
     },
     {
-      "text": "Intel Pretester"
+      "text": "Intel Pretesterd"
     }
   ],
   "system_settings": {
@@ -1465,15 +1465,11 @@
     },
     "spelling_auto_correct": true
   },
-"conditions": "conversation_start",
-      "digress_in": "does_not_return",
-      "dialog_node": "Start and Initialize Context",
-      "digress_out": "allow_all"
-    }
-  ],
-  "workspace_id": "06b418d8-d816-48fb-b122-9d50ea42e0d1",
+  "workspace_id": "ca39e110-7537-4f19-841c-bb700c780817",
+  "counterexamples": [],
   "learning_opt_out": false,
-  "name": "BCRSkb",
+  "name": "BCRSSkillopedia bot",
   "language": "en",
   "description": "Knowledge repository on Resiliency Services"
+   "status": "Available"
 }

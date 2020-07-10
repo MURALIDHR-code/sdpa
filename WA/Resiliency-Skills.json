@@ -1,2222 +1,629 @@
 {
   "intents": [
     {
-      "intent": "COVID_Masks_Availability",
+      "intent": "SRT",
       "examples": [
         {
-          "text": "Why aren't there respirators?"
+          "text": "SRT Details"
         },
         {
-          "text": "Are there stores with protective face masks?"
+          "text": "What is an SRT"
         },
         {
-          "text": "Help me get a respirator"
+          "text": "Please provide me SRT details"
         },
         {
-          "text": "How can I get a mask?"
-        },
-        {
-          "text": "How is it possible that the state does not have enough masks and respirators?"
-        },
-        {
-          "text": "I'd like a respirator"
-        },
-        {
-          "text": "When can I buy a mask at a pharmacy?"
-        },
-        {
-          "text": "When can I buy a mask?"
-        },
-        {
-          "text": "When will masks be available at retail stores? They are not yet and we can get infected on public transport before they are."
-        },
-        {
-          "text": "When will masks be available?"
-        },
-        {
-          "text": "When will respirators and masks be finally sold?"
-        },
-        {
-          "text": "Where are face masks available?"
-        },
-        {
-          "text": "Where can I get masks?"
-        },
-        {
-          "text": "Where do people get protective masks or disinfectants?"
-        },
-        {
-          "text": "Who has masks and respirators?"
-        },
-        {
-          "text": "Why are no masks or respirators available anywhere?"
-        },
-        {
-          "text": "Why are there no masks and respirators in pharmacies?"
-        },
-        {
-          "text": "why aren't any masks available?"
-        },
-        {
-          "text": "Why aren't there enough masks and respirators?"
-        },
-        {
-          "text": "Why can't I get or find a mask or a respirator anywhere?"
+          "text": "What is Service Request Tool"
         }
       ],
-      "description": "Availability of masks."
+      "description": "Service Request Tool"
     },
     {
-      "intent": "COVID_Illness_Length",
+      "intent": "greetings",
       "examples": [
         {
-          "text": "how long does the virus last"
+          "text": "howdy"
         },
         {
-          "text": "How long does the coronavirus last?"
+          "text": "kia ora"
         },
         {
-          "text": "How long does the disease last?"
+          "text": "squad"
         },
         {
-          "text": "What is the incubation period of covid?"
+          "text": "wakeup"
         },
         {
-          "text": "How long before I experience covid-19 symptoms?"
+          "text": "wassup"
         },
         {
-          "text": "How long are people infected with COVID-19 before they are symptomatic?"
+          "text": "Good evening"
         },
         {
-          "text": "How long before I get symptoms?"
+          "text": "good morning!"
         },
         {
-          "text": "how long can I expect to be sick?"
+          "text": "greetings"
         },
         {
-          "text": "How long do I need to quarantine before I no longer can transmit the virus?"
+          "text": "Greetings!"
         },
         {
-          "text": "how long do symptoms take to develop?"
+          "text": "Hi"
         },
         {
-          "text": "how long does coronavirus last"
+          "text": "good afternoon"
         },
         {
-          "text": "How long does COVID-19 last?"
+          "text": "how can I help you"
         },
         {
-          "text": "how long does it last"
-        },
-        {
-          "text": "how long does it last?"
-        },
-        {
-          "text": "how long does it take for the virus to run through my system?"
-        },
-        {
-          "text": "how long does the corona virus last?"
-        },
-        {
-          "text": "Incubation period of coronavirus?"
-        },
-        {
-          "text": "How long will I feel terrible?"
-        },
-        {
-          "text": "How long is the incubation period?"
-        },
-        {
-          "text": "How long is the incubation period of covid 19?"
-        },
-        {
-          "text": "how long is the incubation period for covid-19"
-        },
-        {
-          "text": "how long does the virus last?"
+          "text": "hello"
         }
       ],
-      "description": "How long Covid lasts."
+      "description": "Hello!!"
     },
     {
-      "intent": "COVID_Testing_Information",
-      "examples": [
-        {
-          "text": "ok - I've got enough of those that I think I need to get tested."
-        },
-        {
-          "text": "is there a test kit for coronavirus"
-        },
-        {
-          "text": "Is there a test for the coronavirus"
-        },
-        {
-          "text": "is there a coronavirus test kit"
-        },
-        {
-          "text": "Is the covid test able to detect infection even during the incubation period?"
-        },
-        {
-          "text": "Is it possible to test for covid 19 during the incubation period?"
-        },
-        {
-          "text": "Is it possible to detect the disease during the incubation period?"
-        },
-        {
-          "text": "I have symptoms. Should I get tested?"
-        },
-        {
-          "text": "I have a fever, should I get tested?"
-        },
-        {
-          "text": "do i need to get tested?"
-        },
-        {
-          "text": "coronavirus test kit"
-        },
-        {
-          "text": "Can I test myself?"
-        },
-        {
-          "text": "can I get tested quickly?"
-        },
-        {
-          "text": "Can I get tested at home?"
-        },
-        {
-          "text": "When is the coronavirus test able to detect the disease?"
-        },
-        {
-          "text": "What is the test to detect covid 19?"
-        },
-        {
-          "text": "testing travelers?"
-        },
-        {
-          "text": "Should we get tested if we only have symptoms"
-        },
-        {
-          "text": "should i get tested if I do not have symptoms but think I've been exposed?"
-        },
-        {
-          "text": "my friend has it should i get tested"
-        },
-        {
-          "text": "is there test kit for coronavirus"
-        },
-        {
-          "text": "Is there a test kit for the coronavirus?"
-        }
-      ],
-      "description": "General questions about testing."
+      "intent": "Account-Manual",
+      "examples": [],
+      "description": "Account Operations Manual  Details "
     },
     {
-      "intent": "GR_SDPAs",
+      "intent": "thank_you",
       "examples": [
         {
-          "text": "List of SDPAs reports to Gaju"
+          "text": "good job"
         },
         {
-          "text": "Gaju SDPA reportees"
+          "text": "appreciate"
         },
         {
-          "text": "SDPA names who reports to Gaju"
+          "text": "c ya"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "nice"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thx"
         }
       ],
-      "description": "List of SDPAs who reports to Gaju"
+      "description": "Thank you"
     },
     {
-      "intent": "COVID_Govt_Emergency",
+      "intent": "Anything_else",
       "examples": [
         {
-          "text": "How is the United States prepared for the spread of covid 19?"
+          "text": "Than you"
         },
         {
-          "text": "How does the state of emergency affect me?"
+          "text": "anything"
         },
         {
-          "text": "Can the government close public places?"
+          "text": "can I help you with anything else"
         },
         {
-          "text": "A national emergency was declared in the United States. What does this mean?"
+          "text": "anything else"
         },
         {
-          "text": "When will the national emergency end?"
-        },
-        {
-          "text": "What measures is the US taking against covid-19?"
-        },
-        {
-          "text": "What measurements is the government taking?"
-        },
-        {
-          "text": "What is the Government doing about Covid?"
-        },
-        {
-          "text": "What is a national emergency?"
-        },
-        {
-          "text": "What has our government already done to reduce the risk of spreading the disease"
-        },
-        {
-          "text": "What does a state of emergency mean?"
-        },
-        {
-          "text": "What are the crisis measures currently in place?"
-        },
-        {
-          "text": "Tell me about the Coronavirus response"
-        },
-        {
-          "text": "How long will the state of emergency last?"
-        },
-        {
-          "text": "Is the government legally allowed to close shops and restaurants?"
-        },
-        {
-          "text": "is the government ready for covid"
-        },
-        {
-          "text": "Is the US well prepared for covid 19"
-        },
-        {
-          "text": "Is there a nationwide curfew?"
-        },
-        {
-          "text": "How long has the national emergency been in place?"
-        },
-        {
-          "text": "How is the US government addressing the spread of covid-19?"
+          "text": "Anything Else I can help with"
         }
       ],
-      "description": "Government readiness questions."
-    },
-    {
-      "intent": "COVID_Paid_Leave",
-      "examples": [
-        {
-          "text": "tell me about paid sick leave"
-        },
-        {
-          "text": "am I eligible for paid sick leave"
-        },
-        {
-          "text": "am I eligible for sick leave"
-        },
-        {
-          "text": "can i get paid sick leave"
-        },
-        {
-          "text": "Can i still get paid sick leave for 14 days if i get corona"
-        },
-        {
-          "text": "do i get paid leave time"
-        },
-        {
-          "text": "do I get paid sick leave"
-        },
-        {
-          "text": "does my workplace offer paid sick leave?"
-        },
-        {
-          "text": "duration of paid sick leave?"
-        },
-        {
-          "text": "how long can i get paid sick leave"
-        },
-        {
-          "text": "How much do I get paid for sick leave"
-        },
-        {
-          "text": "How much paid sick leave will I get if I am contracted with the virus?"
-        },
-        {
-          "text": "I work at a grocery store but my childcare is closed, is anything being setup to handle this?"
-        },
-        {
-          "text": "If I get sick will I continue to get paid?"
-        },
-        {
-          "text": "My job will not let me work from home. Do I qualify for paid sick leave?"
-        },
-        {
-          "text": "paid sick leave"
-        },
-        {
-          "text": "When am I entitled to take paid sick leave?"
-        },
-        {
-          "text": "who is able to get paid sick leave"
-        },
-        {
-          "text": "who is eligible to get paid sick leave"
-        },
-        {
-          "text": "Will government employees be paid during sick leave?"
-        },
-        {
-          "text": "Will I get paid leave?"
-        },
-        {
-          "text": "Will my employer give me paid leave if I have coronavirus?"
-        },
-        {
-          "text": "what if I don't have paid sick leave"
-        },
-        {
-          "text": "What if I don't have paid sick leave?"
-        },
-        {
-          "text": "Will I get paid if I have COVID-19?"
-        },
-        {
-          "text": "will paid sick leave be available for Uber drivers?"
-        },
-        {
-          "text": "will Texas provide paid sick leave"
-        }
-      ],
-      "description": "Eligibility for paid leave."
-    },
-    {
-      "intent": "COVID_Transmission",
-      "examples": [
-        {
-          "text": "how many people are infected in the United States"
-        },
-        {
-          "text": "How is COVID-19 spread?"
-        },
-        {
-          "text": "How is covid transmitted?"
-        },
-        {
-          "text": "how does the virus spread"
-        },
-        {
-          "text": "How does the infection spread"
-        },
-        {
-          "text": "How does covid spread?"
-        },
-        {
-          "text": "how does covid-19 spread"
-        },
-        {
-          "text": "how does covid-19 spread to others"
-        },
-        {
-          "text": "is covid19 contagious?"
-        },
-        {
-          "text": "is it contagious"
-        },
-        {
-          "text": "Is it possible to get infected from the infected person the next day?"
-        },
-        {
-          "text": "number of infected"
-        },
-        {
-          "text": "spreading covid to others"
-        },
-        {
-          "text": "When does a person become contagious?"
-        },
-        {
-          "text": "does the virus spread thru surfaces"
-        },
-        {
-          "text": "how can covid be transmitted"
-        },
-        {
-          "text": "How can I get infected?"
-        },
-        {
-          "text": "How contagious is COVID-19?"
-        },
-        {
-          "text": "How do I catch the virus?"
-        },
-        {
-          "text": "how does coronavirus spread?"
-        },
-        {
-          "text": "how does covid spread"
-        },
-        {
-          "text": "is covid transmissible from animals?"
-        },
-        {
-          "text": "Is Coronavirus contagious?"
-        },
-        {
-          "text": "How would I get covid?"
-        },
-        {
-          "text": "is covid-19 contagious?"
-        },
-        {
-          "text": "How would I catch it?"
-        }
-      ],
-      "description": "How Covid-19 is transmitted."
-    },
-    {
-      "intent": "COVID_Prevention",
-      "examples": [
-        {
-          "text": "How can I avoid getting sick?"
-        },
-        {
-          "text": "Can I protect myself by drinking alcohol"
-        },
-        {
-          "text": "Does eating garlic help?"
-        },
-        {
-          "text": "Does the sun kill coronavirus?"
-        },
-        {
-          "text": "how can I not get sick"
-        },
-        {
-          "text": "how can i prevent coronavirus"
-        },
-        {
-          "text": "What rules should I follow to prevent covid illness?"
-        },
-        {
-          "text": "What should I do to avoid getting sick?"
-        },
-        {
-          "text": "what should i do to contain the spread of the virus"
-        },
-        {
-          "text": "What should I do to stay safe?"
-        },
-        {
-          "text": "What will help me prevent covid infection?"
-        },
-        {
-          "text": "What’s the best way to prevent coronavirus?"
-        },
-        {
-          "text": "What is the risk of my child becoming sick with COVID-19?"
-        },
-        {
-          "text": "What is the most effective prevention?"
-        },
-        {
-          "text": "what is the best way to prevent coronavirus"
-        },
-        {
-          "text": "What is the best prevention?"
-        },
-        {
-          "text": "What is effective prevention against covid?"
-        },
-        {
-          "text": "what can i do to prevent getting coronavirus?"
-        },
-        {
-          "text": "what can i do to stay safe"
-        },
-        {
-          "text": "what can i do to prevent COIVD?"
-        },
-        {
-          "text": "What can I do to not get sick?"
-        },
-        {
-          "text": "what can I do to avoid getting sick?"
-        },
-        {
-          "text": "What are some good tips for prevention?"
-        },
-        {
-          "text": "Should I avoid people?"
-        },
-        {
-          "text": "prevent the spread of the virus"
-        },
-        {
-          "text": "How can I protect my family from the spread of coronavirus?"
-        },
-        {
-          "text": "How do I avoid Coronavirus"
-        },
-        {
-          "text": "How do I avoid covid-19?"
-        },
-        {
-          "text": "how do I ensure my family is safe?"
-        },
-        {
-          "text": "how do i prevent catching the disease"
-        },
-        {
-          "text": "How do I protect myself?"
-        },
-        {
-          "text": "how do I stay safe"
-        },
-        {
-          "text": "How do you protect yourself?"
-        },
-        {
-          "text": "How to avoid catching covid-19."
-        },
-        {
-          "text": "how to I prevent myself from getting sick?"
-        },
-        {
-          "text": "How to prevent covid infection?"
-        },
-        {
-          "text": "How to Prevent the Spread of the Virus"
-        },
-        {
-          "text": "Is it even possible to avoid the virus?"
-        },
-        {
-          "text": "precautionary measures"
-        }
-      ],
-      "description": "Ways to prevent Covid-19."
-    },
-    {
-      "intent": "COVID_Quarantine",
-      "examples": [
-        {
-          "text": "Who is responsible for quarantined people?"
-        },
-        {
-          "text": "Are people in quarantine checked?"
-        },
-        {
-          "text": "How does Quarantine work?"
-        },
-        {
-          "text": "How long do I have to be stuck at home?"
-        },
-        {
-          "text": "How long do I have to self isolate if I have tested positive?"
-        },
-        {
-          "text": "How long do I have to stay in quarantine?"
-        },
-        {
-          "text": "How long does it take to quarantine?"
-        },
-        {
-          "text": "How long should I be in quarantine?"
-        },
-        {
-          "text": "How long should I quarantine?"
-        },
-        {
-          "text": "How long should you self-quarantine?"
-        },
-        {
-          "text": "how long will we have to self quarantine?"
-        },
-        {
-          "text": "If I have Covid how long do I have to self isolate"
-        },
-        {
-          "text": "A colleague is breaking quarantine what should I do?"
-        },
-        {
-          "text": "if i have symptoms, how long should i quarantine for?"
-        },
-        {
-          "text": "If infected, how long should individuals self-quarantine?"
-        },
-        {
-          "text": "Is anyone checking for compliance with those ordered to quarantine?"
-        },
-        {
-          "text": "What can I do when I'm in quarantine?"
-        },
-        {
-          "text": "What exactly is home quarantine?"
-        },
-        {
-          "text": "What if I break quarantine?"
-        },
-        {
-          "text": "What should I do if I have been quarantined?"
-        },
-        {
-          "text": "What should I do in quarantine?"
-        }
-      ],
-      "description": "Quarantine requirements."
-    },
-    {
-      "intent": "COVID_School_shutdown",
-      "examples": [
-        {
-          "text": "What happens after the ordered three-week closure period ends?"
-        },
-        {
-          "text": "When does covid vacation end?"
-        },
-        {
-          "text": "when do the children go back to school"
-        },
-        {
-          "text": "when can my kids go back to school"
-        },
-        {
-          "text": "when can my kids go back to high school in 78712"
-        },
-        {
-          "text": "when can my kids go back to college?"
-        },
-        {
-          "text": "when can my kids back school"
-        },
-        {
-          "text": "when can my kid go back to school"
-        },
-        {
-          "text": "When can my kid go back to college"
-        },
-        {
-          "text": "are schools closed in my area"
-        },
-        {
-          "text": "are schools closed?"
-        },
-        {
-          "text": "are schools in my area closed"
-        },
-        {
-          "text": "are schools open"
-        },
-        {
-          "text": "Are schools open?"
-        },
-        {
-          "text": "Are schools shut down?"
-        },
-        {
-          "text": "Can my child go to school?"
-        },
-        {
-          "text": "can my kids return to high school"
-        },
-        {
-          "text": "How can I get the latest news on my school closure?"
-        },
-        {
-          "text": "How will the shutdown impact my child's attendance records?"
-        },
-        {
-          "text": "I live in 78709. when will my kids high school reopen?"
-        },
-        {
-          "text": "Is graduation delayed?"
-        },
-        {
-          "text": "Is HS 123 open?"
-        },
-        {
-          "text": "is my kids school closed"
-        },
-        {
-          "text": "Is my kids school closed?"
-        },
-        {
-          "text": "is my school closed"
-        },
-        {
-          "text": "Is my school closed?"
-        },
-        {
-          "text": "is the school closed"
-        },
-        {
-          "text": "Should my child stay home from school?"
-        },
-        {
-          "text": "What does the ordered school closure mean for report cards?"
-        },
-        {
-          "text": "what schools are closed"
-        },
-        {
-          "text": "when can my kid go back to high school"
-        },
-        {
-          "text": "when can my kid go back school"
-        },
-        {
-          "text": "when can my high school senior go back to school"
-        },
-        {
-          "text": "ARE COLLEGES OPEN"
-        },
-        {
-          "text": "Are my children's schools closed?"
-        },
-        {
-          "text": "Are my schools closed"
-        },
-        {
-          "text": "are my schools closed?"
-        },
-        {
-          "text": "are schools closed"
-        },
-        {
-          "text": "are schools closed ?"
-        },
-        {
-          "text": "Will there be school in the summer?"
-        },
-        {
-          "text": "Will there be exams in the summer?"
-        },
-        {
-          "text": "Will students still graduate this year?"
-        },
-        {
-          "text": "when can i send my kids back to school"
-        },
-        {
-          "text": "when can kid go back to school"
-        },
-        {
-          "text": "when can kids return to school"
-        },
-        {
-          "text": "Will graduations be pushed back?"
-        },
-        {
-          "text": "Will classes be moved to summer?"
-        },
-        {
-          "text": "Which schools are closed?"
-        },
-        {
-          "text": "When can I return to school?"
-        },
-        {
-          "text": "where can my kids go back to school"
-        },
-        {
-          "text": "When will the schools open?"
-        },
-        {
-          "text": "When will schools close?"
-        },
-        {
-          "text": "when will my kids school reopen"
-        },
-        {
-          "text": "When will my kids be back in school?"
-        },
-        {
-          "text": "When will my good go back to school?"
-        },
-        {
-          "text": "When is school back in session?"
-        }
-      ],
-      "description": "Information on school shutdowns."
-    },
-    {
-      "intent": "Pretesters",
-      "examples": [
-        {
-          "text": "Provide me list of Pretesters"
-        },
-        {
-          "text": "List of Pretesters"
-        },
-        {
-          "text": "List of Pre-testers"
-        },
-        {
-          "text": "please list out pretesters"
-        }
-      ],
-      "description": "Who are all Pretesters"
-    },
-    {
-      "intent": "COVID_Comparing_Illness",
-      "examples": [
-        {
-          "text": "what is the difference between flu and coronavirus"
-        },
-        {
-          "text": "What is the difference between COVID-19 and the flu"
-        },
-        {
-          "text": "What is different between flu and coronavirus"
-        },
-        {
-          "text": "SARS vs Corona virus?"
-        },
-        {
-          "text": "Is this worse than the flu?"
-        },
-        {
-          "text": "is this worse than flue"
-        },
-        {
-          "text": "is this worse than flu"
-        },
-        {
-          "text": "Is the coronavirus the same as SARS?"
-        },
-        {
-          "text": "Is the coronavirus the same as MERS?"
-        },
-        {
-          "text": "is this the same as the flu?"
-        },
-        {
-          "text": "Flu vs Coronavirus"
-        },
-        {
-          "text": "flu vs covid19"
-        },
-        {
-          "text": "Flu vs. COVID-19"
-        },
-        {
-          "text": "How do flu symptoms differ from coronavirus symptoms?"
-        },
-        {
-          "text": "how does cover-19 compare to the SARS epidemic?"
-        },
-        {
-          "text": "How is corona virus different than SARS?"
-        },
-        {
-          "text": "How is flu different from coronavirus"
-        },
-        {
-          "text": "how is the flue different from the coronavirus?"
-        },
-        {
-          "text": "How's the flu different from coronavirus?"
-        },
-        {
-          "text": "is covid the same as the flu?"
-        },
-        {
-          "text": "What's the difference between flu and coronavirus"
-        },
-        {
-          "text": "Is the coronavirus the same as a cold?"
-        },
-        {
-          "text": "What's the difference between flu and coronavirus?"
-        },
-        {
-          "text": "what's the difference between the flu and coronavirus"
-        },
-        {
-          "text": "what is the difference between the flu and coronavirus"
-        }
-      ],
-      "description": "Comparing Covid to other illnesses."
-    },
-    {
-      "intent": "COVID_Testing_Locations",
-      "examples": [
-        {
-          "text": "I want to test myself for coronavirus soon"
-        },
-        {
-          "text": "can you direct me to the nearest test center"
-        },
-        {
-          "text": "How can I get a coronavirus test?"
-        },
-        {
-          "text": "How can I get a test"
-        },
-        {
-          "text": "how can i get screened"
-        },
-        {
-          "text": "how do I get a coronavirus test?"
-        },
-        {
-          "text": "how do i get a test?"
-        },
-        {
-          "text": "how do I get screened?"
-        },
-        {
-          "text": "How do I get tested?"
-        },
-        {
-          "text": "how do you test"
-        },
-        {
-          "text": "i am in new york where should i get tested"
-        },
-        {
-          "text": "i have symptoms. where can i get tested?"
-        },
-        {
-          "text": "I live in Austin, where can I get tested for Covid-19"
-        },
-        {
-          "text": "I live in Ontario, where can I get tested?"
-        },
-        {
-          "text": "I need to be checked for covid 19."
-        },
-        {
-          "text": "I need to get tested, where can I go?"
-        },
-        {
-          "text": "I want a coronavirus test"
-        },
-        {
-          "text": "I want a test for coronavirus"
-        },
-        {
-          "text": "I want to be tested for covid-19"
-        },
-        {
-          "text": "I want to get tested for covid soon"
-        },
-        {
-          "text": "I want to make an appointment for testing"
-        },
-        {
-          "text": "None of those sound like they cover how to get tested. Can you tell me how/where I can get tested?"
-        },
-        {
-          "text": "where can I order a coronavirus test"
-        },
-        {
-          "text": "Where can I go to get tested for COVID?"
-        },
-        {
-          "text": "where can I get tested in new mexico"
-        },
-        {
-          "text": "where can I get tested in Houston?"
-        },
-        {
-          "text": "where can I get tested in alabama"
-        },
-        {
-          "text": "where can I get tested for the coronavirus in New York"
-        },
-        {
-          "text": "Where can I get tested for cover-19"
-        },
-        {
-          "text": "Where can I get tested for coronavirus?"
-        },
-        {
-          "text": "where can i get tested for coronavirus"
-        },
-        {
-          "text": "Where can I get tested for Corona?"
-        },
-        {
-          "text": "where can i get screened?"
-        },
-        {
-          "text": "where can I get a test?"
-        },
-        {
-          "text": "where can I get a test kit"
-        },
-        {
-          "text": "where can I get a test done?"
-        },
-        {
-          "text": "where can I get a test done"
-        },
-        {
-          "text": "where can i get a test"
-        },
-        {
-          "text": "Where can I get a COVID-19 test?"
-        },
-        {
-          "text": "where can I get a coronavirus test"
-        },
-        {
-          "text": "where can I be tested"
-        },
-        {
-          "text": "testing spots for coronavirus?"
-        },
-        {
-          "text": "testing locations?"
-        },
-        {
-          "text": "set an appointment for covid testing"
-        },
-        {
-          "text": "Who do I contact if I want to get tested for covid 19 infection?"
-        },
-        {
-          "text": "where should I go to get screened"
-        },
-        {
-          "text": "where I can get tested"
-        },
-        {
-          "text": "Where do I go for COVID19 testing?"
-        },
-        {
-          "text": "where do I get a test"
-        },
-        {
-          "text": "where can i get tested"
-        },
-        {
-          "text": "Where can I test"
-        },
-        {
-          "text": "Can I test myself at my house?"
-        },
-        {
-          "text": "Can I get tested at my doctor's?"
-        },
-        {
-          "text": "Can I get tested at Walgreens?"
-        }
-      ],
-      "description": "Where to get tested."
-    },
-    {
-      "intent": "COVID_Masks_Protection",
-      "examples": [
-        {
-          "text": "Do I need to wear a face mask?"
-        },
-        {
-          "text": "Does a mask or respirator help prevent covid infection?"
-        },
-        {
-          "text": "Does the CDC say to cover your face?"
-        },
-        {
-          "text": "Does the government recommend wearing masks?"
-        },
-        {
-          "text": "I often travel by public transport. Should I wear a respirator?"
-        },
-        {
-          "text": "Should I buy a respirator?"
-        },
-        {
-          "text": "Should I cover my face in public?"
-        },
-        {
-          "text": "Should I have something on my face when I go out?"
-        },
-        {
-          "text": "Should I wear a mask or a respirator?"
-        },
-        {
-          "text": "Should I wear a mask so I don't get infected?"
-        },
-        {
-          "text": "should I wear a respirator?"
-        },
-        {
-          "text": "What is a cloth face covering and how does it help?"
-        },
-        {
-          "text": "When should I wear a mask?"
-        },
-        {
-          "text": "When should I wear a respirator?"
-        },
-        {
-          "text": "Will a respirator help me?"
-        },
-        {
-          "text": "Do I have to wear a respirator?"
-        },
-        {
-          "text": "Do I have to wear a mask when I'm outside or taking a walk?"
-        },
-        {
-          "text": "Can I go out without a respirator?"
-        },
-        {
-          "text": "Can a mask help me?"
-        },
-        {
-          "text": "Am I supposed to wear a face covering?"
-        }
-      ],
-      "description": "Explaining how masks can protect."
-    },
-    {
-      "intent": "COVID_See_Doctor",
-      "examples": [
-        {
-          "text": "I have a cough but am breathing fine, should I go to the hospital or wait?"
-        },
-        {
-          "text": "i have a fever. should i go to the hospital?"
-        },
-        {
-          "text": "I suspect I have the virus who can I call?"
-        },
-        {
-          "text": "I'm coughing, should I go to the doctor?"
-        },
-        {
-          "text": "If I think I have COVID-19, should I see my Dr?"
-        },
-        {
-          "text": "should i go to the doctor now"
-        },
-        {
-          "text": "should i go to the ER if i have a cough"
-        },
-        {
-          "text": "Should I go to the hospital"
-        },
-        {
-          "text": "Should I make an appointment with my Dr?"
-        },
-        {
-          "text": "Should I see a doctor if I am not feeling well?"
-        },
-        {
-          "text": "Should I see a doctor if I am showing the symptoms?"
-        },
-        {
-          "text": "when did I need to call the doctor?"
-        },
-        {
-          "text": "When do i call a doctor"
-        },
-        {
-          "text": "when should I call a doctor"
-        },
-        {
-          "text": "when should I go to a doctor?"
-        },
-        {
-          "text": "When should I go to the doctor?"
-        },
-        {
-          "text": "Who should I call if I have symptoms?"
-        },
-        {
-          "text": "Where should I go if I suspect I have coronavirus?"
-        },
-        {
-          "text": "When should I go to the hospital?"
-        },
-        {
-          "text": "can I go to the hospital?"
-        },
-        {
-          "text": "Do I have to go to the hospital if I get COVID"
-        },
-        {
-          "text": "how do i know whether to go to the doctor?"
-        },
-        {
-          "text": "I am coughing.  Should I call my doctor?"
-        }
-      ],
-      "description": "Asking if it is possible to see a doctor."
-    },
-    {
-      "intent": "COVID_Symptoms",
-      "examples": [
-        {
-          "text": "Will my head hurt if I have covid 19?"
-        },
-        {
-          "text": "how do i know if im sick"
-        },
-        {
-          "text": "am i sick"
-        },
-        {
-          "text": "Do I have coronavirus?"
-        },
-        {
-          "text": "do I have covid?"
-        },
-        {
-          "text": "Hi what are the symptoms?"
-        },
-        {
-          "text": "how can one know if they have been infected?"
-        },
-        {
-          "text": "How do I know if I am infected with Covid"
-        },
-        {
-          "text": "how do i know if i got this"
-        },
-        {
-          "text": "how do i know if I got this thing"
-        },
-        {
-          "text": "how do i know if i have this issue"
-        },
-        {
-          "text": "how do I know if i have this thing"
-        },
-        {
-          "text": "How do I know if I'm sick with covid-19?"
-        },
-        {
-          "text": "how to distinguish it from a common cold."
-        },
-        {
-          "text": "I can not breath very well"
-        },
-        {
-          "text": "I feel congested and have a fever"
-        },
-        {
-          "text": "I have a burning feeling in my chest"
-        },
-        {
-          "text": "I have a fever"
-        },
-        {
-          "text": "i have a sore throat"
-        },
-        {
-          "text": "I have a temperature and cough. Do I have the coronavirus?"
-        },
-        {
-          "text": "I have an irritating cough"
-        },
-        {
-          "text": "I have headache and sore throat, what should I do ?"
-        },
-        {
-          "text": "I have illness symptoms"
-        },
-        {
-          "text": "I have sore throat"
-        },
-        {
-          "text": "I have sore throat, is it coronavirus?"
-        },
-        {
-          "text": "I have traveled recently. What do I do?"
-        },
-        {
-          "text": "I think I feel symptoms of the disease"
-        },
-        {
-          "text": "I think I have covid 19"
-        },
-        {
-          "text": "I think I might have the virus."
-        },
-        {
-          "text": "I think i'm infected"
-        },
-        {
-          "text": "I'm afraid I have covid-19"
-        },
-        {
-          "text": "I'm having respiratory problems"
-        },
-        {
-          "text": "If I only have a sore throat is it Coronavirus?"
-        },
-        {
-          "text": "Is a headache a symptom of the coronavirus?"
-        },
-        {
-          "text": "Is rash a symptom of covid-19?"
-        },
-        {
-          "text": "my child has a high fever and is coughing. what should I do?"
-        },
-        {
-          "text": "My child is coughing. Should I be worried?"
-        },
-        {
-          "text": "my eyes are burning"
-        },
-        {
-          "text": "My girlfriend has symptoms of covid-19"
-        },
-        {
-          "text": "My husband has coronavirus symptoms"
-        },
-        {
-          "text": "my throat and head hurt"
-        },
-        {
-          "text": "my throat hurts and I have a headache as well"
-        },
-        {
-          "text": "rhinitis"
-        },
-        {
-          "text": "should I get tested if I have a cough?"
-        },
-        {
-          "text": "Symptoms"
-        },
-        {
-          "text": "tell me about the symptoms"
-        },
-        {
-          "text": "temperature"
-        },
-        {
-          "text": "Wet cough"
-        },
-        {
-          "text": "what are covid 19 symptoms"
-        },
-        {
-          "text": "what are my symptoms"
-        },
-        {
-          "text": "what are symptoms"
-        },
-        {
-          "text": "what are symptoms of coronavirus"
-        },
-        {
-          "text": "What are symptoms?"
-        },
-        {
-          "text": "what are symtoms?"
-        },
-        {
-          "text": "what are the common symptoms"
-        },
-        {
-          "text": "what are the covid symtoms"
-        },
-        {
-          "text": "what are the COVID-19 symptoms?"
-        },
-        {
-          "text": "what are the early symptoms of covid-19?"
-        },
-        {
-          "text": "What are the first symptoms for COVID?"
-        },
-        {
-          "text": "what are the most common symptoms of COVID?"
-        },
-        {
-          "text": "what are the symptoms"
-        },
-        {
-          "text": "what are the symptoms I should look out for"
-        },
-        {
-          "text": "what are the symptoms of coronavirus"
-        },
-        {
-          "text": "what are the symptoms of COVID-19"
-        },
-        {
-          "text": "What are the symptoms of covid?"
-        },
-        {
-          "text": "What are the symptoms of the disease?"
-        },
-        {
-          "text": "What are the symptoms?"
-        },
-        {
-          "text": "what are the types of symptoms"
-        },
-        {
-          "text": "what is the first symptom"
-        },
-        {
-          "text": "what symptoms are typical with this disease"
-        },
-        {
-          "text": "What to do if I think I have covid?"
-        },
-        {
-          "text": "Will I poop a lot if I have the virus?"
-        },
-        {
-          "text": "Will I throw up if I have the virus?"
-        }
-      ],
-      "description": "Symptoms of Covid-19."
-    },
-    {
-      "intent": "COVID_Unemployment_Application",
-      "examples": [
-        {
-          "text": "i need to apply for unemployment.  how do I do it"
-        },
-        {
-          "text": "If I got furloughed, do I qualify for unemployment?"
-        },
-        {
-          "text": "what can I do if I lose my job"
-        },
-        {
-          "text": "what can I do if I lose my job?"
-        },
-        {
-          "text": "apply for unemployment"
-        },
-        {
-          "text": "How am I gonna pay my bills if I don't have a job anymore?"
-        },
-        {
-          "text": "how can i apply for unemployment during this outbreak?"
-        },
-        {
-          "text": "how can I apply for unemployment?"
-        },
-        {
-          "text": "how do I apply for unemployment"
-        },
-        {
-          "text": "how do I apply for unemployment because of covid-19"
-        },
-        {
-          "text": "where can I apply for unemployment"
-        },
-        {
-          "text": "What if I got furloughed?"
-        },
-        {
-          "text": "What happens if I lose my job?"
-        },
-        {
-          "text": "What do I do if I don't have unemployment insurance?"
-        },
-        {
-          "text": "how do I apply for unemployment benefits due to Covid-19?"
-        },
-        {
-          "text": "how do I apply for unemployment benefits?"
-        },
-        {
-          "text": "how long can I get unemployment?"
-        },
-        {
-          "text": "how long does it take to get unemployment"
-        },
-        {
-          "text": "how to apply for unemployment"
-        },
-        {
-          "text": "how to I apply for unemployment"
-        },
-        {
-          "text": "i can't go to work.  can i get unemployment?"
-        },
-        {
-          "text": "I have a question about unemployment"
-        },
-        {
-          "text": "I just got laid off, now what?"
-        }
-      ],
-      "description": "How to apply for unemployment."
-    },
-    {
-      "intent": "COVID_Cleaning_Disinfecting",
-      "examples": [
-        {
-          "text": "How often do I need to clean my home to prevent the spread of coronavirus?"
-        },
-        {
-          "text": "how do i get rid of germs at my home"
-        },
-        {
-          "text": "All the stores are out of disinfecting wipes, what do I do?"
-        },
-        {
-          "text": "Are there disinfectants available that can inactivate (kill) COVID-19?"
-        },
-        {
-          "text": "cleaning products"
-        },
-        {
-          "text": "disinfectant products"
-        },
-        {
-          "text": "Do I have to use bleach to kill coronavirus?"
-        },
-        {
-          "text": "Do I need lysol wipes?"
-        },
-        {
-          "text": "Do I need to disinfect my cell phone when I get home"
-        },
-        {
-          "text": "Does alcohol kill the coronavirus?"
-        },
-        {
-          "text": "How do I clean my home properly?"
-        },
-        {
-          "text": "What is the best way to clean?"
-        },
-        {
-          "text": "what cleaning regimen should I follow"
-        },
-        {
-          "text": "What cleaning methods kill the coronavirus?"
-        },
-        {
-          "text": "Should I spray myself or my kids with disinfectant?"
-        },
-        {
-          "text": "Which surfaces are most important to disinfect?"
-        },
-        {
-          "text": "Whats the difference between cleaning and disinfecting?"
-        },
-        {
-          "text": "What kind of disinfectant should I use?"
-        },
-        {
-          "text": "mopping products"
-        },
-        {
-          "text": "is lysol enough to get rid of covid virus from countertops"
-        },
-        {
-          "text": "How should I wash my clothes if I may have been exposed to COVID-19?"
-        }
-      ],
-      "description": "How to clean and disinfect."
-    },
-    {
-      "intent": "COVID_Case_Count",
-      "examples": [
-        {
-          "text": "Does MA have a confirmed COVID case?"
-        },
-        {
-          "text": "what is the count of coronavirus infected people?"
-        },
-        {
-          "text": "how many people in texas have corona virus?"
-        },
-        {
-          "text": "how many people have the virus?"
-        },
-        {
-          "text": "How many people have the virus in our county"
-        },
-        {
-          "text": "How many people have covid-19 in the whole world?"
-        },
-        {
-          "text": "how many people have contracted the virus in pennysylvania"
-        },
-        {
-          "text": "How many people are sick throughout the world?"
-        },
-        {
-          "text": "How many people are infected with Corona virus currently in texas?"
-        },
-        {
-          "text": "How many people are infected in Illinois?"
-        },
-        {
-          "text": "how many people are infected"
-        },
-        {
-          "text": "how many people are sick in the US?"
-        },
-        {
-          "text": "how many patients are infected with corona virus in collin county"
-        },
-        {
-          "text": "How many folks in Texas are infected?"
-        },
-        {
-          "text": "how many current cases are there in Illinois"
-        },
-        {
-          "text": "How many coronavirus cases are there in my area?"
-        },
-        {
-          "text": "How many cases of the virus are there in the world?"
-        },
-        {
-          "text": "How many cases of COVID-19 are in the US?"
-        },
-        {
-          "text": "how many cases are there in Texas?"
-        },
-        {
-          "text": "How has coronavirus spread around the world?"
-        },
-        {
-          "text": "has anyone died of coronavirus in my state?"
-        },
-        {
-          "text": "Does the US have a confirmed COVID case?"
-        },
-        {
-          "text": "Where can I find information about covid 19 for the world?"
-        },
-        {
-          "text": "Where are cases?"
-        },
-        {
-          "text": "covid number in my state?"
-        },
-        {
-          "text": "is anyone near me sick"
-        },
-        {
-          "text": "how many ppl are infected in the us?"
-        },
-        {
-          "text": "How many people total have coronavirus?"
-        },
-        {
-          "text": "How many people in the world have died?"
-        },
-        {
-          "text": "are people infected in my city ?"
-        },
-        {
-          "text": "Are there any cases near me"
-        },
-        {
-          "text": "Which countries has covid-19 been detected in?"
-        }
-      ],
-      "description": "Number of cases nearby."
-    },
-    {
-      "intent": "COVID_Shopping_Groceries",
-      "examples": [
-        {
-          "text": "can i go to the grocery store"
-        },
-        {
-          "text": "can I go to grocery stores"
-        },
-        {
-          "text": "are grocery stores still open"
-        },
-        {
-          "text": "Am I allowed to go to the grocery store?"
-        },
-        {
-          "text": "can I still go grocery shopping"
-        },
-        {
-          "text": "Can I still go to the grocery store?"
-        },
-        {
-          "text": "can we go to the store?"
-        },
-        {
-          "text": "How should I get groceries?"
-        },
-        {
-          "text": "I am in a high risk group. Can I buy my own food and medicine?"
-        },
-        {
-          "text": "I need medicine. Can I go to the store?"
-        },
-        {
-          "text": "is it ok for me to go to the grocery store"
-        },
-        {
-          "text": "Is it okay to go grocery shopping?"
-        },
-        {
-          "text": "Is it risky to buy food at the store?"
-        },
-        {
-          "text": "Is it safe to go out to buy food and staples?"
-        },
-        {
-          "text": "Is it safe to go to Costco?"
-        },
-        {
-          "text": "Is it safe to go to the grocery store?"
-        },
-        {
-          "text": "what grocery store in keller is open?"
-        },
-        {
-          "text": "can i go to the store."
-        },
-        {
-          "text": "Can I go to the grocery store?"
-        },
-        {
-          "text": "can I go to the grocery store or will I catch corona"
-        }
-      ],
-      "description": "Status of grocery stores."
-    },
-    {
-      "intent": "COVID_Event_Shutdowns",
-      "examples": [
-        {
-          "text": "What is the maximum number of people allowed to meet right now?"
-        },
-        {
-          "text": "What sports are being cancelled?"
-        },
-        {
-          "text": "When will the NHL return?"
-        },
-        {
-          "text": "Why is the government shutting down my event?"
-        },
-        {
-          "text": "Will I get a refund for a ticket I purchased?"
-        },
-        {
-          "text": "Are churches closed"
-        },
-        {
-          "text": "Are events being shut down?"
-        },
-        {
-          "text": "Are groups of people allowed to meet?"
-        },
-        {
-          "text": "Are the museums closed?"
-        },
-        {
-          "text": "can i go to church"
-        },
-        {
-          "text": "When are sports going to start back up?"
-        },
-        {
-          "text": "When will the NCAA championships be held?"
-        },
-        {
-          "text": "can I still attend a conference"
-        },
-        {
-          "text": "When will the major sports leagues start playing again?"
-        },
-        {
-          "text": "can my church still meet"
-        },
-        {
-          "text": "event shutdowns"
-        },
-        {
-          "text": "events and large gatherings"
-        },
-        {
-          "text": "How do I know if my concert is cancelled?"
-        },
-        {
-          "text": "Is it okay to partake in sports activities?"
-        },
-        {
-          "text": "public events cancelled"
-        },
-        {
-          "text": "Should I feel safe going to the movies?"
-        }
-      ],
-      "description": "Event shutdowns and business closures."
-    },
-    {
-      "intent": "COVID_Treatment_Vaccine",
-      "examples": [
-        {
-          "text": "Is there a vaccine for coronavirus?"
-        },
-        {
-          "text": "Is there a magical cure for covid-19?"
-        },
-        {
-          "text": "Is there a cure for covid-19?"
-        },
-        {
-          "text": "Is there a cure for covid 19?"
-        },
-        {
-          "text": "Is there a covid vaccine?"
-        },
-        {
-          "text": "Is the covid vaccine ready?"
-        },
-        {
-          "text": "Is it possible to estimate how long it will take to administer the drug / vaccine to people?"
-        },
-        {
-          "text": "How long will it be until there is a vaccine?"
-        },
-        {
-          "text": "How long does it take to develop a vaccine?"
-        },
-        {
-          "text": "Covid-19 vaccine?"
-        },
-        {
-          "text": "Why isn't there a vaccine yet?"
-        },
-        {
-          "text": "When will covid-19 medicines be ready?"
-        },
-        {
-          "text": "When can I expect drugs for the virus?"
-        },
-        {
-          "text": "What's the status of a vaccine?"
-        },
-        {
-          "text": "Is there a vaccine?"
-        },
-        {
-          "text": "Is there a vaccine for this"
-        },
-        {
-          "text": "Is there a vaccine for the coronavirus?"
-        },
-        {
-          "text": "Is there a vaccine for Covid-19"
-        },
-        {
-          "text": "is there a vaccine for covid"
-        },
-        {
-          "text": "Is there a vaccine for corona virus"
-        },
-        {
-          "text": "is there a vaccine for Covid-19?"
-        }
-      ],
-      "description": "Questions about vaccination."
+      "description": "Anything else"
     },
     {
       "intent": "SDPA_Roles",
       "examples": [
         {
-          "text": "SDPA Job role"
+          "text": "Define SDAP roles?"
         },
         {
-          "text": "SDPA JD"
+          "text": "What is SDPA ? Job responsibilites"
         },
         {
-          "text": "Who is SDPA"
-        },
-        {
-          "text": "Explain SDPA roles"
-        },
-        {
-          "text": "SDPA"
-        },
-        {
-          "text": "Define SDPA roles"
+          "text": "SDPA roles"
         }
       ],
-      "description": "What is SDPA "
+      "description": "SDPA roles and responsibilities"
     },
     {
-      "intent": "COVID_Treatment_Info",
+      "intent": "ActiveEvents",
       "examples": [
         {
-          "text": "What medicine should I take for COVID 19"
+          "text": "Active event"
         },
         {
-          "text": "Can medication be used to reduce fever?"
+          "text": "List all the Active Events"
         },
         {
-          "text": "What medicine should I avoid taking if I have coronavirus"
+          "text": "Scheduled Events"
         },
         {
-          "text": "what kind of medicine should I take"
+          "text": "List of Active Events"
         },
         {
-          "text": "Medication that helps with coronavirus"
+          "text": "I want list of scheduled accounts"
         },
         {
-          "text": "What is the treatment for this disease?"
+          "text": "I want list of scheduled accounts till Dec 2020"
         },
         {
-          "text": "What is the treatment for covid-19?"
-        },
-        {
-          "text": "Is there a medication to reduce temperature with covid-19?"
-        },
-        {
-          "text": "I heard about a medication for coronavirus treatment"
-        },
-        {
-          "text": "Can I lower my temperature using medication?"
-        },
-        {
-          "text": "best vitamin to take"
-        },
-        {
-          "text": "what medicine should I be taking for Covid 19"
-        },
-        {
-          "text": "can medication reduce fever caused by a possible covid infection?"
-        },
-        {
-          "text": "How can I lower my temperature if I have the coronavirus?"
-        },
-        {
-          "text": "How do I treat coronavirus?"
-        },
-        {
-          "text": "How do we treat covid?"
-        },
-        {
-          "text": "How to treat covid?"
-        },
-        {
-          "text": "Can I take ibuprofen if I have corona virus?"
-        },
-        {
-          "text": "Is there a medication that can help me feel better?"
-        },
-        {
-          "text": "Should I take Theraflu?"
-        },
-        {
-          "text": "what medicines work best"
-        },
-        {
-          "text": "what medicines should I take if I have coronavirus"
-        },
-        {
-          "text": "what medicine work best for treatment ?"
+          "text": "Noor Accounts"
         }
       ],
-      "description": "How to treat Covid-19."
+      "description": "What are the Active Events"
     },
     {
-      "intent": "COVID_Travel_Restrictions",
+      "intent": "OTC_Focals",
       "examples": [
         {
-          "text": "I traveled to Italy recently. What do I do?"
+          "text": "OTC Team leads"
         },
         {
-          "text": "do i need to stay home"
+          "text": "Please provide me list of OTC team"
         },
         {
-          "text": "Do I need a doctor's note to travel?"
+          "text": "who are the OTC team"
         },
         {
-          "text": "can I travel to Arkansas"
+          "text": "Please provide me John contact details"
         },
         {
-          "text": "Can I travel out of the country?"
+          "text": "John details"
         },
         {
-          "text": "Can I travel in the current emergency situation?"
+          "text": "List of OTC Team leads"
         },
         {
-          "text": "Can I travel for work?"
+          "text": "List of OTC Focals"
         },
         {
-          "text": "Are there any travel restrictions in place yet?"
-        },
-        {
-          "text": "airline travel"
-        },
-        {
-          "text": "Can I travel?"
-        },
-        {
-          "text": "Can I visit relatives in another state?"
-        },
-        {
-          "text": "What if I urgently need to take a flight?"
-        },
-        {
-          "text": "What counts as travel?"
-        },
-        {
-          "text": "should i travel?"
-        },
-        {
-          "text": "Should I change my travel plans?"
-        },
-        {
-          "text": "Should I cancel my flight to Denver?"
-        },
-        {
-          "text": "Is it safe to fly to Seattle?"
-        },
-        {
-          "text": "Is driving considered travel?"
-        },
-        {
-          "text": "Is commercial air travel suspended too?"
-        },
-        {
-          "text": "I just travelled. What do I do?"
+          "text": "OTC Focals"
         }
       ],
-      "description": "Status of travel restrictions."
+      "description": "OTC Team Leads"
     },
     {
-      "intent": "COVID_Description",
+      "intent": "goodbye",
       "examples": [
         {
-          "text": "Where can I find more information about covid 19?"
+          "text": "good bye"
         },
         {
-          "text": "where did corona virus start from?"
+          "text": "Thank you"
         },
         {
-          "text": "where did covid come from?"
+          "text": "talk to you soon"
         },
         {
-          "text": "What is COVID?"
+          "text": "takecare"
         },
         {
-          "text": "what is covid19"
+          "text": "see you"
         },
         {
-          "text": "origin of coronavirus"
+          "text": "see yah"
         },
         {
-          "text": "what is the corona virus?"
+          "text": "No thanks"
         },
         {
-          "text": "Is covid a disease?"
-        },
-        {
-          "text": "I heard about covid what is it?"
-        },
-        {
-          "text": "How dangerous is this?"
-        },
-        {
-          "text": "Where did the coronavirus come from?"
-        },
-        {
-          "text": "Where can I learn more about covid?"
-        },
-        {
-          "text": "What does covid stand for?"
-        },
-        {
-          "text": "What is corona virus"
-        },
-        {
-          "text": "what is the coronavirus?"
-        },
-        {
-          "text": "What is Corona virus?"
-        },
-        {
-          "text": "What is covid"
-        },
-        {
-          "text": "What is COVID-19?"
-        },
-        {
-          "text": "what is covid-19"
-        },
-        {
-          "text": "what is the Corona Virus"
-        },
-        {
-          "text": "Has the cause of COVID-19 been identified?"
-        },
-        {
-          "text": "covid what is it"
-        },
-        {
-          "text": "what is novel coronavirus?"
+          "text": "bye"
         }
       ],
-      "description": "Describe Covid-19."
+      "description": "See you soon"
+    },
+    {
+      "intent": "ROP",
+      "examples": [
+        {
+          "text": "What is the defference between ROP and ROP4"
+        },
+        {
+          "text": "What is ROP"
+        }
+      ],
+      "description": "Rapid Recovery Provisioning"
+    },
+    {
+      "intent": "OTC_Details",
+      "examples": [
+        {
+          "text": "What is OTC ?"
+        },
+        {
+          "text": "Who are Focals for OTC"
+        },
+        {
+          "text": "When OTC applies to the Customer"
+        },
+        {
+          "text": "How many Type of OTC"
+        }
+      ],
+      "description": "One Time Charge Focals "
+    },
+    {
+      "intent": "Pretesters",
+      "examples": [
+        {
+          "text": "I want pretesters information"
+        },
+        {
+          "text": "Carmine"
+        },
+        {
+          "text": "Z> list of pretesters"
+        },
+        {
+          "text": "Z> i want list of pretesters"
+        },
+        {
+          "text": "network pretesters"
+        },
+        {
+          "text": "Z> pretesters"
+        },
+        {
+          "text": "Z> I want list of prestesters"
+        },
+        {
+          "text": "Z> I want list of Scheduled event"
+        },
+        {
+          "text": "Z> list OTC team"
+        },
+        {
+          "text": "all pretesters"
+        },
+        {
+          "text": "list of pretesters"
+        },
+        {
+          "text": "pretesters list"
+        },
+        {
+          "text": "who are all pretesters"
+        },
+        {
+          "text": "I want pre-testers information"
+        },
+        {
+          "text": "Details of Evelyne"
+        }
+      ],
+      "description": "Full list of Presters"
     }
   ],
   "entities": [
     {
-      "entity": "GR_SDPAs",
+      "entity": "Pretesters_Name",
       "values": [
         {
           "type": "synonyms",
-          "value": "Manikantan N V",
+          "value": "Doug Johnston",
           "synonyms": [
-            "Mani "
+            "Doug Johnston Details",
+            "Doug details",
+            "Doug",
+            "Doug Johnston"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Virupaksheswara R",
+          "value": "Diego Jacome",
           "synonyms": [
-            "Viru"
+            "Diego Jacome details",
+            "Diego Jacome",
+            "Diego"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Madhusudana Rao",
+          "value": "Carmine Mastropolo",
           "synonyms": [
-            "Madhu"
+            "Carmine info",
+            "Carmine Contact details",
+            "Carmine Mastropolo",
+            "Carmine"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Jatindra K Dash",
+          "value": "Walt Jamros",
           "synonyms": [
-            "Jatin"
+            "Walt Jamros Details",
+            "Walt Jamros"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Ashok PK",
+          "value": "Tom Hart",
           "synonyms": [
-            "Ashok"
+            "Tom Hart Details",
+            "Tom Hart "
           ]
         },
         {
           "type": "synonyms",
-          "value": "Ajas Abdulsalam",
+          "value": "Terri Bigelow",
           "synonyms": [
-            "Ajas"
+            "Terri Bigelow Details",
+            "Terri Bigelow"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Udaya K Rajanna",
+          "value": "Paul Gillo",
           "synonyms": [
-            "Udaya"
+            "Paul Details",
+            "Paul information",
+            "Paul Gillo"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Noor Mohammed",
+          "value": "Mini Gupta",
           "synonyms": [
-            "Noor"
+            "Mini Gupta Details",
+            "Mini Gupta"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Murali Reddy",
+          "value": "Evelyne",
           "synonyms": [
-            "Murali"
+            "Evelyne Details",
+            "Evelyne Info",
+            "Evelyne contact details",
+            "Evelyne"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bill Baker",
+          "synonyms": [
+            "Bill Baker details",
+            "Bill Baker"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ViruPaksheswaraRao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Viru Events",
+          "synonyms": [
+            "Viru Accounts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "MadhusudanaRao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Madhu events",
+          "synonyms": [
+            "Madhu accounts "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "MuraliReddy",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Murali Events",
+          "synonyms": [
+            "Murali Accounts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "AjasAbdulsalam",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ajas events",
+          "synonyms": [
+            "Ajas accounts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "NoorMohammed",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Noor Accounts",
+          "synonyms": [
+            "Noor Events"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "STF",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sterling Forest",
+          "synonyms": [
+            "STF"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "RRC",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Regional Site",
+          "synonyms": [
+            "RRC"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "OTC_Team-Leads",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Diane Clem",
+          "synonyms": [
+            "Diane contact details",
+            "Diane Details",
+            "Please provide me Diane Contact details"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "John Velayas",
+          "synonyms": [
+            "John  Details",
+            "Please provide me John Contact details",
+            "John contact details"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Luann Cipolla",
+          "synonyms": [
+            "Luann  Details",
+            "Please provide me Luann Contact details",
+            "Luann contact Details"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Debbie Tobin",
+          "synonyms": [
+            "Debbie contact details",
+            "Please provide me Debbie Contact details",
+            "Debbie details"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Janet Fukae",
+          "synonyms": [
+            "Janet contact details",
+            "Please provide me Janet Contact details",
+            "Janet details"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "AshokPK1",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ashok Events",
+          "synonyms": [
+            "Ashok Accounts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "BLD",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Boulder Site",
+          "synonyms": [
+            "BLD"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ManikantanVeera",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Mani Accounts",
+          "synonyms": [
+            "Mani Events"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "RTP",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Raleigh Site",
+          "synonyms": [
+            "RTP"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "UdayaRajanna",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Udaya Events",
+          "synonyms": [
+            "Udaya Accounts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Unknown",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Unknow User",
+          "synonyms": [
+            "unvailable",
+            "not in the DB"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "JatinDash",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Jatin Events",
+          "synonyms": [
+            "Jatin Acocunts"
           ]
         }
       ],
@@ -2230,42 +637,196 @@
     },
     "from-sample": true
   },
+  "webhooks": [
+    {
+      "url": "https://8b8f26ac.eu-gb.apigw.appdomain.cloud/event_status",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Accept",
+          "value": " \thttps://8b8f26ac.eu-gb.apigw.appdomain.cloud/event_status"
+        }
+      ]
+    }
+  ],
   "dialog_nodes": [
     {
-      "type": "standard",
-      "title": "SDPAs Detials",
+      "type": "response_condition",
       "output": {
-        "generic": [
-          {
-            "title": "SDPAs Details ",
-            "options": [
-              {
-                "label": "Manikantan N V ",
-                "value": {
-                  "input": {
-                    "text": " nvmanikantan@in.ibm.com  1-7034207314 (Office)  91-90086-85858 (Mobile) My preferred contact method is Mobile @MANIKANTAN (Mani) (Slack) https://ibm.webex.com/meet/nvmanikantan"
-                  }
-                }
-              }
-            ],
-            "description": "Contact Details of SDPAs ",
-            "response_type": "option"
-          }
-        ]
+        "text": {
+          "values": [
+            "Janet"
+          ],
+          "selection_policy": "sequential"
+        }
       },
-      "parent": "node_1_1593190893072",
-      "conditions": "@GR_SDPAs",
-      "dialog_node": "node_9_1593191670872"
+      "parent": "node_2_1590682214784",
+      "disabled": true,
+      "conditions": "@OTC_Team-Leads:(Janet Carner)",
+      "dialog_node": "response_4_1590683102791",
+      "previous_sibling": "node_6_1590685898818"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Debbie"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1590682214784",
+      "disabled": true,
+      "conditions": "@OTC_Team-Leads:(Debbie Tobin)",
+      "dialog_node": "response_1_1590683753066",
+      "previous_sibling": "response_4_1590683102791"
     },
     {
       "type": "standard",
-      "title": "GR_SDPAs",
+      "title": "OTC Team Details",
+      "parent": "node_2_1590682214784",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@OTC_Team-Leads",
+      "dialog_node": "node_6_1590685898818",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1590701501996",
+      "variable": "$Madhu_Events__Madhu",
+      "dialog_node": "slot_1_1590705544299"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "LuAnn Cipolla Delivery Engagement Manager   luannc@us.ibm.com  1-845-759-4970 (Office)  1-845-234-6797 (Mobile) My preferred contact method is Email @luannc (Slack) https://ibm.webex.com/meet/luannc"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590685898818",
+      "conditions": "@OTC_Team-Leads:(Luann Cipolla)",
+      "dialog_node": "response_8_1590686422336",
+      "previous_sibling": "response_2_1590686369517"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Lynn Mullin Delivery Engagement Manager    Contact: lynm@us.ibm.com  1-845-759-3798 (Office)  1-845-234-3986 (Mobile) My preferred contact method is Email @Lynn M. (Slack) https://ibm.webex.com/meet/lynm"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590685898818",
+      "conditions": "@OTC_Team-Leads:(Lynn Mullin)",
+      "dialog_node": "response_9_1590686673115",
+      "previous_sibling": "response_8_1590686620449"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            " Diane Clem IBM Resiliency Services   Contact: dawley@us.ibm.com  1-240-848-2324 (Office)  1-240-848-2324 (Mobile) My preferred contact method is External Phone @dawley (Slack) https://ibm.webex.com/meet/dawley"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590685898818",
+      "conditions": "@OTC_Team-Leads:(Diane Clem)",
+      "dialog_node": "response_7_1590686209639",
+      "previous_sibling": "response_7_1590686043845"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Debbie Tobin Delivery Engagement Manager    Contact: tobin@us.ibm.com  1-845-759-2599 (Office)  1-845-742-4129 (Mobile) My preferred contact method is Email @Tobin (Slack) https://ibm.webex.com/meet/tobin"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590685898818",
+      "conditions": "@OTC_Team-Leads:(Debbie Tobin)",
+      "dialog_node": "response_8_1590686620449",
+      "previous_sibling": "response_8_1590686422336"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "John Velayas IBM Resiliency Services, Project Manager   Contact: velayasj@us.ibm.com  1-303-924-3566 (Office)  1-303-961-3595 (Mobile) My preferred contact method is Email @velayasj (Slack) https://ibm.webex.com/meet/velayasj"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590685898818",
+      "conditions": "@OTC_Team-Leads:(John Velayas)",
+      "dialog_node": "response_2_1590686369517",
+      "previous_sibling": "response_7_1590686209639"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Janet Fukae IBM Resiliency Services - Project Manager   Contact: jcarner@us.ibm.com  1-303-924-1076 (Office)  1-303-961-3203 (Mobile) My preferred contact method is Slack @Janet Fukae (Slack) https://ibm.webex.com/meet/jcarner"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590685898818",
+      "conditions": "@OTC_Team-Leads:(Janet Fukae)",
+      "dialog_node": "response_7_1590686043845"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "AK Steel ",
+            "The event is Scheduled for 48 Hr , Start Date Jan 20, 2020  Platform ( Main Frame) "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1590705544299",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1590705544357",
+      "previous_sibling": "handler_1_1590705544357"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1590705544299",
+      "context": {
+        "Madhu_Events__Madhu": "@Madhu_Events:(Madhu events)"
+      },
+      "conditions": "@Madhu_Events:(Madhu events)",
+      "event_name": "input",
+      "dialog_node": "handler_1_1590705544357"
+    },
+    {
+      "type": "standard",
+      "title": "Jatin's Active Events",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Manikantan N V  \nVirupaksheswara R \nMadhusudana Rao \nJatindra K Dash \nAshok PK   \nAjas Abdulsalam \nNoor Mohammed \n Murali Reddy\nUdaya K Rajanna\n    "
+                "text": "WESPATH BENEFITS AND INVESTMENTS\nATLANTA CAPITAL MANAGEMENT INC\nARKANSAS MUNICIPAL LEAGUE\nMVP HEALTH PLAN INC\nDOLE FOOD CO INC\nATLANTA CAPITAL MANAGEMENT INC\nPORT AUTHORITY OF NY AND NJ\nUST GLOBAL\nPORT AUTHORITY OF NY AND NJ\n\n"
               }
             ],
             "response_type": "text",
@@ -2273,8 +834,422 @@
           }
         ]
       },
-      "conditions": "#GR_SDPAs",
-      "dialog_node": "node_1_1593190893072",
+      "parent": "node_7_1590699425596",
+      "conditions": "@JatinDash:(Jatin Events)",
+      "dialog_node": "node_8_1590702161101",
+      "previous_sibling": "node_1_1590701501996"
+    },
+    {
+      "type": "standard",
+      "title": "Udaya Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "MIAMI PARKING AUTHORITY\nDO IT BEST CORP\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@UdayaRajanna:(Udaya Events)",
+      "dialog_node": "node_4_1590769985975",
+      "previous_sibling": "node_3_1590769923307"
+    },
+    {
+      "type": "standard",
+      "title": "Mani Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "UNIV OF ARKANSAS (FAYETTEVILLE)\nAARP\nDELTA DENTAL OF NEW JERSEY INC\nVIRGINIA MASON MEDICAL CENTER\nMILLERS CAPITAL INSURANCE CO\nNATIONAL INDEMNITY CO\nCADENCE DESIGN SYSTEMS INC\nAARP\nJB HUNT TRANSPORT INC\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@ManikantanVeera:(Mani Accounts)",
+      "dialog_node": "node_3_1590769923307",
+      "previous_sibling": "node_7_1590769776824"
+    },
+    {
+      "type": "standard",
+      "title": "Ajas Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OVERSEA-CHINESE BANKING CORP LTD\nFULLBEAUTY BRANDS\nPACIFIC INVESTMENT MANAGEMENT CO\nDIXIELINE LUMBER CO\nPACIFIC INVESTMENT MANAGEMENT CO\nOVERSEA-CHINESE BANKING CORP LTD\nTRANS WORLD ENTERTAINMENT CORP\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@AjasAbdulsalam:(Ajas events)",
+      "dialog_node": "node_8_1590769121873",
+      "previous_sibling": "node_8_1590702161101"
+    },
+    {
+      "type": "standard",
+      "title": "Viru Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "MEDICAL CARD SYSTEM INC\nKOREA DEV BANK NY\nBLUE CROSS & BLUE SHIELD OF KANSAS\nNATIONAL BANK OF KUWAIT\nNATIONAL BANK OF KUWAIT\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@ViruPaksheswaraRao:(Viru Events)",
+      "dialog_node": "node_7_1590770099285",
+      "previous_sibling": "node_1_1590770052060"
+    },
+    {
+      "type": "standard",
+      "title": "Murali Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "STATE OF SOUTH DAKOTA\nMEDSTAR HEALTH INC\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@MuraliReddy:(Murali Events)",
+      "dialog_node": "node_7_1590769776824",
+      "previous_sibling": "node_8_1590769121873"
+    },
+    {
+      "type": "standard",
+      "title": "Noor Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "IGA SSI/STF MVS1\nIGA WWD\nIGA IBM HUMAN RESOURCES\nIGA SOFTWARE GROUP\nIGA WWD\nHYSTER-YALE GROUP\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "conditions": "@NoorMohammed:(Noor Accounts)",
+      "dialog_node": "node_1_1590770052060",
+      "previous_sibling": "node_4_1590769985975"
+    },
+    {
+      "type": "standard",
+      "title": "Madhu Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No Active Events as on Date"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Is there anything I may help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590699425596",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@Madhu_Events",
+      "dialog_node": "node_1_1590701501996"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is there anything else I can help you with?"
+              },
+              {
+                "text": "Thank you.. I am glad , am able to help you  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1590496257210",
+      "disabled": true,
+      "dialog_node": "response_10_1590647870527"
+    },
+    {
+      "type": "standard",
+      "title": "Pretesters Names",
+      "parent": "node_6_1590645888503",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Pretesters_Name",
+      "dialog_node": "node_7_1590649653282",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Terri Bigelow IBM Resiliency Services - Specialist   Contact: bigelow@us.ibm.com  1-469-446-7073 (Office)  1-469-446-7073 (Mobile) My preferred contact method is Email @bigelow (Slack) https://ibm.webex.com/meet/bigelow"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Terri Bigelow)",
+      "dialog_node": "response_2_1590677730599",
+      "previous_sibling": "response_9_1590677678918"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Bill Baker IT Business Continuity Practitioner  Network / Intel Pretest Support   Contact: bakerwwb@us.ibm.com  1-303-961-8735 (Mobile) My preferred contact method is Email @bakerwwb (Slack) https://ibm.webex.com/meet/bakerwwb"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Bill Baker)",
+      "dialog_node": "response_8_1590676472371",
+      "previous_sibling": "response_5_1590651242524"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Mini Gupta - RS , HP , Sun , NAS , PVM Mini Gupta Senior Oracle apps Finance Functional    Contact: guptam23@in.ibm.com  91-9810709351 (Office)  91-9810709351 (Mobile) My preferred contact method is Email @guptam23 (Slack) https://ibm.webex.com/meet/guptam23"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Mini Gupta)",
+      "dialog_node": "response_2_1590677753971",
+      "previous_sibling": "response_2_1590677730599"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Diego Jacome Network Support Specialist   Contact: diegoj@us.ibm.com  1-845-401-5901 (Mobile) My preferred contact method is Email @Diego Jacome (Slack) https://ibm.webex.com/meet/diegoj"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Diego Jacome)",
+      "dialog_node": "response_8_1590676494904",
+      "previous_sibling": "response_8_1590676472371"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Douglas Johnston IBM Services - NA Mainframe Services   Contact: djohnsto@us.ibm.com  1-720-396-4844 (Office)  1-240-848-4216 (Mobile) My preferred contact method is Email @djohnsto (Slack) https://ibm.webex.com/meet/djohnsto"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Doug Johnston)",
+      "dialog_node": "response_9_1590677612197",
+      "previous_sibling": "response_8_1590676494904"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Evelyne Laine Infrastructure & Resiliency Services, Event Preparation   Contact: evelyne@us.ibm.com  1-845-759-4926 (Office)  1-845-234-6805 (Mobile) My preferred contact method is Email @evelyne (Slack) https://ibm.webex.com/meet/evelyne"
+              },
+              {
+                "text": "Any other pretesters information you may be looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:Evelyne",
+      "dialog_node": "response_7_1590649909723",
+      "previous_sibling": "slot_3_1590650339511"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Paul Gallo IBM Resiliency Services, Network Support : Contact:pmgallo@us.ibm.com  1-845-759-4145 (Office)  1-845-234-6738 (Mobile) My preferred contact method is Email @pmgallo (Slack) https://ibm.webex.com/meet/pmgallo"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Paul Gillo)",
+      "dialog_node": "response_5_1590651242524",
+      "previous_sibling": "response_6_1590649989131"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Thomas Hart IBM Services - NA Mainframe Services   Contact: thart@us.ibm.com  1-303-924-5677 (Office)  1-303-961-8769 (Mobile) My preferred contact method is Email @thart792 (Slack) https://ibm.webex.com/meet/thart"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Tom Hart)",
+      "dialog_node": "response_9_1590677678918",
+      "previous_sibling": "response_9_1590677612197"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Carmine Mastropolo IBM Resiliency Services, Network Pretest Support   Contact: carminem@us.ibm.com  1-845-470-5111 (Office) 1-845-234-6798 (Mobile) My preferred contact method is Email @carminem (Slack) https://ibm.webex.com/meet/carminem"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590649653282",
+      "conditions": "@Pretesters_Name:(Carmine Mastropolo)",
+      "dialog_node": "response_6_1590649989131",
+      "previous_sibling": "response_7_1590649909723"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1590649653282",
+      "dialog_node": "slot_3_1590650339511"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1590650339511",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1590650339539",
+      "previous_sibling": "handler_5_1590650339539"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1590650339511",
+      "event_name": "input",
+      "dialog_node": "handler_5_1590650339539"
+    },
+    {
+      "type": "standard",
+      "title": "Pre Testers information ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Following are list of Pre-testers :\n===========================\nEvelyne Laine - Intel ( CS)\nBill Baker - Intel (CS) and Network (NW)\nCarmine  - Network (NW)\nPaul Gillo - Network (NW)\nDiego Jacome - Network (NW)\nDoug Johnston - MainFrame (LS)\nTom Hart  - MainFrame(LS)\nTerri Bigelow -AS-400\nMini Gupta - RS , HP , Sun , NAS , PVM\n\n=======================================\nIf you are looking for further detail on the individual .. Please enter Name of the pre-tester"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Pretesters",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1590645888503",
+      "previous_sibling": "node_2_1590682214784"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome team: My name is SquadNagi, I am created to assist you to access and explore the content available in the Service Delivery Program Advisor(SDPA) Account Operational Manual. You may ask anything relevant here. \n\n-  One Time Charges (OTC)\n-  Service Request Tool (SRT)\n-  Rapid Ops Provisioning (ROP)\n-  Emergency Operations Center(EOC)\n-  Event Extension Process / T-10 \n-  Interactive Resiliency Portal (IRP)\n-   Staffing Approval Request Tool (RPE)\n-   PRISM ( Scheduling Tool) \nand More --------------------\n\nPlease ask your question here:"
+              },
+              {
+                "text": "\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1590645502758",
       "previous_sibling": "Welcome"
     },
     {
@@ -2285,7 +1260,7 @@
           {
             "values": [
               {
-                "text": "Service Delivery Program Advisor( SDPA) :\nSDPA is a primary focal contact between the Customer, Account management, Technical team of Resiliency Service Delivery.\n• SDPA on a day to day support activities including pre-exercise preparation, technical QA's, scheduling, problem resolution, and recovery exercise support.\n•Responsible for providing professional, specialized skills including workforce, workplace and technology Resiliency planning, Project Management, Risk management, and Testing oversight,and more.. "
+                "text": "Service Delivery Program Advisor( SDPA) :\nSDPA is a primary focal between the Customer, Account management, Technical team of Resiliency Service Delivery .\n• SDPA on a day to day support activities including pre-exercise preparation, technical QA's, scheduling, problem resolution, and recovery exercise support.\n•Responsible for providing professional, specialized skills including workforce, workplace and technology Resiliency planning, Project Management, Risk management, and Testing oversight. \n•Assisting Clients/Project Office in facilitating and coordinating Resiliency Services -  Development, implementation, and maintenance of Resiliency Solutions.     \n•\tSupports the execution of Resiliency Exercises\n•\tContributes to the implementation of relevant policies and procedures facilitating an effective Resiliency Service program aligned with the goals and objectives of the company, the business units, and the shareholders. \n•\tCoordinate the activities necessary for an exercise or outage/emergency.\n•\tScheduling a customer's DR exercises\n•\tSetting up the pretest calls -  Coordination,  take notes on the overall call and follow up items.  \n•\tCoordinate with Technical Towers on understanding and building the DR solutions/systems setup/documentation\n•Coordinate setup document exchange with customer/Account Team and work to gain customer agreement on document accuracy.\n•Toward the conclusion of the exercise, understand how the test is going if it will end on time, or require an extension.  If the extension is required, coordinate following IBM RS processes (verify equipment, confirm costs, gain internal approvals, gain external approvals for cost, etc).  \n•After exercise, conduct/coordinate post-test activities, Perform close-out activities - Complete exercise notes.  \n•\tBill exercise hours.\n•\tDaily Reporting to Management on the Status of the Resiliency Projects and Financial implications for approvals and more.\n"
               }
             ],
             "response_type": "text",
@@ -2294,18 +1269,18 @@
         ]
       },
       "conditions": "#SDPA_Roles",
-      "dialog_node": "node_10_1593189545194",
-      "previous_sibling": "node_2_1593190631884"
+      "dialog_node": "node_8_1591358857670",
+      "previous_sibling": "node_2_1590645502758"
     },
     {
       "type": "standard",
-      "title": "Pretesters",
+      "title": "One Time Charges(OTC) Process",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Following are list of Pre-testers :\n===========================\nEvelyne Laine - Intel ( CS)\nBill Baker - Intel (CS) and Network (NW)\nCarmine  - Network (NW)\nPaul Gillo - Network (NW)\nDiego Jacome - Network (NW)\nDoug Johnston - MainFrame (LS)\nTom Hart  - MainFrame(LS)\nTerri Bigelow -AS-400\nMini Gupta - RS , HP , Sun , NAS , PVM\n\n=======================================\nEnter the Name of the  pre-tester for further details "
+                "text": "How One Time Charges (OTC) works?\n\nWhen a client requests equipment or services that are not in their contract and there is not enough time to process a contract upgrade. These items must be added to the contract to ensure the client is recovery ready. Refer to the Customer Support Team Room Database. Under Process and Procedures – One Time Charge Process\nSteps are: Fill Out OTC Pricing Request form and forward to assign PA’s at your site to create a work authorization. Copy: IBM RS Upgrades Database\n\nA One Time Charge will be generated for the requested services.\nAfter receiving client approval for the price and scope, a Work Authorization for Additional Services will be generated and sent to you.  \nReview the document for accuracy, send to the client for signature, and countersign the Work Authorization.  Only an IBM employee can countersign the document.\nAfter the client and IBM signatures have been obtained, scan the Work Authorization and store in COMDOC as SALES - Letter of Authorization.  For IGA Accounts, an email approval of the Work Authorization is acceptable.  Please generate a PDF of the email and store it in COMDOC as above.\n"
               }
             ],
             "response_type": "text",
@@ -2313,49 +1288,68 @@
           }
         ]
       },
-      "conditions": "#Pretesters",
-      "dialog_node": "node_2_1593190631884",
-      "previous_sibling": "node_1_1593190893072"
+      "conditions": "#OTC_Details",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1590681519397",
+      "previous_sibling": "node_7_1590699425596"
+    },
+    {
+      "type": "standard",
+      "title": "OTC Team",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Following are list of OTC :\n==================\nDiane Clem\nJanet Fukae \nJohn Velayas\nDebbie Tobin\nLuann Cipolla\n===========================================\nIf you are looking for further detail on the individual. Please enter Name of the OTC Lead"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#OTC_Focals",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1590682214784",
+      "previous_sibling": "node_5_1590681519397"
     },
     {
       "type": "standard",
       "title": "Anything else",
       "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I didn't understand. You can try rephrasing."
-              },
-              {
-                "text": "Can you reword your statement? I'm not understanding."
-              },
-              {
-                "text": "It looks like we are not quite getting each other today. Would you like to talk to a human agent instead? If so, please contact me at +1 703 420 7949 or +91 917 796 8079  or email me at madhusudana.rao@in.ibm.com"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
+        "text": {
+          "values": [
+            "Anything else I can help you with",
+            "Can you reword your statement? I'm not understanding.",
+            "I didn't get your meaning.",
+            "It looks like we are not quite getting each other today. Would you like to talk to a human agent instead? If so, please contact me at +1 703 420 7949 or +91 917 796 8079  or email me at madhusudana.rao@in.ibm.com"
+          ],
+          "selection_policy": "sequential"
+        }
       },
-      "conditions": "anything_else",
+      "conditions": "#Anything_else",
       "dialog_node": "Anything else",
-      "previous_sibling": "node_10_1593189545194",
+      "previous_sibling": "node_1_1590496257210",
       "disambiguation_opt_out": true
     },
     {
       "type": "standard",
-      "title": "Welcome",
+      "title": "Thank You",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Welcome team: This bot is developed to access and explore the content available in the Service Delivery Program Advisor(SDPA) Account Operational Manual. You may ask the bot anything relevant to SDPA roles. \n\nPlease ask your question here:"
+                "text": "Is there anything else I can help you with?"
               },
               {
-                "text": "Hello. My name is SquadNagi and I'm a chatbot here to assist you with your questions about  Resiliency Services,  Locations, as well as Service Offerings "
+                "text": "Thank you.. I am glad , am able to help you  "
               }
             ],
             "response_type": "text",
@@ -2363,11 +1357,94 @@
           }
         ]
       },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#thank_you",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1590496257210",
+      "previous_sibling": "node_6_1590645888503",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "ROP",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1.\tIntroduction to ROP\nThe Rapid Open Provisioning (ROP) portal is a website that allows you to provide IBM with information with which to set up your Intel / Client Server environment.  ROP accepts data regarding UCS Blades (e.g. compute resources), legacy physical servers (e.g. IBM 3850’s and HPDL), VDI workplace and tape library requirements.  \n\nUsing ROP you create a \"project\" and specify your recovery data, submitting it so that IBM has it for disaster recovery exercises and at time of disaster, similar to having information on file with IBM in the form of a worksheet.  The advantage of using ROP is that it allows IBM Resiliency Services to employ automations to deploy the project and build the recovery environment quickly, giving our customers a faster RPO.  \n\nBenefits of ROP:\n\tROP portal provides you the ability to input and manage an Intel event configuration via a web portal.\n\tROP transforms the way we deliver our services to you by automating the provisioning of ESXi, Windows, Linux, vCenter Servers and VMs on CISCO UCS Servers.\n\tROP also allows you to include Non-UCS Servers and equipment, such as Legacy Servers – IBM3850 and HPDL, VDI Workplace and Tape Library into your project.\n\tThe provisioning of services can be performed without manual intervention or the risk of configuration errors leading to performance issues or system failures during event of disaster. \n\tCustomization of basic client server configuration such as hostname, service profile, network configuration and SVC SAN disk are automatically performed via UCS workflow.\n\t System builds can be completely standardised, incorporating best practices. \n\n2.\tAccessing the ROP customer portal:\nEach ROP user has to have an IBM ID.  If you do not already have one, please register for an ID at www.IBM.com.  Typically, you use your regular organization’s email address as your IBM ID.    After obtaining an IBM ID, contact your SDPA and provide the first and last name and the IBM ID of each person you wish to have access to ROP for your organization.  Once this has been completed you can log in to the portal and create a recovery project.  This project is saved in the database for future retrieval or modification.  Once submitted, an IBM admin can login in to the portal and approve or modify the recovery project and submit it for automated provisioning.\n\nThis is the ROP URL:  https://ropus.mybluemix.net\n\nFor existing clients who previously filled out an IBM Intel workbook, we are retiring the workbook altogether in favour of using ROP, which will accept all data that used to be placed on the workbook. The portal is easy to use and the always on nature of the portal encourages you to keep the data inside \"recovery ready\" as well as using it to give IBM testing configuration requirements. It also eliminates the need for IBM to make, and you to review and approve, setup documentation.  The info you put in the portal is \"wysiwyg\" and IBM will build according to it, no setup documents required.  You are encouraged to use ROP in place of filling out an Intel workbook as we will be retiring the Intel workbook at the end of 2020 and no longer accepting it for test preparation in 2021. \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "ROP Form",
+            "source": "https://cloud-object-storage-dsx-cos-standard-x4a.s3.jp-tok.cloud-object-storage.appdomain.cloud/Sa.jpg",
+            "description": "ROP4 Cusotmer Form",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#ROP",
+      "dialog_node": "node_1_1590774496296",
+      "previous_sibling": "node_8_1591358857670"
+    },
+    {
+      "type": "standard",
+      "title": "ActiveEvents",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "List of ActiveEvents as of March 2020\n====================\nINFOCROSSING INC\nWALGREEN CO\nTOTAL SYSTEM SERVICES INC\nWISCONSIN PHYSICIANS SERVICE INS\nSTATE OF CALIFORNIA-CAMMIS\nMCKESSON CORP\nMEDICAL CARD SYSTEM INC\nRETAIL BUSINESS SERVICES LLC\nTEXTRON INC.\nUNIV OF ARKANSAS (FAYETTEVILLE)\nTHE HAIN CELESTIAL GROUP\nAMICA MUTUAL INSURANCE CO\nACE HARDWARE CORPORATION\nNEW YORK TRANSIT AUTHORITY\nVF SERVICES INC\nIGA SSI/STF MVS1\nSTATE OF SOUTH DAKOTA\nMACYS SYSTEMS AND TECHNOLOGY INC\nDIRECT ENERGY MARKETING LTD\nSTATE OF ARIZONA (DEPT OF ADMIN)\nHANES COS INC\nGBM - MIAMI DIRECT\nMIAMI PARKING AUTHORITY\nKOREA DEV BANK NY\nSTATE OF OHIO (BUREAU OF WORKERCOMP\nCITY OF ATLANTA\nORANGE COUNTY TRUST CO\nCOMPUTER SCIENCES CORP.\nVOYA SERVICES COMPANY\nEBSCO INDUSTRIES INC\nHENNEPIN COUNTY\nOVERSEA-CHINESE BANKING CORP LTD\nKENTUCKY TREASURY DEPARTMENT\nTHE NAVIGATORS GROUP INC\nWESPATH BENEFITS AND INVESTMENTS\nIGA WWD\nAMERICAN INTERNATIONAL GROUP INC\nAMERICAN SOUTHERN INSURANCE CO\nIGA IBM HUMAN RESOURCES\nAMERICAN NATIONAL INSURANCE CO\nMITSUBISHI MOTORS NORTH AMERICA INC\nFULLBEAUTY BRANDS\nCOMMONWEALTH OF KENTUCKY\nNCCI HOLDINGS INC\nSELECT MEDICAL CORP\nTHE HERTZ CORP\nELEMENT VEHICLE MANAGEMENT SERVICES\nATLANTA CAPITAL MANAGEMENT INC\nARKANSAS MUNICIPAL LEAGUE\nGENERAL DYNAMICS INFORMATION TECHNO\nOLIN CORP\nSHELTER MUTUAL INSURANCE CO\nHAMILTON BEACH BRANDS INC\nIGA BUSINESS MEASUREMENT SYSTEMS\nIGS PROMONTORY RISK REVIEW LLC\nIGA SOFTWARE GROUP\nXCEL ENERGY INC\nWESTERN NATIONAL MUTUAL INSURANCE\nAARP\nPRIMERICA LIFE INSURANCE CO\nMVP HEALTH PLAN INC\nNATIONAL ACCOUNT SERVICES CO\nCOUNTY OF SANTA CLARA (INFO SERVICE\nLOREAL USA SD INC\nBLUECROSS BLUESHIELD OF TENNESSEE\nDELTA DENTAL OF NEW JERSEY INC\nWYNDHAM WORLDWIDE CORP\nWYNDHAM RCI INDY\nNORTH CAROLINA FARM BUREAU MUTUAL\nSTATE OF OKLAHOMA (DEPT OF HUMANSVC\nHORIZON HEALTHCARE SERVICES INC\nBLUE CROSS BLUE SHIELD MISSISSIPPI\nSTATE OF NORTH CAROLINA (ADMIN OF C\nPACCAR INC\nMCG HEALTH INC\nVIRGINIA MASON MEDICAL CENTER\nBLUE CROSS & BLUE SHIELD OF KANSAS\nSEMICONDUCTOR COMPONENTS INDUSTRIES\nSTATE OF TENNESSEE (DEPT OF FINANCE\nIGS CNH AMERICA LLC CORPORATION\nPEABODY HOLDING CO INC\nFMC\nENTERPRISE HOLDINGS INC (FLEET MGMT\nAXA EQUITABLE LIFE INSURANCE CO\nSAFETY INSURANCE GROUP INC\nPACIFIC INVESTMENT MANAGEMENT CO\nBBVA USA\nNATIONAL BANK OF KUWAIT\nMITSUBISHI UFJ FINANCIAL GROUP INC\nDOLE FOOD CO INC\nCAPITAL BLUE CROSS\nHIGHMARK INC\nIGA TRI-STATE\nAVON PRODUCTS INC\nPENNSYLVANIA HIGHER EDUCATION ASST\nPORT AUTHORITY OF NY AND NJ\nSUNOVION PHARMACEUTICALS INC\nIGS ZSERIES SW SUPPT\nTHE OKONITE CO INC\nBI-LO HOLDING\nTHE BURLINGTON NORTHERN AND SANTAFE\nMILLERS CAPITAL INSURANCE CO\nJOSEPH T RYERSON & SON INC\nMONTEFIORE MEDICAL CENTER\nAVIS BUDGET CAR RENTAL LLC\nENTERPRISE HOLDINGS INC (ETC & PTC)\nMEIJER INC\nDIXIELINE LUMBER CO\nARROW ELECTRONICS\nBLUE CROSS & BLUE SHIELD MICHIGAN\nTORCHMARK CORP\nNATIONAL INDEMNITY CO\nUNIVAR INC\nKNOLL INTERNATIONAL INC\nCOLGATE-PALMOLIVE CO\nNORDSTROM INC\nTTI INC\nFANNIE MAE\nMEDSTAR HEALTH INC\nCADENCE DESIGN SYSTEMS INC\nTRANS WORLD ENTERTAINMENT CORP\nSTATE OF NEW JERSEY\nMIAMI-DADE COUNTY\nTHE PENN MUTUAL LIFE INSURANCE CO\nCOMM OF PENNSYLVANIA(DATAPOWERHOUSE\nDO IT BEST CORP\nHYSTER-YALE GROUP\nLEGISLATIVE DATA PROCESSING\nSTATE OF NEW HAMPSHIRE (NEW HEIGHTS\nJB HUNT TRANSPORT INC\nALLEGHENY LUDLUM CORP\nSHAW INDUSTRIES GROUP INC\nTHE DOW CHEMICAL CO\nTRSF BOSTON COLLEGE\nSCHENKER INC (BAX)\nPARKER HANNIFIN CORP\nACE INSURANCE (CT)\nUST GLOBAL\nGATX CORP\n\n==============================\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#ActiveEvents",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1590699425596",
+      "previous_sibling": "node_1_1590774496296"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "text": {
+          "values": [
+            "Welcome team: This bot is developed to access and explore the content available in the Service Delivery Program Advisor(SDPA) Account Operational Manual. You may ask the bot anything relevant to SDPA roles. \n\nPlease ask your question here:\n",
+            "Hello. My name is SquadNagi and I'm a chatbot here to assist you with your questions about  Resiliency Services,  Locations, as well as Service Offerings "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
       "conditions": "welcome",
+      "digress_in": "does_not_return",
       "dialog_node": "Welcome"
     }
   ],
-  "counterexamples": [],
+  "counterexamples": [
+    {
+      "text": "Diane Clem details"
+    },
+    {
+      "text": "Intel Pretesterd"
+    }
+  ],
   "system_settings": {
     "off_topic": {
       "enabled": true
@@ -2388,11 +1465,11 @@
     },
     "spelling_auto_correct": true
   },
-   "workspace_id": "02d797e3-f75b-4403-a229-18346e4869de",
-   "counterexamples": [],
-   "learning_opt_out": false,
-   "name": "Resiliency-Skills",
-   "language": "en",
-   "description": "It's Resiliency Knowledge base skills.",
+  "workspace_id": "2e1ab090-5f51-465e-97ad-c831ec32898c",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "name": "BCRSSkillopedia bot",
+  "language": "en",
+  "description": "Knowledge repository on Resiliency Services"
    "status": "Available"
 }

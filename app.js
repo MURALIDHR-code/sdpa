@@ -47,13 +47,13 @@
 		// Endpoint to be call from the client side
 		app.post('/api/message', function (req, res) {
 		  console.log("");
-		  // var destination_bot = '5758ad9a-c37c-4894-abf7-9368cbdba4c0 - 6abc5c45-fcdc-42ab-9f39-1d0baf31f09f';
-		  var workspace = getDestinationBot(req.body.context) || '5758ad9a-c37c-4894-abf7-9368cbdba4c0';
+		  // var destination_bot = '5758ad9a-c37c-4894-abf7-9368cbdba4c0 - 6abc5c45-fcdc-42ab-9f39-1d0baf31f09f - 2e1ab090-5f51-465e-97ad-c831ec32898c';
+		  var workspace = getDestinationBot(req.body.context) || 'workspace_id';
 		  console.log("workspace = " + workspace);
-		  if (!workspace || workspace === '2e1ab090-5f51-465e-97ad-c831ec32898c') {
+		  if (!workspace || workspace === 'workspace_id') {
 		    return res.json({
 				'output': {
-     		       'text' = text 
+     		       'text': text 
 		      }
 		    });
 		  }
@@ -124,11 +124,11 @@
 		    var wsId = process.env["WORKSPACE_ID_" + destination_bot];
 		
 		  if (!wsId) {
-		    wsId = process.env["WORKSPACE_ID_AGENT"];
+		    wsId = process.env["WORKSPACE_ID_Agent-Router"];
 		  }
 		
 		  if (!destination_bot) {
-		    destination_bot = "AGENT";
+		    destination_bot = "Agent-Router";
 		  }
 		
 		  console.log("Message being sent to: " + destination_bot + " bot");
