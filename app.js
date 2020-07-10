@@ -54,7 +54,7 @@
 		  if (!workspace || workspace === 'destination_bot') {
 		    return res.json({
 		      'output': {
-		       'text': 'We are on the right path' 
+		       text: 'We are on the right path' 
 		      }
 		    });
 		  }
