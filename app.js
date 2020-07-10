@@ -45,10 +45,11 @@
 		});
 		
 		// Endpoint to be call from the client side
+		var workspace = null
 		app.post('/api/message', function (req, res) {
 		  console.log("");
 		  // workspace = '5758ad9a-c37c-4894-abf7-9368cbdba4c0 - 6abc5c45-fcdc-42ab-9f39-1d0baf31f09f - 2e1ab090-5f51-465e-97ad-c831ec32898c';
-		  var workspace = getDestinationBot(req.body.context) || '5758ad9a-c37c-4894-abf7-9368cbdba4c0';
+		  var workspace = getDestinationBot(req.body.context) || '6abc5c45-fcdc-42ab-9f39-1d0baf31f09f';
 		  console.log("workspace = " + workspace);
 		  if (!workspace || workspace === '2e1ab090-5f51-465e-97ad-c831ec32898c') {
 		    return res.json({
