@@ -50,7 +50,7 @@
 		  // var destination_bot = '5758ad9a-c37c-4894-abf7-9368cbdba4c0 - 6abc5c45-fcdc-42ab-9f39-1d0baf31f09f';
 		  var workspace = getDestinationBot(req.body.context) || '5758ad9a-c37c-4894-abf7-9368cbdba4c0';
 		  console.log("workspace = " + workspace);
-		  if (!workspace) || workspace === '2e1ab090-5f51-465e-97ad-c831ec32898c') {
+		  if (!workspace || workspace === '2e1ab090-5f51-465e-97ad-c831ec32898c') {
 		    return res.json({
 				'output': {
      		       'text' = text 
