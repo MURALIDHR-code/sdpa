@@ -47,11 +47,11 @@
 		// Endpoint to be call from the client side
 		app.post('/api/message', function (req, res) {
 		  console.log("");
-		  // var destination_bot = '5758ad9a-c37c-4894-abf7-9368cbdba4c0';
-		  var workspace = getDestinationBot(req.body.context) || '6abc5c45-fcdc-42ab-9f39-1d0baf31f09f';
+		  // var destination_bot = '5758ad9a-c37c-4894-abf7-9368cbdba4c0 - 6abc5c45-fcdc-42ab-9f39-1d0baf31f09f';
+		  var workspace = getDestinationBot(req.body.context) || '<workspace-id>';
 		  
 		  console.log("workspace = " + workspace);
-		  if (!workspace || workspace === 'destination_bot') {
+		  if (!workspace || workspace === '<workspace-id>') {
 		    return res.json({
 		      'output': {
 		       text: 'We are on the right path' 
