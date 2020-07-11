@@ -47,7 +47,7 @@
 		// Endpoint to be call from the client side
 		// var workspace = null;
 		// var destination_bot = null;
-		// var workspace_id = null;
+		var workspace_id = null;
 		app.post('/api/message', function (req, res) {
 		  console.log("");
 		  
