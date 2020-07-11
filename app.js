@@ -46,6 +46,7 @@
 		
 		// Endpoint to be call from the client side
 		var workspace = null;
+		var destination_bot = null;
 		app.post('/api/message', function (req, res) {
 		  console.log("");
 		  
@@ -122,7 +123,7 @@
 		    if (isRedirect(data.context)) {
 		      // When there is a redirect, get the redirect bot workspace id
 		      //payload.workspaceId = getDestinationBot(data.context);
-			  payload.workspaceId = process.env.WORKSPACE_ID(data.context);
+			  payload.workspaceId = getDestinationBot(data.context);
 		      // When there is a redirect, update destination bot in context so it persists along with the conversation
 		      payload.context.destination_bot = data.context.destination_bot;
 		      // Where there is redirect, old conversation_id is not needed. Delete it
