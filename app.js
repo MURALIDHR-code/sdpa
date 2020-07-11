@@ -190,13 +190,18 @@ switch(expression) {
 function getDestinationBot(context) {
   var destination_bot = null;
   if (context && context.destination_bot) {
-    destination_bot = context.destination_bot.toUpperCase();
+	  console.log(destination_bot);
+      destination_bot = context.destination_bot.toUpperCase();
+	
   }
 
   var wsId = process.env["WORKSPACE_ID_" + destination_bot];
-
+	console.log(destination_bot);
+	console.log(wsId);
+	
   if (!wsId) {
     wsId = process.env["WORKSPACE_ID_Agent_Router"];
+	console.log(wsId);
   }
 
   if (!destination_bot) {
