@@ -46,7 +46,7 @@
 		
 		// Endpoint to be call from the client side
 		var workspace = null;
-		var destination_bot = null;
+		// var destination_bot = null;
 		var workspace_id = null;
 		app.post('/api/message', function (req, res) {
 		  console.log("");
@@ -170,7 +170,49 @@
 		// The agent bot decides which bot the request should be redirected to and updates that in context variable.
 		// Get workspace_id for redirected bot details so messages can be sent to that bot
 		
-		function getDestinationBot(context){
+		
+		
+	/* 	Use the switch statement to select one of many code blocks to be executed.
+
+Syntax
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+} */
+
+function getDestinationBot(context) {
+  var destination_bot = null;
+  if (context && context.destination_bot) {
+    destination_bot = context.destination_bot.toUpperCase();
+  }
+
+  var wsId = process.env["WORKSPACE_ID_" + destination_bot];
+
+  if (!wsId) {
+    wsId = process.env["WORKSPACE_ID_AGENT"];
+  }
+
+  if (!destination_bot) {
+    destination_bot = "AGENT";
+  }
+
+  console.log("Message being sent to: " + destination_bot + " bot");
+  return wsId;
+}
+
+
+
+
+
+
+
+		/* function getDestinationBot(context){
   if( context && context.destination_bot && context.destination_bot.toUpperCase() === "Bluepages_Skills" ){
     return process.env.WORKSPACE_ID_Bluepages_Skills;
   }else if( context && context.destination_bot && context.destination_bot.toUpperCase() === "Resiliency_Skills" ){
@@ -178,7 +220,7 @@
   }else{
     return process.env.WORKSPACE_ID_Agent_Router;
   }
-}
+} */
 		/**
 		 * Updates the response text using the intent confidence
 		 * @param  {Object} input The request to the Assistant service
