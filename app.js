@@ -95,6 +95,7 @@
     workspaceId: workspace,
     context: req.body.context || {},
     input: req.body.input || {}
+	
   };
 		  /* var payload = {
 		    // workspaceId: workspaceId,
