@@ -10062,12 +10062,12 @@
             "Sorry I didn't quite get that",
             "would you repeat that for me please"
           ],
-          "selection_policy": "random"
+          "selection_policy": "sequential"
         }
       },
       "context": {
         "workspace_id": "6abc5c45-fcdc-42ab-9f39-1d0baf31f09f",
-        "destination_bot": "agent"
+        "destination_bot": "Agent_Router"
       },
       "metadata": {},
       "conditions": "anything_else",
@@ -10171,7 +10171,7 @@
       },
       "context": {
         "workspace_id": "6abc5c45-fcdc-42ab-9f39-1d0baf31f09f",
-        "destination_bot": "WORKSPACE_ID_Agent-Router"
+        "destination_bot": "Agent_Router"
       },
       "conditions": "#thanks",
       "dialog_node": "node_1_1594321791646",
@@ -10275,27 +10275,23 @@
       "dialog_node": "node_3_1588076544038"
     }
   ],
-  "counterexamples": [
-    {
-      "text": "ghonavar@in.ibm.com"
-    }
-  ],
+  
+ "destination_bot": "5758ad9a-c37c-4894-abf7-9368cbdba4c0",
+  "counterexamples": [],
   "system_settings": {
     "tooling": {
       "store_generic_responses": true
     },
     "disambiguation": {
-      "enabled": true,
-      "randomize": true,
-      "suggestion_text_policy": "title",
-      "none_of_the_above_prompt": "None of the above."
+      "prompt": "Did you mean:",
+      "none_of_the_above_prompt": "None of the above"
     },
-    "system_entities": {
-      "enabled": true
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
     }
   },
   "learning_opt_out": false,
-  "name": "BluePages-DMH Skills",
+  "name": "Bluepages-Skills",
   "language": "en",
-  "description": "Bluepage-Skills and DMH for the BAU services"
+  "description": "Bluepages-Skills and DMH domain"
 }

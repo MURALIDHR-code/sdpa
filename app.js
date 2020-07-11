@@ -48,21 +48,64 @@
 		var workspace = null;
 		app.post('/api/message', function (req, res) {
 		  console.log("");
+		  
+		  
 		  // workspace = '5758ad9a-c37c-4894-abf7-9368cbdba4c0 - 6abc5c45-fcdc-42ab-9f39-1d0baf31f09f - 2e1ab090-5f51-465e-97ad-c831ec32898c';
-		  var workspace = getDestinationBot(req.body.context) || '6abc5c45-fcdc-42ab-9f39-1d0baf31f09f';
+		//  Logical Operator	Description	
+// &&	and	(x < 10 && y > 1) is true	
+// ||	or	(x == 5 || y == 5) is false	
+// !	not	!(x == y) is true
+		  
+		  // Operator	Description	Example	Try it
+// &&	and	(x < 10 && y > 1) is true	
+// ||	or	(x == 5 || y == 5) is false	
+// !	not	!(x == y) is true
+		 
+// Comparision Operator	Description	
+// ==	equal to	x == 8	false	
+// x == 5	true	
+// x == "5"	true	
+// ===	equal value and equal type	x === 5	true	
+// x === "5"	false	
+// !=	not equal	x != 8	true	
+// !==	not equal value or not equal type	x !== 5	false	
+// x !== "5"	true	
+// x !== 8	true		 
+		  
+		  var workspace = getDestinationBot(req.body.context) || destination_bot
+		  
+		  // let workspace = process.env.["WORKSPACE_ID_Agent_Router"] || '2e1ab090-5f51-465e-97ad-c831ec32898c';	
 		  console.log("workspace = " + workspace);
-		  if (!workspace || workspace === '2e1ab090-5f51-465e-97ad-c831ec32898c') {
+		  if (!workspace || workspace === destination_bot) {
 		    return res.json({
 				'output': {
-     		       'text': 'text'
-		      }
+     		       'text': 'text',
+		      },
 		    });
 		  }
+		  
+		  var textIn = '';
+		  
+		  if (req.body.input) {
+			  textIn = req.body.input.text;
+		  }
+		  
 		  var payload = {
-		    workspaceId: workspace,
+    // workspace_id: workspace,
+    workspaceId: workspace,
+    context: req.body.context || {},
+    input: req.body.input || {}
+  };
+		  /* var payload = {
+		    // workspaceId: workspaceId,
 		    context: req.body.context || {},
-		    input: req.body.input || {}
-		  };
+			// sessionId: req.body.session_id,
+		    input: {
+				message_type: 'text',
+				text: textIn,
+			}
+		  	  
+		   }; */
 		
 		  // Send the input to the assistant service
 		  assistant.message(payload, function (err, data) {
@@ -73,10 +116,12 @@
 		      console.log("Error occurred: " + JSON.stringify(err.message))
 		      return res.status(err.code || 500).json(err);
 		    }
-
+			  return res.json(data);
+			  
 		    if (isRedirect(data.context)) {
 		      // When there is a redirect, get the redirect bot workspace id
-		      payload.workspaceId = getDestinationBot(data.context);
+		      //payload.workspaceId = getDestinationBot(data.context);
+			  payload.workspaceId = process.env.WORKSPACE_ID(data.context);
 		      // When there is a redirect, update destination bot in context so it persists along with the conversation
 		      payload.context.destination_bot = data.context.destination_bot;
 		      // Where there is redirect, old conversation_id is not needed. Delete it
@@ -101,7 +146,7 @@
 		function isRedirect(context) {
 		  if (context && context.redirect_to_another_bot) {
 		    var isRedirect = context.redirect_to_another_bot;
-		
+		  
 		    if (isRedirect == true) {
 		      return true;
 		    } else {
@@ -125,14 +170,16 @@
 		    var wsId = process.env["WORKSPACE_ID_" + destination_bot];
 		
 		  if (!wsId) {
-		    wsId = process.env["WORKSPACE_ID_Agent-Router"];
+		    wsId = process.env["WORKSPACE_ID_Agent_Router"];
+			console.log(wsId);
 		  }
 		
 		  if (!destination_bot) {
-		    destination_bot = "Agent-Router";
+		    destination_bot = "Agent_Router";
 		  }
 		
 		  console.log("Message being sent to: " + destination_bot + " bot");
+		  console.log(wsId);
 		  return wsId;
 		}
 		/**

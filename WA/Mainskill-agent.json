@@ -2146,6 +2146,7 @@
       "dialog_node": "Welcome"
     }
   ],
+  "destination_bot": "6abc5c45-fcdc-42ab-9f39-1d0baf31f09f",
   "counterexamples": [],
   "system_settings": {
     "tooling": {
@@ -2160,7 +2161,8 @@
     }
   },
   "learning_opt_out": false,
-  "name": "Agent-Router",
+  "name": "Agent_Router",
   "language": "en",
   "description": "Interface Bot"
 }
+  
