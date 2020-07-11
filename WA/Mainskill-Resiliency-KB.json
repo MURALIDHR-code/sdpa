@@ -2822,7 +2822,7 @@
     }
   ],
     
- "destination_bot": "2e1ab090-5f51-465e-97ad-c831ec32898c",
+ "workspace_id": "2e1ab090-5f51-465e-97ad-c831ec32898c",
   "counterexamples": [],
   "system_settings": {
     "tooling": {
