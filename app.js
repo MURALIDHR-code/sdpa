@@ -45,9 +45,9 @@
 		});
 		
 		// Endpoint to be call from the client side
-		var workspace = null;
+		// var workspace = null;
 		// var destination_bot = null;
-		var workspace_id = null;
+		// var workspace_id = null;
 		app.post('/api/message', function (req, res) {
 		  console.log("");
 		  
@@ -73,14 +73,14 @@
 // !==	not equal value or not equal type	x !== 5	false	
 // x !== "5"	true	
 // x !== 8	true		 
-		  
+		  workspace_id = process.env.["WORKSPACE_ID_Agent_Router"];
 		  var workspace = getDestinationBot(req.body.context) || workspace_id
 		  console.log(workspace_id);
 		  // let workspace = process.env.["WORKSPACE_ID_Agent_Router"] || '2e1ab090-5f51-465e-97ad-c831ec32898c';	
 		  console.log("workspace = " + workspace);
 		  if (!workspace || workspace === workspace_id) {
 			  console.log(workspace);
-			  console.log(workspaceId);
+			  // console.log(workspaceId);
 			  console.log(workspace_id);
 			  console.log("WORKSPACE_ID_Bluepages_Skills");
 		    return res.json({
@@ -195,11 +195,11 @@ function getDestinationBot(context) {
   var wsId = process.env["WORKSPACE_ID_" + destination_bot];
 
   if (!wsId) {
-    wsId = process.env["WORKSPACE_ID_AGENT"];
+    wsId = process.env["WORKSPACE_ID_Agent_Router"];
   }
 
   if (!destination_bot) {
-    destination_bot = "AGENT";
+    destination_bot = "Agent_Router";
   }
 
   console.log("Message being sent to: " + destination_bot + " bot");
