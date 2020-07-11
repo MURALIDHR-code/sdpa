@@ -78,6 +78,7 @@
 		  // let workspace = process.env.["WORKSPACE_ID_Agent_Router"] || '2e1ab090-5f51-465e-97ad-c831ec32898c';	
 		  console.log("workspace = " + workspace);
 		  if (!workspace || workspace === destination_bot) {
+			  console.log(workspace);
 		    return res.json({
 				'output': {
      		       'text': 'text',
@@ -124,8 +125,10 @@
 		      // When there is a redirect, get the redirect bot workspace id
 		      //payload.workspaceId = getDestinationBot(data.context);
 			  payload.workspaceId = getDestinationBot(data.context);
+			  console.log(workspaceId);
 		      // When there is a redirect, update destination bot in context so it persists along with the conversation
 		      payload.context.destination_bot = data.context.destination_bot;
+			  console.log(destination_bot);
 		      // Where there is redirect, old conversation_id is not needed. Delete it
 		      delete payload.context.conversation_id;
 		      // For redirect, no user action is needed. Call the redirect bot automatically and send back that response to user
