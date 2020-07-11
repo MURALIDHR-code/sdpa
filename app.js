@@ -73,28 +73,28 @@
 // !==	not equal value or not equal type	x !== 5	false	
 // x !== "5"	true	
 // x !== 8	true		 
-		  workspace_id = process.env["WORKSPACE_ID_Agent_Router"];
-		  var workspace = getDestinationBot(req.body.context) || workspace_id
-		  console.log(workspace_id);
+		  // workspace_id = process.env["WORKSPACE_ID_Agent_Router"];
+		  var workspace = getDestinationBot(req.body.context) || '5758ad9a-c37c-4894-abf7-9368cbdba4c0'
+		  console.log(workspace);
 		  // let workspace = process.env.["WORKSPACE_ID_Agent_Router"] || '2e1ab090-5f51-465e-97ad-c831ec32898c';	
 		  console.log("workspace = " + workspace);
-		  if (!workspace || workspace === workspace_id) {
+		  if (!workspace || workspace === '2e1ab090-5f51-465e-97ad-c831ec32898') {
 			  console.log(workspace);
 			  // console.log(workspaceId);
-			  console.log(workspace_id);
-			  console.log("WORKSPACE_ID_Bluepages_Skills");
+			  //console.log(workspace_id);
+			 // console.log("WORKSPACE_ID_Bluepages_Skills");
 		    return res.json({
 				'output': {
-     		       'text': 'text',
-		      },
+     		      // 'text': 'text',
+		      
 		    });
 		  }
 		  
-		  var textIn = '';
+		  /* var textIn = '';
 		  
 		  if (req.body.input) {
 			  textIn = req.body.input.text;
-		  }
+		  } */
 		  
 		  var payload = {
     // workspace_id: workspace,
@@ -124,7 +124,7 @@
 		      console.log("Error occurred: " + JSON.stringify(err.message))
 		      return res.status(err.code || 500).json(err);
 		    }
-			  return res.json(data);
+			  // return res.json(data);
 			  
 		    if (isRedirect(data.context)) {
 		      // When there is a redirect, get the redirect bot workspace id
