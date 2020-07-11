@@ -3,7 +3,7 @@
   "description": "A Node.js based squadnagi web app Watson Assistant API to recognize user intents.",
   "version": "2.148.0",
   "engines": {
-    "node": "^8 || ^13",
+    "node": "^8 || ^12",
     "npm": "^6 || ^8"
   },
   "main": "server.js",
@@ -26,7 +26,7 @@
   "dependencies": {
     "@contrast/agent": "^2.16.4",
     "body-parser": "^1.18.3",
-    "braces": ">=2.3.1",
+    "braces": "=2.3.1",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "ibm-watson": "^5.6.0",
