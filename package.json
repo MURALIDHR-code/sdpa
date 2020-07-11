@@ -1,9 +1,14 @@
 {
-  "name": "@muralidhr-code/sdpa",
-  "description": "A simple Node.js based web app which shows how to use the Watson Assistant API to recognize user intents.",
-  "version": "0.1.1",
+  "name": "@MURALIDHR-code/sdpa",
+  "description": "A Node.js based squadnagi web app Watson Assistant API to recognize user intents.",
+  "version": "2.148.0",
+  "engines": {
+    "node": "^8 || ^15",
+    "npm": "^6 || ^12"
+  },
   "main": "server.js",
   "scripts": {
+    "version": "13.12.0",
     "start": "node server.js",
     "test-integration": "casperjs test ./test/integration/test.*.js",
     "test-integration-runner": "NODE_ENV=test node casper-runner.js",
@@ -19,23 +24,34 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "@contrast/agent": "^2.16.4",
     "body-parser": "^1.18.3",
+    "braces": ">=2.3.1",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
-    "watson-developer-cloud": "^3.13.0",
-    "ibm-watson": "^5.4.0"
+    "ibm-watson": "^5.6.0",
+    "watson-developer-cloud": "^3.13.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
+  "engineStrict": true,
   "devDependencies": {
     "babel-eslint": "^8.2.6",
     "casperjs": "^1.1.4",
     "codecov": "^3.0.4",
     "eslint": "^5.1.0",
-    "jest": "^23.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^26.1.0",
+    "npm-start-command": "^1.0.1",
     "phantomjs-prebuilt": "^2.1.16",
     "supertest": "^3.1.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/MURALIDHR-code/sdpa/issues"
+  },
+  "homepage": "https://github.com/MURALIDHR-code/sdpa#readme",
+  "keywords": [],
+  "author": "MURALIDHR-code"
 }

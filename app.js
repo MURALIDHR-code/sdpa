@@ -73,7 +73,7 @@
 // !==	not equal value or not equal type	x !== 5	false	
 // x !== "5"	true	
 // x !== 8	true		 
-		  workspace_id = process.env.["WORKSPACE_ID_Agent_Router"];
+		  workspace_id = process.env["WORKSPACE_ID_Agent_Router"];
 		  var workspace = getDestinationBot(req.body.context) || workspace_id
 		  console.log(workspace_id);
 		  // let workspace = process.env.["WORKSPACE_ID_Agent_Router"] || '2e1ab090-5f51-465e-97ad-c831ec32898c';	
