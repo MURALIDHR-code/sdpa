@@ -74,13 +74,14 @@
 // x !== "5"	true	
 // x !== 8	true		 
 		  
-		  var workspace = getDestinationBot(req.body.context) || 'workspaceId'
+		  var workspace = getDestinationBot(req.body.context) || 'workspace_id'
 		  console.log(workspace_id);
 		  // let workspace = process.env.["WORKSPACE_ID_Agent_Router"] || '2e1ab090-5f51-465e-97ad-c831ec32898c';	
 		  console.log("workspace = " + workspace);
-		  if (!workspace || workspace === 'workspaceId') {
+		  if (!workspace || workspace === 'workspace_id') {
 			  console.log(workspace);
 			  console.log(workspaceId);
+			  console.log(workspace_id);
 			  console.log("WORKSPACE_ID_Bluepages_Skills");
 		    return res.json({
 				'output': {

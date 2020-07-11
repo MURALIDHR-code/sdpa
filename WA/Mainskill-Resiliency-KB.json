@@ -2823,21 +2823,8 @@
   ],
     
  "workspace_id": "2e1ab090-5f51-465e-97ad-c831ec32898c",
+  "name": "Resiliency_Skills",
   "counterexamples": [],
-  "system_settings": {
-    "tooling": {
-      "store_generic_responses": true
-    },
-    "disambiguation": {
-      "prompt": "Did you mean:",
-      "none_of_the_above_prompt": "None of the above"
-    },
-    "human_Agent_Router_assist": {
-      "prompt": "Did you mean:"
-    }
-  },
   "learning_opt_out": false,
-  "name": "Regiliency-KB",
-  "language": "en",
-  "description": "Regiliency-KB and IRP / PRISM domain"
+  "status": "Available"
 }
