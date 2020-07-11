@@ -85,8 +85,9 @@
 			 // console.log("WORKSPACE_ID_Bluepages_Skills");
 		    return res.json({
 				'output': {
-     		      // 'text': 'text',
+     		       'text': 'text IS',
 		      
+				}
 		    });
 		  }
 		  
