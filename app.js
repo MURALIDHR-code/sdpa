@@ -73,11 +73,11 @@
 // x !== "5"	true	
 // x !== 8	true		 
 		  
-		  var workspace = getDestinationBot(req.body.context) || destination_bot
-		  
+		  var workspace = getDestinationBot(req.body.context) || workspace_id
+		  console.log(workspace_id);
 		  // let workspace = process.env.["WORKSPACE_ID_Agent_Router"] || '2e1ab090-5f51-465e-97ad-c831ec32898c';	
 		  console.log("workspace = " + workspace);
-		  if (!workspace || workspace === destination_bot) {
+		  if (!workspace || workspace === workspace_id) {
 			  console.log(workspace);
 		    return res.json({
 				'output': {
@@ -173,7 +173,7 @@
 					  }
 		 
 		    var wsId = process.env["WORKSPACE_ID_" + destination_bot];
-		
+			console.log(destination_bot);
 		  if (!wsId) {
 		    wsId = process.env["WORKSPACE_ID_Agent_Router"];
 			console.log(wsId);
@@ -184,8 +184,9 @@
 		  }
 		
 		  console.log("Message being sent to: " + destination_bot + " bot");
-		  console.log(wsId);
+		  console.log(destination_bot);
 		  return wsId;
+		  console.log(wsId);
 		}
 		/**
 		 * Updates the response text using the intent confidence
