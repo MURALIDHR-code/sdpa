@@ -6,7 +6,7 @@ applications:
   instances: 1
   random-route: true
   env:
-    WORKSPACE_ID_Agent-Router: 6abc5c45-fcdc-42ab-9f39-1d0baf31f09f
+    WORKSPACE_ID_Agent_Router: 6abc5c45-fcdc-42ab-9f39-1d0baf31f09f
     WORKSPACE_ID_Resiliency_KB: 2e1ab090-5f51-465e-97ad-c831ec32898c
     WORKSPACE_ID_Bluepages_Skills: 5758ad9a-c37c-4894-abf7-9368cbdba4c0
     ASSISTANT_IAM_API_KEY: aFkveMnv_OKL4nHMyj0HCb068Hb-LkEG4fyQUPzfwHs8
