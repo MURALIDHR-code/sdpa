@@ -7,8 +7,9 @@ applications:
   random-route: true
   env:
     WORKSPACE_ID_Agent_Router: 6abc5c45-fcdc-42ab-9f39-1d0baf31f09f
-    WORKSPACE_ID_Resiliency_KB: 2e1ab090-5f51-465e-97ad-c831ec32898c
+    WORKSPACE_ID_Resiliency_Skills: 2e1ab090-5f51-465e-97ad-c831ec32898c
     WORKSPACE_ID_Bluepages_Skills: 5758ad9a-c37c-4894-abf7-9368cbdba4c0
+    WORKSPACE_ID_WPP_NA_LA_Skills: bedafe7d-fcc4-4576-a40b-2f7ff82dd828
     ASSISTANT_IAM_API_KEY: aFkveMnv_OKL4nHMyj0HCb068Hb-LkEG4fyQUPzfwHs8
     ASSISTANT_IAM_URL: https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/29093a9d-7ca1-425a-9103-b80c7a5bbb8e
-    VERSION: 2020-07-03
+    VERSION: 2020-07-11
