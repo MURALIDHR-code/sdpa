@@ -47,14 +47,14 @@
 		// Endpoint to be call from the client side
 		//var workspace = null;
 		//var destination_bot = null;
-		var workspace_id = null;
+		//var workspace_id = null;
 		app.post('/api/message', function (req, res) {
 		  console.log("");
 		  
 		  
 		  // workspace = '5758ad9a-c37c-4894-abf7-9368cbdba4c0 - 6abc5c45-fcdc-42ab-9f39-1d0baf31f09f - 2e1ab090-5f51-465e-97ad-c831ec32898c';
 	 
-		  // var workspace_id=process.env["WORKSPACE_ID_Agent_Router"];
+		  var workspace_id=process.env["WORKSPACE_ID_Agent_Router"];
 		  console.log(workspace_id);
 		  var workspace = getDestinationBot(req.body.context,workspace_id);
 		  console.log("changing workspace id",workspace_id);
