@@ -74,11 +74,11 @@
 // x !== "5"	true	
 // x !== 8	true		 
 		  // workspace_id = process.env["WORKSPACE_ID_Agent_Router"];
-		  var workspace = getDestinationBot(req.body.context) || process.env["WORKSPACE_ID_Bluepages_Skills"]
+		  var workspace = getDestinationBot(req.body.context) || process.env["WORKSPACE_ID_Bluepages_Skills"];
 		  console.log(workspace);
 		  // let workspace = process.env.["WORKSPACE_ID_Agent_Router"] || '2e1ab090-5f51-465e-97ad-c831ec32898c''5758ad9a-c37c-4894-abf7-9368cbdba4c0';	
 		  console.log("workspace = " + workspace);
-		  if (!workspace || workspace === process.env["WORKSPACE_ID_Resiliency_Skills']) {
+		  if (!workspace || workspace === process.env["WORKSPACE_ID_Resiliency_Skills"]) {
 			  console.log(workspace);
 			  // console.log(workspaceId);
 			  //console.log(workspace_id);
