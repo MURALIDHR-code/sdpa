@@ -159,18 +159,18 @@
 		  if (!wsId) {
 		    console.log(wsId);
 		    wsId = process.env["WORKSPACE_ID_Agent_Router"];
-			console.log(wsId);
+			console.log("if !",wsId);
 		  }
 		
 		  if (!destination_bot) {
-		     console.log(destination_bot);
+		     console.log("if !",destination_bot);
 		    destination_bot = "Agent_Router";
 		  }
 		
 		  console.log("Message being sent to: " + destination_bot + " bot");
 		  console.log(destination_bot);
 		  return wsId;
-		  console.log(wsId);
+		  console.log("this is retn wsId",wsId);
 		}
 		/**
 		 * Updates the response text using the intent confidence
