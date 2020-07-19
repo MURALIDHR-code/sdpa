@@ -18,15 +18,10 @@
 		
 		var express = require('express'); // app server
 		var bodyParser = require('body-parser'); // parser for post requests
-		// var Botkit = require('botkit');
-		// var slackController = Botkit.slackbot(slack_config);
-		// var slackBot = slackController.spawn(slack_config);
 		
 		const AssistantV1 = require('ibm-watson/assistant/v1');
 		const { IamAuthenticator } = require('ibm-watson/auth');
-	//	const Botkit = require('botkit');
-	//	const slackController = Botkit.slackbot(slack_config);
-	//	const slackBot = slackController.spawn(slack_config);
+
 		var app = express();
 		
 		// Bootstrap application settings
@@ -103,15 +98,13 @@
 		      // When there is a redirect, get the redirect bot workspace id
 		      //payload.workspaceId = getDestinationBot(data.context);
 			  payload.workspaceId = getDestinationBot(data.context);
-			  console.log("redirect payload id",workspaceId);
-		      // When there is a redirect, update destination bot in context so
-			  // it persists along with the conversation
+			  console.log("payload",workspaceId);
+		      // When there is a redirect, update destination bot in context so it persists along with the conversation
 		      payload.context.destination_bot = data.context.destination_bot;
 			  console.log("payload",destination_bot);
 		      // Where there is redirect, old conversation_id is not needed. Delete it
 		      delete payload.context.conversation_id;
-		      // For redirect, no user action is needed. Call the redirect bot 
-			  // automatically and send back that response to user
+		      // For redirect, no user action is needed. Call the redirect bot automatically and send back that response to user
 		      assistant.message(payload, function (err, data) {
 		        data = data.result;
 				console.log("This is resp data",data);
@@ -130,8 +123,8 @@
 		// The function checks if the bot response says messages to be redirected
 		
 		function isRedirect(context) {
-		  if (context && context.destination_bot) {
-		    var isRedirect = context.destination_bot;
+		  if (context && context.redirect_to_another_bot) {
+		    var isRedirect = context.redirect_to_another_bot;
 		  
 		    if (isRedirect == true) {
 		      return true;
@@ -151,12 +144,10 @@
 		  // print the context and id here then we get to know which id is coming here....
 	    console.log("This is dest-context",context);
 		console.log("This is dest-workspace",workspaceId);
-		// var destination_bot = workspaceId;
+		var destination_bot = workspaceId;
 		// var destination_bott = context.destination_bot;
 		console.log("This dest id",destination_bot);
-		    if (context && context.destination_bot) {
-		//	if (context && context.redirect_to_another_bot) {
-			  
+		  if (context && context.destination_bot) {
 		  console.log("This cont dest id",context.destination_bot);
 		    // var destination_bott = context.destination_bot;
 			var wsId = process.env["WORKSPACE_ID_" + context.destination_bot];
@@ -168,18 +159,18 @@
 		  if (!wsId) {
 		    console.log(wsId);
 		    wsId = process.env["WORKSPACE_ID_Agent_Router"];
-			console.log("if !",wsId);
+			console.log(wsId);
 		  }
 		
 		  if (!destination_bot) {
-		     console.log("if !",destination_bot);
+		     console.log(destination_bot);
 		    destination_bot = "Agent_Router";
 		  }
 		
 		  console.log("Message being sent to: " + destination_bot + " bot");
 		  console.log(destination_bot);
 		  return wsId;
-		  console.log("this is retn wsId",wsId);
+		  console.log(wsId);
 		}
 		/**
 		 * Updates the response text using the intent confidence
@@ -208,7 +199,6 @@
 		      responseText = 'I did not understand your intent';
 		    }
 		  }
-		  console.log("This is for data structure",responseText.date);
 		  response.output.text = responseText;
 		  return response;
 		}

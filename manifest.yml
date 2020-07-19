@@ -10,6 +10,7 @@ applications:
     WORKSPACE_ID_Resiliency_Skills: 2e1ab090-5f51-465e-97ad-c831ec32898c
     WORKSPACE_ID_Bluepages_Skills: 5758ad9a-c37c-4894-abf7-9368cbdba4c0
     WORKSPACE_ID_WPP_NA_LA_Skills: bedafe7d-fcc4-4576-a40b-2f7ff82dd828
+    WORKSPACE_ID_Squadnagi_Db2: 6d787cea-a695-4ccc-9f4d-3c17735158ab
     ASSISTANT_ID: 01740c76-af35-4740-ade6-2c1a55e21a9e
     ASSISTANT_IAM_API_KEY: aFkveMnv_OKL4nHMyj0HCb068Hb-LkEG4fyQUPzfwHs8
     ASSISTANT_IAM_URL: https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/29093a9d-7ca1-425a-9103-b80c7a5bbb8e

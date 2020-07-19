@@ -1,0 +1,1630 @@
+{
+  "intents": [
+    {
+      "intent": "ResiliencyServices",
+      "examples": [
+        {
+          "text": "resiliency"
+        },
+        {
+          "text": "How many locations do you have?"
+        },
+        {
+          "text": "What are the solutions for our data center"
+        },
+        {
+          "text": "Which are the various services provided to customer"
+        },
+        {
+          "text": "I want to know about DR"
+        },
+        {
+          "text": "Tell me about Resiliency Services"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "IRPbusinessbenefits",
+      "examples": [
+        {
+          "text": "Show me some benefit using irp"
+        },
+        {
+          "text": "Tell me the business benefits fo IRP"
+        },
+        {
+          "text": "is there any benefit using irp?"
+        },
+        {
+          "text": "Business benefit of irp"
+        },
+        {
+          "text": "What is the benefit of using irp?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "IBM_CRO_Advantages",
+      "examples": [
+        {
+          "text": "Resiliency Orchestration advantages"
+        },
+        {
+          "text": "IBM CRO Solution Advantages"
+        },
+        {
+          "text": "Advantages of CRO"
+        },
+        {
+          "text": "IBM RO Solution Advantages"
+        },
+        {
+          "text": "Cloud Resiliency Orchestration Advantages"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "IRPbasics",
+      "examples": [
+        {
+          "text": "What is IRP?"
+        },
+        {
+          "text": "IRP means what?"
+        },
+        {
+          "text": "Can you tell me what is irp?"
+        },
+        {
+          "text": "Tell me about IRP"
+        },
+        {
+          "text": "about irp"
+        },
+        {
+          "text": "IRP"
+        },
+        {
+          "text": "What is the use of IRP?"
+        },
+        {
+          "text": "What is the purpose of IRP?"
+        },
+        {
+          "text": "What is Interactive Resiliency Portal?"
+        },
+        {
+          "text": "Why do we need IRP?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "IRP_Access",
+      "examples": [
+        {
+          "text": "Prerequisite for IRP"
+        },
+        {
+          "text": "Prerequisite"
+        },
+        {
+          "text": "How to access IRP?"
+        },
+        {
+          "text": "How can I access IRP?"
+        },
+        {
+          "text": "Ho do I access IRP?"
+        },
+        {
+          "text": "is there any initial client access to"
+        },
+        {
+          "text": "Is there a client access link for IRP?"
+        },
+        {
+          "text": "Is it required to have IBM ID?"
+        },
+        {
+          "text": "Prerequisites for IRP access"
+        },
+        {
+          "text": "Prerequisite for Interactive Resiliecny Portal"
+        },
+        {
+          "text": "irp prrequisite"
+        },
+        {
+          "text": "access irp?"
+        },
+        {
+          "text": "link to access irp"
+        }
+      ],
+      "description": "Access to IRP"
+    },
+    {
+      "intent": "AccountServicesOperationManual",
+      "examples": [
+        {
+          "text": "SDPA Operations manual"
+        },
+        {
+          "text": "tell me about account services operation manual"
+        },
+        {
+          "text": "What is Account Services operations manual"
+        },
+        {
+          "text": "Account Services operations Manual"
+        },
+        {
+          "text": "Operations Manual"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bye_PMchatops",
+      "examples": [
+        {
+          "text": "good day"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "disconnect"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "end"
+        }
+      ]
+    },
+    {
+      "intent": "General_Ending_PMChat",
+      "examples": [
+        {
+          "text": "good job"
+        },
+        {
+          "text": "thank you buddy"
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Ok See you"
+        }
+      ]
+    },
+    {
+      "intent": "ServicesOffered",
+      "examples": [
+        {
+          "text": "Replication Services"
+        },
+        {
+          "text": "Data Center Services"
+        },
+        {
+          "text": "MainframeServices"
+        },
+        {
+          "text": "MidrangeServices"
+        },
+        {
+          "text": "Midrange Services"
+        },
+        {
+          "text": "Mainframe Services"
+        },
+        {
+          "text": "Orchestration"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cloud_Resiliency_Orchestration",
+      "examples": [
+        {
+          "text": "IBM Cloud Resiliency Orchestration"
+        },
+        {
+          "text": "IBM Resiliency Orchestration"
+        },
+        {
+          "text": "What is CRO?"
+        },
+        {
+          "text": "What is Cloud Resiliency Orchestration?"
+        },
+        {
+          "text": "IBM CRO"
+        },
+        {
+          "text": "Cloud Resiliency Orchestration"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "New_Service_Delivery_Program_Advisor_Training",
+      "examples": [
+        {
+          "text": "Training"
+        },
+        {
+          "text": "New SDPA Training"
+        },
+        {
+          "text": "Service Delivery Program Advisor Training"
+        },
+        {
+          "text": "Training of SDPA"
+        },
+        {
+          "text": "New Service Delivery Program Advisor"
+        },
+        {
+          "text": "SDPA Training"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greeting",
+      "examples": [
+        {
+          "text": "Need your help"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "How are you?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "howdy"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "How_it_Works_CRO",
+      "examples": [
+        {
+          "text": "What are the CRO Models"
+        },
+        {
+          "text": "CRO Solution Overview"
+        },
+        {
+          "text": "Can you tell me how CRO works"
+        },
+        {
+          "text": "How CRO works"
+        },
+        {
+          "text": "CRO Models"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "IRP_User_management",
+      "examples": [
+        {
+          "text": "User management in IRP"
+        },
+        {
+          "text": "IRP User Management"
+        },
+        {
+          "text": "User Management"
+        },
+        {
+          "text": "Roles in IRP"
+        },
+        {
+          "text": "IRP Roles"
+        },
+        {
+          "text": "How many users are there in IRP"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "IRP_Features",
+      "examples": [
+        {
+          "text": "Scheduled Exercises"
+        },
+        {
+          "text": "IRP Features"
+        },
+        {
+          "text": "Dates"
+        },
+        {
+          "text": "Contracts"
+        },
+        {
+          "text": "Scheduled Ex and Docs"
+        },
+        {
+          "text": "Summary"
+        },
+        {
+          "text": "Services"
+        },
+        {
+          "text": "IRP Functions"
+        },
+        {
+          "text": "What are the main functions of irp?"
+        },
+        {
+          "text": "What are the main features of irp?"
+        },
+        {
+          "text": "Can we see scheduled exercise in IRP?"
+        },
+        {
+          "text": "configurations"
+        },
+        {
+          "text": "Personnel"
+        },
+        {
+          "text": "Templates"
+        },
+        {
+          "text": "Exercise Logs"
+        },
+        {
+          "text": "Can we see the number of contracts?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "IRPDashboard",
+      "examples": [
+        {
+          "text": "IRP Centralized Dashboard"
+        },
+        {
+          "text": "IRP Dash Board"
+        },
+        {
+          "text": "IRP Centralized Dash Board"
+        },
+        {
+          "text": "Dash Board"
+        },
+        {
+          "text": "Dashboard"
+        },
+        {
+          "text": "IRP Dashboard"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Orchestration",
+      "examples": [
+        {
+          "text": "Orchestration video"
+        },
+        {
+          "text": "Orchestration"
+        },
+        {
+          "text": "Orchestarion advantages"
+        },
+        {
+          "text": "What is the use of Orchestration"
+        },
+        {
+          "text": "What is Orchestration?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "IRP",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Personnel",
+          "synonyms": [
+            "Personnel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Scheduled Ex and Docs",
+          "synonyms": [
+            "Schedule new exercise"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Contracts",
+          "synonyms": [
+            "Number of Contracts"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Templates",
+          "synonyms": [
+            "Exercise Templates"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Services",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "MF Services",
+          "synonyms": [
+            "Mainframe Services",
+            "MF Services"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MR Services",
+          "synonyms": [
+            "Midrange Services"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Intel Services",
+          "synonyms": [
+            "Intel Services"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Access",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Initial client access to IRP",
+          "synonyms": [
+            "client access"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prerequisite for IRP access",
+          "synonyms": [
+            "IRP Access"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "How to obtain IBM ID?",
+          "synonyms": [
+            "IBM ID"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Link to IRP",
+          "synonyms": [
+            "IRP Link"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Contracts",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Summary",
+          "synonyms": [
+            "Summary"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dates",
+          "synonyms": [
+            "Dates"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Services",
+          "synonyms": [
+            "Services"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Configurations",
+          "synonyms": [
+            "Configurations"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Scheduled Exercises",
+          "synonyms": [
+            "Shceduled Exercises"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "levels_of_access",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Client Administrator",
+          "synonyms": [
+            "Client Administrator ",
+            "Client Administrator"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Client Admin/Coordinator",
+          "synonyms": [
+            "Client Admin/Coordinator ",
+            "Client Admin/Coordinator"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Client Admin/Coordinator/Tech",
+          "synonyms": [
+            "Client Admin/Coordinator/Tech ",
+            "Client Admin/Coordinator/Tech"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.cloud.ibm.com/api/v1/web/ashokpk1%40in.ibm.com_test/default/test.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Once the Client Administrator access is set up by the SDPA, IRP can be accessed using the IBM ID.\nTo access IRP , go to the <a href=\"https://www.ibm.com/services/us-en/it-services/business-continuity/resiliency-portal\" target=\"blank\">IRP Portal</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1589286529154",
+      "conditions": "@Access:(Link to IRP)",
+      "dialog_node": "node_5_1589294788225",
+      "previous_sibling": "node_4_1589290274998"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Initial client access to IRP\nA Client Administrator will be named by the client. The client's IBM Business Resiliency Services' Service Delivery Program Advisor (SDPA) will be provided with the Client Administrator's IBM id and will use it to authorize the Client Administrator's access to IRP. \nSDPA can provide the Client Administrator with three levels of access: "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "3 levels of access",
+            "options": [
+              {
+                "label": "Client Administrator",
+                "value": {
+                  "input": {
+                    "text": "Client Administrator"
+                  }
+                }
+              },
+              {
+                "label": "Client Admin/Coordinator ",
+                "value": {
+                  "input": {
+                    "text": "Client Admin/Coordinator "
+                  }
+                }
+              },
+              {
+                "label": "Client Admin/Coordinator/Tech ",
+                "value": {
+                  "input": {
+                    "text": "Client Admin/Coordinator/Tech "
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1589286529154",
+      "conditions": "@Access:(Initial client access to IRP)",
+      "dialog_node": "node_4_1589290274998",
+      "previous_sibling": "node_9_1589288126393"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A user must have an IBM id and be a client of IBM Business Resiliency Services. \n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1589286529154",
+      "conditions": "@Access:(Prerequisite for IRP access)",
+      "dialog_node": "node_9_1589288126393",
+      "previous_sibling": "node_9_1589288563632"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How to obtain an IBM id follow these steps. \nStep 1: Go to www.ibm.com and click on the \"human icon\" and select \"Sign in\". \nStep 2: Select \"New? Create an IBMid\". (It's preferable to assign your primary work email address to be your IBM id. )"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1589286529154",
+      "conditions": "@Access:(How to obtain IBM ID?)",
+      "dialog_node": "node_9_1589288563632"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Client Admin/Coordinator : This role allows the user to operate as both the Client Administrator role and the Client Coordinator role, which is needed to coordinate worksheets and setup documents with IBM Business Resiliency Services. \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589290274998",
+      "conditions": "@levels_of_access:(Client Admin/Coordinator)",
+      "dialog_node": "node_10_1589294372997",
+      "previous_sibling": "node_7_1589290649239"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Client Admin/Coordinator/Tech - This role allows the user to operate as: the Client Administrator role the Client Coordinator role, which is needed to coordinate worksheets and setup documents with IBM Business Resiliency Services and the Client Admin/Coordinator/Tech role, which is useful when a user needs to play a technical role along with performing function of Client Administrator and Client Coordinator\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589290274998",
+      "conditions": "@levels_of_access:(Client Admin/Coordinator/Tech)",
+      "dialog_node": "node_9_1589294468279",
+      "previous_sibling": "node_10_1589294372997"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Client Administrator - This role only allows the user to provide, alter, or remove access to IRP. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589290274998",
+      "conditions": "@levels_of_access:(Client Administrator)",
+      "dialog_node": "node_7_1589290649239"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://s27389.pcdn.co/wp-content/uploads/2020/02/disaster-recovery-as-a-service-industrys-next-vital-tool-1024x440.jpeg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_10_1586964794473",
+      "conditions": "@Services",
+      "dialog_node": "node_10_1586978317430",
+      "previous_sibling": "node_10_1586977548619"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our Midrange Services, go to the <a href=\"https://www.example.com/menu.html\" target=\"blank\">menu</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1586964794473",
+      "conditions": "@Services",
+      "dialog_node": "node_10_1586977548619",
+      "previous_sibling": "node_9_1586977083200"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our Mainframe Services, go to the <a href=\"https://www.ibm.com/in-en/it-infrastructure/z/capabilities/resiliency\" target=\"blank\">MF Services</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1586964794473",
+      "conditions": "@Services:(MF Services)",
+      "dialog_node": "node_9_1586977083200",
+      "previous_sibling": "response_2_1587062270505"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_10_1586964794473",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_2_1587062269733",
+      "previous_sibling": "response_3_1587062268307"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_10_1586964794473",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1587062270505",
+      "previous_sibling": "response_2_1587062269733"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In an always-on world, every second of downtime counts. A resiliency strategy that seamlessly responds to IT complexities and interdependencies across all cloud and on-premises resources can mean the difference between quickly resuming normal operations and prolonged disruption."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "DR Services",
+            "options": [
+              {
+                "label": "MF Services",
+                "value": {
+                  "input": {
+                    "text": "MainframeServices"
+                  }
+                }
+              },
+              {
+                "label": "MR Services",
+                "value": {
+                  "input": {
+                    "text": "MidrangeServices"
+                  }
+                }
+              },
+              {
+                "label": "Intel Services",
+                "value": {
+                  "input": {
+                    "text": "IntelServices"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1586964794473",
+      "dialog_node": "response_3_1587062268307"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Scheduled exercises\nThis information displays all the scheduled uses of the selected contract. For those interested in ALL contracts in \"Scheduled exercises\", they can go to either the \"Scheduledexercises\" option in the navigational area or to the \"Scheduled exercises\" portlet on the Dashboard.\nThis example shows contract CFTZ90D, revision 0.1.1, being used in work order 200209 starting 9/26/18.\nRoll your cursor onto an entry in the \"Domain\" column to get more information about the domain. Your SDPA will be displayed as the \"Coordinator\" in the last column.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589038190224",
+      "conditions": "@Contracts:(Scheduled Exercises)",
+      "dialog_node": "node_5_1589303887264",
+      "previous_sibling": "node_6_1589296568285"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dates\nThe \"Dates\" tab shows the effective date of the particular revision of the contract, the start date of the contract (either the ﬁrst revision or a renewal), the end date of the contract, the duration (months), and the signed date of the revision.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589038190224",
+      "conditions": "@Contracts:Dates",
+      "dialog_node": "node_7_1589304325686",
+      "previous_sibling": "node_5_1589303887264"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Services\nShown here is just an example of services that can be displayed. This contract shows Sun operating system restore services.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589038190224",
+      "conditions": "@Contracts:Services",
+      "dialog_node": "node_5_1589305422503",
+      "previous_sibling": "node_7_1589304325686"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Summary\nThe \"Summary\" tab shows some basic information including the primary covered client location. If there are secondary covered locations, they'd be visible in the \"Services\" tab."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589038190224",
+      "conditions": "@Contracts:Summary",
+      "dialog_node": "node_7_1589305562022",
+      "previous_sibling": "node_5_1589305422503"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Conﬁguration\nBy clicking on the contract number, more contract information becomes visible. This example shows the result of selecting contract CFTZ90D. Search, sort, and \"show entries\" function the same here as was explained above for the contract list. The default result is the contracted conﬁguration (in this example of contract CFTZ90D, which was selected). Note also the \"Nickname\" which will be explained in more detail following the image.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Configurarion Image",
+            "source": "https://storage-asst.s3.jp-tok.cloud-object-storage.appdomain.cloud/configurations.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1589038190224",
+      "conditions": "@Contracts:Configurations",
+      "dialog_node": "node_6_1589296568285"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A user can view much of their contract information from IRP. From the Dashboard, it is available either through the portlet or the navigational area."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Contract Details",
+            "source": "https://storage-asst.s3.jp-tok.cloud-object-storage.appdomain.cloud/contracts.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Contracts",
+            "options": [
+              {
+                "label": "Configurations",
+                "value": {
+                  "input": {
+                    "text": "Configurations"
+                  }
+                }
+              },
+              {
+                "label": "Scheduled Exercises",
+                "value": {
+                  "input": {
+                    "text": "Scheduled Exercises"
+                  }
+                }
+              },
+              {
+                "label": "Dates",
+                "value": {
+                  "input": {
+                    "text": "Dates"
+                  }
+                }
+              },
+              {
+                "label": "Services ",
+                "value": {
+                  "input": {
+                    "text": "Services"
+                  }
+                }
+              },
+              {
+                "label": "Summary",
+                "value": {
+                  "input": {
+                    "text": "Summary"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1589037095709",
+      "conditions": "@IRP:Contracts",
+      "dialog_node": "node_1_1589038190224",
+      "previous_sibling": "node_9_1589038415145"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Scheduled exercises & docs\n\n\"Scheduled exercises & docs (documents)\" contains:\n\n    all exercises that have been confirmed with IBM Business Resiliency Services\n    all documentation related to each specific exercise\n\nThis information can be displayed either from the navigational area on the left side of the screen, where the default is to display all exercises, including those that were managed by IRP in the past three years, or from the portlet where the user can choose all Active/Future exercises. When viewing Active/Future exercises, the user can also select \"History\" to view Historic exercises and related documentation. "
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Scheduled Ex and Docs",
+            "source": "https://storage-asst.s3.jp-tok.cloud-object-storage.appdomain.cloud/scheduled%20exercises.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1589037095709",
+      "conditions": "@IRP:(Scheduled Ex and Docs)",
+      "dialog_node": "node_2_1589041265895",
+      "previous_sibling": "node_1_1589038190224"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Exercise related templates like Worksheets, used by our clients to provide information needed by IBM Business Resiliency Services personnel to build a recovery system, are available by using the \"Templates\" portlet on the Dashboard."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Exercise Templates",
+            "source": "https://storage-asst.s3.jp-tok.cloud-object-storage.appdomain.cloud/Templates.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1589037095709",
+      "conditions": "@IRP:Templates",
+      "dialog_node": "node_9_1589038415145"
+    },
+    {
+      "type": "standard",
+      "title": "Bye_PMchatops",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank You IBMer / Customer"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "destination_bot": "Agent_router"
+      },
+      "conditions": "#Bye_PMchatops",
+      "dialog_node": "node_6_1594874719804",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "IBM RO solution advantages:\nWith IBM Resiliency Orchestration, you can be confident about your ability to recover from any outage, either disaster related or infrastructure failure related:\n    * Automate complex recovery for multi-vendor physical/virtual environments\n  * Provide real-time insight into application data loss and recovery time\n    * Detect environment changes that cause recovery failure using dry run capabilities\n    * Automate redundant, resource-intensive and costly DR processes\n    * Design recovery workflows to meet service levels and RTOs/RPOs\n    * Enable global recovery audit reporting and documentation\nImprove IT Resiliency, go to the https://disaster-recovery-services.com/\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "IDC Assessment",
+            "source": "https://storage-asst.s3.jp-tok.cloud-object-storage.appdomain.cloud/IDC-Assessment.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#IBM_CRO_Advantages",
+      "dialog_node": "node_1_1591281347998",
+      "previous_sibling": "node_1_1591280690965"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1586961229625",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Business Resiliency Services\n\nDefend your business, maintain availability and recover quickly in the event of disruption "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ResiliencyServices",
+      "dialog_node": "node_10_1586963748146",
+      "previous_sibling": "node_8_1586961074471"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How it works: IBM Resiliency Orchestration solution overview\n\nIBM Resiliency Orchestration offers Disaster Recovery (DR) and Cyber Incident Recovery (CIR) monitoring, reporting, testing and workflow automation capabilities of complex hybrid IT environments in a scalable, easy-to-use solution built on industry standards.\n\nThe solution can be delivered in two models:\n    IBM Cloud Resiliency Orchestration – a monitoring and managed service with optional IT Discovery and Resiliency consulting services.\n    IBM Resiliency Orchestration Software – a software model with cyber incident recovery capability and an optional implementation service.\nCRO How Does it Work, go to the https://mediacenter.ibm.com/media/How+it+worksA+IBM+Resiliency+Orchestration+Demo/1_77qpzm6b"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Rapid Recovery Finance",
+            "source": "https://storage-asst.s3.jp-tok.cloud-object-storage.appdomain.cloud/RR-Finance.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#How_it_Works_CRO",
+      "dialog_node": "node_1_1591280690965",
+      "previous_sibling": "node_5_1591279481464"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "New Service Delivery Program Advisor (SDPA) training consists of various on-the-job and formal documentation requirements to learn the IBM BRS offerings and specific responsibilities of functioning as a Service Delivery Program Advisor.  The program takes place over the course of a few months, with the new Service Delivery Program Advisor coming out of the training program with ownership for a critical mass of present customers and also assignment of new customers."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#New_Service_Delivery_Program_Advisor_Training",
+      "dialog_node": "node_8_1591205485099",
+      "previous_sibling": "node_2_1591204968093"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK. See you later"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "destination_bot": "Pm Chatops Skills"
+      },
+      "conditions": "#General_Ending_PMChat",
+      "dialog_node": "node_6_1586961229625",
+      "previous_sibling": "node_2_1586972728318"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "IRP data are housed in SAP which has a full disaster recovery plan and has an annual recovery exercise and Business Continuity Program test."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Following are the Main Features",
+            "options": [
+              {
+                "label": "Scheduled Ex and Docs",
+                "value": {
+                  "input": {
+                    "text": "Scheduled Ex and Docs"
+                  }
+                }
+              },
+              {
+                "label": "Contracts",
+                "value": {
+                  "input": {
+                    "text": "Active contracts"
+                  }
+                }
+              },
+              {
+                "label": "Templates",
+                "value": {
+                  "input": {
+                    "text": "Exercise Templates"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "title": "IRP",
+            "source": "https://storage-asst.s3.jp-tok.cloud-object-storage.appdomain.cloud/IRP-MainScreen.jpg",
+            "description": "Dashboard",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#IRP_Features",
+      "dialog_node": "node_8_1589037095709",
+      "previous_sibling": "node_5_1589286529154"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am Human"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Human_or_Bot",
+      "dialog_node": "node_2_1586972728318",
+      "previous_sibling": "node_1_1591281347998"
+    },
+    {
+      "type": "standard",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "api"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#ServicesOffered",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1586964794473",
+      "previous_sibling": "node_10_1586963748146"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "IBM Cloud Resiliency Orchestration provides disaster recovery monitoring, reporting, testing and workflow automation capabilities of complex hybrid environments in a scalable, easier-to-use solution built on industry standards. The service combines automation and analytics for faster, more cost-effective disaster recovery (DR) to help keep daily business operations running and to proactively avoid disruptions that lead to lost revenue, brand damage and dissatisfied customers.\nIBM Resiliency Orchestration, go to the https://www.youtube.com/watch?v=Al3MDE1aU58&feature=youtu.be"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "IBM Resiliency Orchestration",
+            "source": "https://storage-asst.s3.jp-tok.cloud-object-storage.appdomain.cloud/DRAAS.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Cloud_Resiliency_Orchestration",
+      "dialog_node": "node_5_1591279481464",
+      "previous_sibling": "node_10_1586964794473"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "•Standardization of Process\n•Make availability of documents with controlled versions\n•Uniformity in documentation\n•Easy and secure way of accessing documents\n•Increase customer satisfaction"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#IRPbusinessbenefits",
+      "dialog_node": "node_8_1586961074471",
+      "previous_sibling": "node_8_1589037095709"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "IRP (Interactive Resiliency Portal) provides  access to centralized repository which contains information of the customer contracted with IBM Business Resiliency Services. It provides an interactive web portal that is easily accessible for all the stakeholders to communicate effectively and to provide controlled documents for IBM Resiliency Services.\nIRP provides a Dashboard. All IRP users have access to six portlets (\"Contracts\", \"Scheduled exercises & docs\", \"Non-exercise documents\", \"Templates\", \"Personnel\", and \"Reference center\")."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "IRP Main Screen",
+            "source": "https://storage-asst.s3.jp-tok.cloud-object-storage.appdomain.cloud/IRP-MainScreen.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#IRPbasics",
+      "dialog_node": "node_3_1589036065904",
+      "previous_sibling": "node_8_1591205485099"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The purpose of this document is to provide the IBM BRS Service Delivery Program Advisor (SDPA) with the procedures necessary to ensure the successful execution of the delivery processes, which are part of his/her job. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#AccountServicesOperationManual",
+      "dialog_node": "node_2_1591204968093",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Access to IRP"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Accees to IRP",
+            "options": [
+              {
+                "label": "Prerequisite for IRP",
+                "value": {
+                  "input": {
+                    "text": "Prerequisite for IRP"
+                  }
+                }
+              },
+              {
+                "label": "How to obtain an IBM id",
+                "value": {
+                  "input": {
+                    "text": "How to obtain an IBM ID"
+                  }
+                }
+              },
+              {
+                "label": "Initial client access to IRP",
+                "value": {
+                  "input": {
+                    "text": "Initial client access to IRP"
+                  }
+                }
+              },
+              {
+                "label": "Link to IRP",
+                "value": {
+                  "input": {
+                    "text": "Link to IRP"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#IRP_Access",
+      "dialog_node": "node_5_1589286529154",
+      "previous_sibling": "node_4_1589384392688"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "User management\n(control of client access to IRP)\n\nOnly users with the Client Administrator, Client Admin/Coordinator, or Client Admin/Coordinator/Tech roles may add, modify, or delete access to IRP for other clients. Clients are provided with different roles dependent upon the type of access needed.\nThe roles are:\n\n    Client Administrator - This role only allows the user to add, modify, or remove access to IRP.\n    Client Admin/Coordinator - This role allows the user to play both the Client Administrator role and the Client Coordinator role, which is needed to manage/approve worksheets and setup documents with IBM Business Resiliency Services.\n    Client Admin/Coordinator/Tech – This role allows the user to play the Client Administrator role, the Client Coordinator role, and the Client Tech role.\n    Client Coordinator - This role allows the user to manage/approve worksheets and setup documents with IBM Business Resiliency Services.\n    Client Tech - This role can receive notifications about setup documents.\n    Client Display - This role has \"read only\" access to IRP.\n    Client Non IRP User - The role can have contact information stored for reference, but does not have access to IRP.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#IRP_User_management",
+      "dialog_node": "node_4_1589384392688",
+      "previous_sibling": "node_6_1589382276719"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dashboard\n\nThe Dashboard is composed of a navigational area on the left, which is always available for fast path access to IRP functions, and portlets that can be used to directly access subsets of information related to each function. All IRP users have access to six portlets (\"Contracts\", \"Scheduled exercises & docs\", \"Non-exercise documents\", \"Templates\", \"Personnel\", and \"Reference center\").\n\n    The \"User management\" portlet is only available to a user with Client Administrator, Client Admin/Coordinator, or Client Admin/Coordinator/Tech roles.\n    The \"Exercise request\" portlet is only available to a user with Client Coordinator, Client Admin/Coordinator, or Client Admin/Coordinator/Tech roles.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#IRPDashboard",
+      "dialog_node": "node_6_1589382276719",
+      "previous_sibling": "node_3_1589036065904"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to the PM Watson Assistant"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "PM_Chatops _Skills",
+  "language": "en",
+  "description": "Till the migration is done -  dialog framework need to be moved to resiliency workspace"
+}
